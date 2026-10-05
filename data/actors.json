@@ -1,0 +1,1794 @@
+[
+  {
+    "id": "project_google_ozans",
+    "type": "project",
+    "name": "Data center Google — Ozans / Étrechet",
+    "short_name": "Google Ozans",
+    "description": "Projet de campus de centres de données Google sur la ZAC d’Ozans, près de Châteauroux.",
+    "roles": [
+      {
+        "label": "Projet central"
+      }
+    ],
+    "categories": [
+      "project"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0001",
+    "type": "entity",
+    "name": "Ozans dire non",
+    "short_name": "Ozans dire non",
+    "description": "Collectif citoyen contre Google",
+    "roles": [
+      {
+        "label": "Collectif citoyen contre Google"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0002",
+    "type": "entity",
+    "name": "PCF de l’Indre",
+    "short_name": "PCF de l’Indre",
+    "description": "Fédération départementale",
+    "roles": [
+      {
+        "label": "Fédération départementale"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0003",
+    "type": "entity",
+    "name": "Les Écologistes",
+    "short_name": "Les Écologistes",
+    "description": "Organisation politique",
+    "roles": [
+      {
+        "label": "Organisation politique"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0004",
+    "type": "entity",
+    "name": "Confédération paysanne",
+    "short_name": "Confédération paysanne",
+    "description": "Syndicat agricole",
+    "roles": [
+      {
+        "label": "Syndicat agricole"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0005",
+    "type": "entity",
+    "name": "Indre Nature / FNE locale",
+    "short_name": "Indre Nature / FNE locale",
+    "description": "Association environnementale locale",
+    "roles": [
+      {
+        "label": "Association environnementale locale"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0006",
+    "type": "entity",
+    "name": "Union de la gauche citoyenne",
+    "short_name": "Union de la gauche citoyenne",
+    "description": "Formation locale critique",
+    "roles": [
+      {
+        "label": "Formation locale critique"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0007",
+    "type": "entity",
+    "name": "LFI",
+    "short_name": "LFI",
+    "description": "Mouvement politique national",
+    "roles": [
+      {
+        "label": "Mouvement politique national"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0008",
+    "type": "entity",
+    "name": "Jérémie Godet",
+    "short_name": "Jérémie Godet",
+    "description": "Vice-président écologiste de la Région Centre-Val de Loire",
+    "roles": [
+      {
+        "label": "Vice-président écologiste de la Région Centre-Val de Loire"
+      }
+    ],
+    "categories": [
+      "elus-opp"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0009",
+    "type": "entity",
+    "name": "Dominique Boué",
+    "short_name": "Dominique Boué",
+    "description": "Secrétaire départemental du PCF de l’Indre",
+    "roles": [
+      {
+        "label": "Secrétaire départemental du PCF de l’Indre"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0010",
+    "type": "entity",
+    "name": "Francis Martinet",
+    "short_name": "Francis Martinet",
+    "description": "Initiateur d'Ozans dire non",
+    "roles": [
+      {
+        "label": "Initiateur d'Ozans dire non"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0011",
+    "type": "entity",
+    "name": "Stéphanie Grelet",
+    "short_name": "Stéphanie Grelet",
+    "description": "Militante communiste",
+    "roles": [
+      {
+        "label": "Militante communiste"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0012",
+    "type": "entity",
+    "name": "Raphaël Tillie",
+    "short_name": "Raphaël Tillie",
+    "description": "Membre du collectif",
+    "roles": [
+      {
+        "label": "Membre du collectif"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0013",
+    "type": "entity",
+    "name": "Cyrielle Chatelain",
+    "short_name": "Cyrielle Chatelain",
+    "description": "Députée, Présidente du groupe écologiste",
+    "roles": [
+      {
+        "label": "Députée, Présidente du groupe écologiste"
+      }
+    ],
+    "categories": [
+      "elus-opp"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0014",
+    "type": "entity",
+    "name": "Jean Delavergne",
+    "short_name": "Jean Delavergne",
+    "description": "Co-secrétaire des Écologistes de l’Indre",
+    "roles": [
+      {
+        "label": "Co-secrétaire des Écologistes de l’Indre"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0015",
+    "type": "entity",
+    "name": "Éric Domenge-Abeau",
+    "short_name": "Éric Domenge-Abeau",
+    "description": "Tête de liste de l’UGC à Châteauroux",
+    "roles": [
+      {
+        "label": "Tête de liste de l’UGC à Châteauroux"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0016",
+    "type": "entity",
+    "name": "Emmanuel de Saint Pol",
+    "short_name": "Emmanuel de Saint Pol",
+    "description": "Agriculteur exproprié en 2012",
+    "roles": [
+      {
+        "label": "Agriculteur exproprié en 2012"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0017",
+    "type": "entity",
+    "name": "Militant écologiste anonyme",
+    "short_name": "Militant écologiste anonyme",
+    "description": "Militant de terrain",
+    "roles": [
+      {
+        "label": "Militant de terrain"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0018",
+    "type": "entity",
+    "name": "Gil Avérous",
+    "short_name": "Gil Avérous",
+    "description": "Président LR de Châteauroux Métropole",
+    "roles": [
+      {
+        "label": "Président LR de Châteauroux Métropole"
+      }
+    ],
+    "categories": [
+      "elus-fav"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0019",
+    "type": "entity",
+    "name": "François Bonneau",
+    "short_name": "François Bonneau",
+    "description": "Président socialiste de la Région Centre-Val de Loire",
+    "roles": [
+      {
+        "label": "Président socialiste de la Région Centre-Val de Loire"
+      }
+    ],
+    "categories": [
+      "elus-opp"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0020",
+    "type": "entity",
+    "name": "Marc Descouraux",
+    "short_name": "Marc Descouraux",
+    "description": "Ancien maire d’Étrechet",
+    "roles": [
+      {
+        "label": "Ancien maire d’Étrechet"
+      }
+    ],
+    "categories": [
+      "elus-fav"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0021",
+    "type": "entity",
+    "name": "Vincent Millan",
+    "short_name": "Vincent Millan",
+    "description": "Maire d’Argenton-sur-Creuse",
+    "roles": [
+      {
+        "label": "Maire d’Argenton-sur-Creuse"
+      }
+    ],
+    "categories": [
+      "elus-fav"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0022",
+    "type": "entity",
+    "name": "Régis Blanchet",
+    "short_name": "Régis Blanchet",
+    "description": "Maire de Buzançais",
+    "roles": [
+      {
+        "label": "Maire de Buzançais"
+      }
+    ],
+    "categories": [
+      "elus-fav"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0023",
+    "type": "entity",
+    "name": "Thibault Lanxade",
+    "short_name": "Thibault Lanxade",
+    "description": "Préfet de l’Indre",
+    "roles": [
+      {
+        "label": "Préfet de l’Indre"
+      }
+    ],
+    "categories": [
+      "elus-fav"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0024",
+    "type": "entity",
+    "name": "Nicolas Bouzou",
+    "short_name": "Nicolas Bouzou",
+    "description": "Économiste, fondateur d’Asterès",
+    "roles": [
+      {
+        "label": "Économiste, fondateur d’Asterès"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0025",
+    "type": "entity",
+    "name": "Chambre d’agriculture",
+    "short_name": "Chambre d’agriculture",
+    "description": "Organisme consulaire agricole",
+    "roles": [
+      {
+        "label": "Organisme consulaire agricole"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0026",
+    "type": "entity",
+    "name": "Google",
+    "short_name": "Google",
+    "description": "Porteur industriel du projet",
+    "roles": [
+      {
+        "label": "Porteur industriel du projet"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0027",
+    "type": "entity",
+    "name": "Google France",
+    "short_name": "Google France",
+    "description": "Filiale nationale de Google et maître d’ouvrage",
+    "roles": [
+      {
+        "label": "Filiale nationale de Google et maître d’ouvrage"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0028",
+    "type": "entity",
+    "name": "Tricolore Computing",
+    "short_name": "Tricolore Computing",
+    "description": "Filiale immobilière liée à Google",
+    "roles": [
+      {
+        "label": "Filiale immobilière liée à Google"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0029",
+    "type": "entity",
+    "name": "Violet Computing",
+    "short_name": "Violet Computing",
+    "description": "Filiale administrative liée à Google",
+    "roles": [
+      {
+        "label": "Filiale administrative liée à Google"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0030",
+    "type": "entity",
+    "name": "RTE",
+    "short_name": "RTE",
+    "description": "Gestionnaire du réseau de transport",
+    "roles": [
+      {
+        "label": "Gestionnaire du réseau de transport"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0031",
+    "type": "entity",
+    "name": "Enedis",
+    "short_name": "Enedis",
+    "description": "Gestionnaire de distribution",
+    "roles": [
+      {
+        "label": "Gestionnaire de distribution"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0032",
+    "type": "entity",
+    "name": "Decknet",
+    "short_name": "Decknet",
+    "description": "Porteur de projet",
+    "roles": [
+      {
+        "label": "Porteur de projet"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0033",
+    "type": "entity",
+    "name": "Soprema Steel",
+    "short_name": "Soprema Steel",
+    "description": "Industriel local",
+    "roles": [
+      {
+        "label": "Industriel local"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0034",
+    "type": "entity",
+    "name": "CNDP",
+    "short_name": "CNDP",
+    "description": "Autorité de débat public",
+    "roles": [
+      {
+        "label": "Autorité de débat public"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0035",
+    "type": "entity",
+    "name": "Marc Papinutti",
+    "short_name": "Marc Papinutti",
+    "description": "Président de la CNDP",
+    "roles": [
+      {
+        "label": "Président de la CNDP"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0036",
+    "type": "entity",
+    "name": "Jean-Louis Laure",
+    "short_name": "Jean-Louis Laure",
+    "description": "Garant de la concertation CNDP",
+    "roles": [
+      {
+        "label": "Garant de la concertation CNDP"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0037",
+    "type": "entity",
+    "name": "Dreal",
+    "short_name": "Dreal",
+    "description": "Autorité environnementale",
+    "roles": [
+      {
+        "label": "Autorité environnementale"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0038",
+    "type": "entity",
+    "name": "Ademe",
+    "short_name": "Ademe",
+    "description": "Agence de la transition écologique",
+    "roles": [
+      {
+        "label": "Agence de la transition écologique"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0039",
+    "type": "entity",
+    "name": "État",
+    "short_name": "État",
+    "description": "Autorité nationale",
+    "roles": [
+      {
+        "label": "Autorité nationale"
+      }
+    ],
+    "categories": [
+      "elus-fav"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0040",
+    "type": "entity",
+    "name": "Préfecture de l’Indre",
+    "short_name": "Préfecture de l’Indre",
+    "description": "Représentation de l'État",
+    "roles": [
+      {
+        "label": "Représentation de l'État"
+      }
+    ],
+    "categories": [
+      "elus-fav"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0041",
+    "type": "entity",
+    "name": "Ophélie Coelho",
+    "short_name": "Ophélie Coelho",
+    "description": "Chercheuse associée à l’IRIS",
+    "roles": [
+      {
+        "label": "Chercheuse associée à l’IRIS"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0042",
+    "type": "entity",
+    "name": "Loup Cellard",
+    "short_name": "Loup Cellard",
+    "description": "Sociologue de l'impact écologique",
+    "roles": [
+      {
+        "label": "Sociologue de l'impact écologique"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0043",
+    "type": "entity",
+    "name": "Maxime Colin",
+    "short_name": "Maxime Colin",
+    "description": "Juriste à FNE",
+    "roles": [
+      {
+        "label": "Juriste à FNE"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0044",
+    "type": "entity",
+    "name": "Cécile Diguet",
+    "short_name": "Cécile Diguet",
+    "description": "Urbaniste au Studio Dégel",
+    "roles": [
+      {
+        "label": "Urbaniste au Studio Dégel"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0045",
+    "type": "entity",
+    "name": "Guillaume Gourgues",
+    "short_name": "Guillaume Gourgues",
+    "description": "Politiste",
+    "roles": [
+      {
+        "label": "Politiste"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0046",
+    "type": "entity",
+    "name": "La Quadrature du Net",
+    "short_name": "La Quadrature du Net",
+    "description": "Association techno-critique",
+    "roles": [
+      {
+        "label": "Association techno-critique"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0047",
+    "type": "entity",
+    "name": "Le Nuage était sous nos pieds",
+    "short_name": "Le Nuage était sous nos pieds",
+    "description": "Collectif critique des infrastructures",
+    "roles": [
+      {
+        "label": "Collectif critique des infrastructures"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0048",
+    "type": "entity",
+    "name": "Hiatus",
+    "short_name": "Hiatus",
+    "description": "Collectif national",
+    "roles": [
+      {
+        "label": "Collectif national"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0049",
+    "type": "entity",
+    "name": "Lou Welgryn",
+    "short_name": "Lou Welgryn",
+    "description": "Coprésidente de Data for Good",
+    "roles": [
+      {
+        "label": "Coprésidente de Data for Good"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0050",
+    "type": "entity",
+    "name": "Data for Good",
+    "short_name": "Data for Good",
+    "description": "Association nationale",
+    "roles": [
+      {
+        "label": "Association nationale"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0051",
+    "type": "entity",
+    "name": "Philippe Chabeaudy",
+    "short_name": "Philippe Chabeaudy",
+    "description": "Contestataire projet Cézanne",
+    "roles": [
+      {
+        "label": "Contestataire projet Cézanne"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0052",
+    "type": "entity",
+    "name": "Maxime Efoui-Hess",
+    "short_name": "Maxime Efoui-Hess",
+    "description": "Expert au Shift Project",
+    "roles": [
+      {
+        "label": "Expert au Shift Project"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0053",
+    "type": "entity",
+    "name": "Associations de Wissous",
+    "short_name": "Associations de Wissous",
+    "description": "Collectifs juridiques d'Essonne",
+    "roles": [
+      {
+        "label": "Collectifs juridiques d'Essonne"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0054",
+    "type": "entity",
+    "name": "PS de l’Indre",
+    "short_name": "PS de l’Indre",
+    "description": "Parti politique départemental",
+    "roles": [
+      {
+        "label": "Parti politique départemental"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0055",
+    "type": "entity",
+    "name": "Gouvernement français",
+    "short_name": "Gouvernement français",
+    "description": "Pouvoir exécutif national",
+    "roles": [
+      {
+        "label": "Pouvoir exécutif national"
+      }
+    ],
+    "categories": [
+      "elus-fav"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0056",
+    "type": "entity",
+    "name": "Maryvonne Le Brignonen",
+    "short_name": "Maryvonne Le Brignonen",
+    "description": "Préfète de l'Indre",
+    "roles": [
+      {
+        "label": "Préfète de l'Indre"
+      }
+    ],
+    "categories": [
+      "elus-fav"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0057",
+    "type": "entity",
+    "name": "France Datacenter",
+    "short_name": "France Datacenter",
+    "description": "Association professionnelle du secteur",
+    "roles": [
+      {
+        "label": "Association professionnelle du secteur"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0058",
+    "type": "entity",
+    "name": "Michaël Reffay",
+    "short_name": "Michaël Reffay",
+    "description": "Délégué général, France Datacenter",
+    "roles": [
+      {
+        "label": "Délégué général, France Datacenter"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0059",
+    "type": "entity",
+    "name": "EDF",
+    "short_name": "EDF",
+    "description": "Fournisseur d'énergie historique",
+    "roles": [
+      {
+        "label": "Fournisseur d'énergie historique"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0060",
+    "type": "entity",
+    "name": "Telehouse",
+    "short_name": "Telehouse",
+    "description": "Opérateur japonais",
+    "roles": [
+      {
+        "label": "Opérateur japonais"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0061",
+    "type": "entity",
+    "name": "Marie-Claire Eustache",
+    "short_name": "Marie-Claire Eustache",
+    "description": "Garante de la CNDP",
+    "roles": [
+      {
+        "label": "Garante de la CNDP"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0062",
+    "type": "entity",
+    "name": "Romane Harmel-Samarcq",
+    "short_name": "Romane Harmel-Samarcq",
+    "description": "Garante de la CNDP",
+    "roles": [
+      {
+        "label": "Garante de la CNDP"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0063",
+    "type": "entity",
+    "name": "Sébastien Missoffe",
+    "short_name": "Sébastien Missoffe",
+    "description": "Directeur général de Google France",
+    "roles": [
+      {
+        "label": "Directeur général de Google France"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0064",
+    "type": "entity",
+    "name": "Pierre Allorant",
+    "short_name": "Pierre Allorant",
+    "description": "Président du Ceser Centre-Val de Loire",
+    "roles": [
+      {
+        "label": "Président du Ceser Centre-Val de Loire"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0065",
+    "type": "entity",
+    "name": "Ceser",
+    "short_name": "Ceser",
+    "description": "Assemblée consultative régionale",
+    "roles": [
+      {
+        "label": "Assemblée consultative régionale"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0066",
+    "type": "entity",
+    "name": "CGT Indre",
+    "short_name": "CGT Indre",
+    "description": "Syndicat",
+    "roles": [
+      {
+        "label": "Syndicat"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0067",
+    "type": "entity",
+    "name": "Delphine Chambonneau",
+    "short_name": "Delphine Chambonneau",
+    "description": "Élue d'opposition (Châteauroux)",
+    "roles": [
+      {
+        "label": "Élue d'opposition (Châteauroux)"
+      }
+    ],
+    "categories": [
+      "elus-opp"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0068",
+    "type": "entity",
+    "name": "Bruno Mascle",
+    "short_name": "Bruno Mascle",
+    "description": "Élu d'opposition (Déols)",
+    "roles": [
+      {
+        "label": "Élu d'opposition (Déols)"
+      }
+    ],
+    "categories": [
+      "elus-opp"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0069",
+    "type": "entity",
+    "name": "Anne Le Hénanff",
+    "short_name": "Anne Le Hénanff",
+    "description": "Ministre déléguée chargée de l'IA",
+    "roles": [
+      {
+        "label": "Ministre déléguée chargée de l'IA"
+      }
+    ],
+    "categories": [
+      "elus-fav"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0070",
+    "type": "entity",
+    "name": "Lénéo",
+    "short_name": "Lénéo",
+    "description": "Start-up (Énergies vertes)",
+    "roles": [
+      {
+        "label": "Start-up (Énergies vertes)"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0071",
+    "type": "entity",
+    "name": "Fred Gagnot",
+    "short_name": "Fred Gagnot",
+    "description": "Porte-parole, Confédération paysanne",
+    "roles": [
+      {
+        "label": "Porte-parole, Confédération paysanne"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0072",
+    "type": "entity",
+    "name": "Nicolas Pailloux",
+    "short_name": "Nicolas Pailloux",
+    "description": "Président, Chambre d'agriculture",
+    "roles": [
+      {
+        "label": "Président, Chambre d'agriculture"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0073",
+    "type": "entity",
+    "name": "Alterric (Samuel Moisson)",
+    "short_name": "Alterric (Samuel Moisson)",
+    "description": "Développeur éolien",
+    "roles": [
+      {
+        "label": "Développeur éolien"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0074",
+    "type": "entity",
+    "name": "Philippe Latombe",
+    "short_name": "Philippe Latombe",
+    "description": "Député MoDem",
+    "roles": [
+      {
+        "label": "Député MoDem"
+      }
+    ],
+    "categories": [
+      "elus-opp"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0075",
+    "type": "entity",
+    "name": "Arcep",
+    "short_name": "Arcep",
+    "description": "Autorité de régulation",
+    "roles": [
+      {
+        "label": "Autorité de régulation"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0076",
+    "type": "entity",
+    "name": "Guillaume Allart",
+    "short_name": "Guillaume Allart",
+    "description": "Économiste, Shift Project",
+    "roles": [
+      {
+        "label": "Économiste, Shift Project"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0077",
+    "type": "entity",
+    "name": "Anti",
+    "short_name": "Anti",
+    "description": "Porte-parole, Le Nuage était sous nos pieds",
+    "roles": [
+      {
+        "label": "Porte-parole, Le Nuage était sous nos pieds"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0078",
+    "type": "entity",
+    "name": "Mehdi Nezzar",
+    "short_name": "Mehdi Nezzar",
+    "description": "Maire du Bourget",
+    "roles": [
+      {
+        "label": "Maire du Bourget"
+      }
+    ],
+    "categories": [
+      "elus-opp"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0079",
+    "type": "entity",
+    "name": "Nicolas Celnik",
+    "short_name": "Nicolas Celnik",
+    "description": "Journaliste et auteur",
+    "roles": [
+      {
+        "label": "Journaliste et auteur"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0080",
+    "type": "entity",
+    "name": "Florence Laurent",
+    "short_name": "Florence Laurent",
+    "description": "Ancienne maire sans étiquette d’Étrechet",
+    "roles": [
+      {
+        "label": "Ancienne maire sans étiquette d’Étrechet"
+      }
+    ],
+    "categories": [
+      "elus-opp"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0081",
+    "type": "entity",
+    "name": "Bruno Deterne",
+    "short_name": "Bruno Deterne",
+    "description": "Ancien premier adjoint d’Étrechet",
+    "roles": [
+      {
+        "label": "Ancien premier adjoint d’Étrechet"
+      }
+    ],
+    "categories": [
+      "elus-opp"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0082",
+    "type": "entity",
+    "name": "Marie-Pierre Chabenat-Canals",
+    "short_name": "Marie-Pierre Chabenat-Canals",
+    "description": "Ancienne adjointe d’Étrechet",
+    "roles": [
+      {
+        "label": "Ancienne adjointe d’Étrechet"
+      }
+    ],
+    "categories": [
+      "elus-opp"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0083",
+    "type": "entity",
+    "name": "Christian Jubard",
+    "short_name": "Christian Jubard",
+    "description": "Ancien adjoint d’Étrechet",
+    "roles": [
+      {
+        "label": "Ancien adjoint d’Étrechet"
+      }
+    ],
+    "categories": [
+      "elus-opp"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0084",
+    "type": "entity",
+    "name": "Sylvie Gessier",
+    "short_name": "Sylvie Gessier",
+    "description": "Ancienne conseillère d’Étrechet",
+    "roles": [
+      {
+        "label": "Ancienne conseillère d’Étrechet"
+      }
+    ],
+    "categories": [
+      "elus-opp"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0085",
+    "type": "entity",
+    "name": "Châteauroux Métropole",
+    "short_name": "Châteauroux Métropole",
+    "description": "Communauté d’agglomération",
+    "roles": [
+      {
+        "label": "Communauté d’agglomération"
+      }
+    ],
+    "categories": [
+      "porteurs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "actor_0086",
+    "type": "entity",
+    "name": "Département de l’Indre",
+    "short_name": "Département de l’Indre",
+    "description": "Collectivité départementale",
+    "roles": [
+      {
+        "label": "Collectivité départementale"
+      }
+    ],
+    "categories": [
+      "elus-fav"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0088",
+    "type": "entity",
+    "name": "ZAC d’Ozans",
+    "short_name": "ZAC d’Ozans",
+    "description": "Zone d’activités située à Étrechet, aux portes de Châteauroux ; parcelle de 195 hectares visée par Google.",
+    "roles": [
+      {
+        "label": "Projet central"
+      }
+    ],
+    "categories": [
+      "context"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0089",
+    "type": "entity",
+    "name": "Data center miroir du Pêchereau",
+    "short_name": "Data center miroir du Pêchereau",
+    "description": "Second site potentiel au Pêchereau / aérodrome Argenton-Le Pêchereau, destiné à prendre le relais du site d’Ozans en cas de défaillance.",
+    "roles": [
+      {
+        "label": "Projet central"
+      }
+    ],
+    "categories": [
+      "context"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0090",
+    "type": "entity",
+    "name": "Opacité / secret des affaires",
+    "short_name": "Opacité secret des affaires",
+    "description": "Grief central : manque d’informations, culture du secret de Google et données techniques jugées insuffisantes.",
+    "roles": [
+      {
+        "label": "Points de vigilance / griefs"
+      }
+    ],
+    "categories": [
+      "griefs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0091",
+    "type": "entity",
+    "name": "Artificialisation des sols",
+    "short_name": "Artificialisation des sols",
+    "description": "Critique liée aux 195 hectares du projet et à l’imperméabilisation d’un vaste foncier.",
+    "roles": [
+      {
+        "label": "Points de vigilance / griefs"
+      }
+    ],
+    "categories": [
+      "griefs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0092",
+    "type": "entity",
+    "name": "Îlot de chaleur",
+    "short_name": "Îlot de chaleur",
+    "description": "Crainte d’un effet thermique massif près de la forêt de Châteauroux et des terres agricoles.",
+    "roles": [
+      {
+        "label": "Points de vigilance / griefs"
+      }
+    ],
+    "categories": [
+      "griefs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0093",
+    "type": "entity",
+    "name": "PFAS / fluides frigorifiques",
+    "short_name": "PFAS fluides frigorifiques",
+    "description": "Inquiétude sur les méthodes de refroidissement par air et les liquides frigorifiques potentiellement polluants.",
+    "roles": [
+      {
+        "label": "Points de vigilance / griefs"
+      }
+    ],
+    "categories": [
+      "griefs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0094",
+    "type": "entity",
+    "name": "Consommation d’eau",
+    "short_name": "Consommation d’eau",
+    "description": "Point sensible dans un territoire ayant connu du stress hydrique.",
+    "roles": [
+      {
+        "label": "Points de vigilance / griefs"
+      }
+    ],
+    "categories": [
+      "griefs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0095",
+    "type": "entity",
+    "name": "Consommation électrique",
+    "short_name": "Consommation électrique",
+    "description": "Nécessité de lignes THT 225 kV puis 400 kV ; capacité actuelle jugée insuffisante pour un très grand projet.",
+    "roles": [
+      {
+        "label": "Points de vigilance / griefs"
+      }
+    ],
+    "categories": [
+      "griefs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0096",
+    "type": "entity",
+    "name": "Mirage de l’emploi",
+    "short_name": "Mirage de l’emploi",
+    "description": "Critique selon laquelle les emplois promis seraient limités par rapport à la surface mobilisée.",
+    "roles": [
+      {
+        "label": "Points de vigilance / griefs"
+      }
+    ],
+    "categories": [
+      "griefs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0097",
+    "type": "entity",
+    "name": "Souveraineté numérique",
+    "short_name": "Souveraineté numérique",
+    "description": "Argument contesté en raison du Cloud Act et du contrôle des technologies par une multinationale américaine.",
+    "roles": [
+      {
+        "label": "Points de vigilance / griefs"
+      }
+    ],
+    "categories": [
+      "griefs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0098",
+    "type": "entity",
+    "name": "Projet miroir",
+    "short_name": "Projet miroir",
+    "description": "Risque d’extension territoriale avec un second site au Pêchereau.",
+    "roles": [
+      {
+        "label": "Points de vigilance / griefs"
+      }
+    ],
+    "categories": [
+      "griefs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0099",
+    "type": "entity",
+    "name": "La Nouvelle République",
+    "short_name": "La Nouvelle République",
+    "description": "Source locale centrale sur le projet Google, la concertation, le collectif Ozans dire non et les réactions politiques.",
+    "roles": [
+      {
+        "label": "Médias / sources cités"
+      }
+    ],
+    "categories": [
+      "sources"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0100",
+    "type": "entity",
+    "name": "Basta!",
+    "short_name": "Basta!",
+    "description": "Média ayant publié l’enquête « Google avance masqué » et analysé l’opacité territoriale du projet.",
+    "roles": [
+      {
+        "label": "Médias / sources cités"
+      }
+    ],
+    "categories": [
+      "sources"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0101",
+    "type": "entity",
+    "name": "France 3 Centre-Val de Loire",
+    "short_name": "France 3 Centre-Val de Loire",
+    "description": "Média ayant traité la division locale autour du premier data center Google en France.",
+    "roles": [
+      {
+        "label": "Médias / sources cités"
+      }
+    ],
+    "categories": [
+      "sources"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0102",
+    "type": "entity",
+    "name": "Le Monde",
+    "short_name": "Le Monde",
+    "description": "Cité sur la confidentialité des informations écologiques des centres de données obtenue par les lobbys du secteur.",
+    "roles": [
+      {
+        "label": "Médias / sources cités"
+      }
+    ],
+    "categories": [
+      "sources"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0103",
+    "type": "entity",
+    "name": "ICI Berry",
+    "short_name": "ICI Berry",
+    "description": "Média cité au sujet du plan Indre 2030 et des positions de Thibault Lanxade.",
+    "roles": [
+      {
+        "label": "Médias / sources cités"
+      }
+    ],
+    "categories": [
+      "sources"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0104",
+    "type": "entity",
+    "name": "Cézanne",
+    "short_name": "Cézanne",
+    "description": "Projet de data center de 70 MW aux Pennes-Mirabeau.",
+    "roles": [
+      {
+        "label": "Projet central"
+      }
+    ],
+    "categories": [
+      "context"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0105",
+    "type": "entity",
+    "name": "MyPetition.org",
+    "short_name": "MyPetition.org",
+    "description": "Plateforme en ligne hébergeant la pétition de La France Insoumise.",
+    "roles": [
+      {
+        "label": "Médias / sources cités"
+      }
+    ],
+    "categories": [
+      "sources"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0106",
+    "type": "entity",
+    "name": "news.google.com",
+    "short_name": "news.google.com",
+    "description": "Agrégateur d'actualités ayant relayé le sujet.",
+    "roles": [
+      {
+        "label": "Médias / sources cités"
+      }
+    ],
+    "categories": [
+      "sources"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0107",
+    "type": "entity",
+    "name": "Ouest-France",
+    "short_name": "Ouest-France",
+    "description": "Média national ayant interviewé la direction de Google France.",
+    "roles": [
+      {
+        "label": "Médias / sources cités"
+      }
+    ],
+    "categories": [
+      "sources"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0108",
+    "type": "entity",
+    "name": "Risque d'incendie",
+    "short_name": "Risque d'incendie",
+    "description": "Inquiétude formulée aux Pennes-Mirabeau face au dégagement thermique près d'une pinède.",
+    "roles": [
+      {
+        "label": "Points de vigilance / griefs"
+      }
+    ],
+    "categories": [
+      "griefs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0109",
+    "type": "entity",
+    "name": "Saucissonnage de projet",
+    "short_name": "Saucissonnage",
+    "description": "Contournement suspecté de la réglementation environnementale (cas de Wissous).",
+    "roles": [
+      {
+        "label": "Points de vigilance / griefs"
+      }
+    ],
+    "categories": [
+      "griefs"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0110",
+    "type": "entity",
+    "name": "CTR de Châteauroux",
+    "short_name": "CTR Châteauroux",
+    "description": "Ancien centre de données régional en fermeture, illustrant la transition vers les méga-hubs très denses en énergie.",
+    "roles": [
+      {
+        "label": "Projet central"
+      }
+    ],
+    "categories": [
+      "context"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0111",
+    "type": "entity",
+    "name": "Multinationales.org",
+    "short_name": "Multinationales",
+    "description": "Média indépendant publiant de longues enquêtes sur les stratégies d'influence des GAFAM.",
+    "roles": [
+      {
+        "label": "Médias / sources cités"
+      }
+    ],
+    "categories": [
+      "sources"
+    ],
+    "updated_at": "2026-10-02"
+  },
+  {
+    "id": "entity_0112",
+    "type": "entity",
+    "name": "Alterric",
+    "short_name": "Alterric",
+    "description": "Développeur éolien utilisant le data center pour justifier de nouveaux parcs.",
+    "roles": [
+      {
+        "label": "Porte-parole / entreprises associées"
+      }
+    ],
+    "categories": [
+      "context"
+    ],
+    "updated_at": "2026-10-02"
+  }
+]
