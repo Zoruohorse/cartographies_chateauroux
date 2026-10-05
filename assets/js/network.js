@@ -3,6 +3,18 @@ const d=await loadRepository(),ns='http://www.w3.org/2000/svg';
 const project=d.actors.find(a=>a.type==='project')||d.actors.find(a=>a.categories?.includes('project'));
 if(!project)throw new Error('Aucun acteur de type project trouvé dans data/actors.json');
 const central=project.id;
+const svg=document.getElementById('svg');
+const panel=document.getElementById('panel');
+const details=document.getElementById('details');
+const tip=document.getElementById('tip');
+const filters=document.getElementById('filters');
+const search=document.getElementById('search');
+const count=document.getElementById('count');
+const center=document.getElementById('center');
+const closeButton=document.getElementById('close');
+const required={svg,panel,details,tip,filters,search,count,center,closeButton};
+const missing=Object.entries(required).filter(([,element])=>!element).map(([name])=>name);
+if(missing.length)throw new Error(`Structure HTML incompatible avec la vue réseau : ${missing.join(', ')}`);
 let w=innerWidth,h=innerHeight,zoom=1,px=0,py=0,panning=false,startX=0,startY=0,selected=null;
 svg.setAttribute('viewBox',`0 0 ${w} ${h}`);
 const g=document.createElementNS(ns,'g'),lg=document.createElementNS(ns,'g'),ng=document.createElementNS(ns,'g');g.append(lg,ng);svg.append(g);
@@ -26,7 +38,7 @@ function apply(){const q=norm(search.value);let visible=0;ne.forEach((el,i)=>{co
 function showTip(e){tip.style.display='block';moveTip(e)}function moveTip(e){tip.style.left=Math.min(innerWidth-350,e.clientX+14)+'px';tip.style.top=Math.min(innerHeight-90,e.clientY+14)+'px'}function hideTip(){tip.style.display='none'}
 function closePanel(){panel.classList.remove('active');selected=null;details.innerHTML='';hideTip();clearHighlight()}
 filters.onchange=e=>{e.target.checked?active.add(e.target.value):active.delete(e.target.value);apply()};search.oninput=apply;
-document.getElementById('close').addEventListener('click',e=>{e.preventDefault();e.stopPropagation();closePanel()});
+closeButton.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();closePanel()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&panel.classList.contains('active'))closePanel()});
 center.onclick=()=>{zoom=1;px=py=0;g.setAttribute('transform','')};
 function drag(el,n){let down=false,ox=0,oy=0;el.onpointerdown=e=>{down=true;n.fixed=true;const pt=toGraph(e);ox=n.x-pt.x;oy=n.y-pt.y;el.setPointerCapture(e.pointerId);e.stopPropagation()};el.onpointermove=e=>{if(down){const pt=toGraph(e);n.x=pt.x+ox;n.y=pt.y+oy}};el.onpointerup=e=>{down=false;if(n.id!==central)n.fixed=false;el.releasePointerCapture(e.pointerId)}}
