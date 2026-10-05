@@ -1,1 +1,105 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vue réseau — Châteauroux</title><link rel="stylesheet" href="../../assets/css/network.css"></head><body><div id="app"><svg id="svg"></svg><aside class="left"><a href="../../">← Accueil</a><h1>Google Ozans — Châteauroux</h1><p>Vue réseau issue du même référentiel.</p><input id="search" type="search" placeholder="Rechercher"><h2>Catégories</h2><div id="filters"></div><div class="buttons"><button id="center">Recentrer</button><a href="../cards/">Vue cartes</a></div><p id="count"></p></aside><aside id="panel" class="right"><button id="close" type="button" aria-label="Fermer la fiche">×</button><div id="details"></div></aside><div id="tip"></div></div><script type="module" src="../../assets/js/network.js"></script></body></html>
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <title>
+    Vue réseau — Google Ozans / Châteauroux
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="../../assets/css/common.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="../../assets/css/network.css"
+  >
+</head>
+
+<body>
+  <div id="app">
+    <svg
+      id="svg"
+      aria-label="Cartographie relationnelle des acteurs"
+    ></svg>
+
+    <aside class="left">
+      <a href="../../">
+        ← Accueil
+      </a>
+
+      <h1>
+        Google Ozans — Châteauroux
+      </h1>
+
+      <p>
+        Vue réseau issue du même référentiel.
+      </p>
+
+      <input
+        id="search"
+        type="search"
+        placeholder="Rechercher"
+        autocomplete="off"
+      >
+
+      <h2>
+        Catégories
+      </h2>
+
+      <div id="filters"></div>
+
+      <div class="buttons">
+        <button
+          id="center"
+          type="button"
+        >
+          Recentrer
+        </button>
+
+        <a href="../cards/">
+          Vue cartes
+        </a>
+      </div>
+
+      <p
+        id="count"
+        aria-live="polite"
+      ></p>
+    </aside>
+
+    <aside
+      id="panel"
+      class="right"
+    >
+      <button
+        id="close"
+        type="button"
+        aria-label="Fermer la fiche"
+        title="Fermer"
+      >
+        ×
+      </button>
+
+      <div id="details"></div>
+    </aside>
+
+    <div
+      id="tip"
+      role="tooltip"
+    ></div>
+  </div>
+
+  <script
+    type="module"
+    src="../../assets/js/network.js"
+  ></script>
+</body>
+</html>
