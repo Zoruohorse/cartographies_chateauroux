@@ -1,0 +1,240 @@
+{
+  "griefs": [
+    {
+      "id": "grief_001",
+      "title": "🔒 Opacité / secret des affaires",
+      "text": "Grief central : manque criant d’informations techniques, culture de la confidentialité propre à Google et communication jugée parcellaire par les garants de la CNDP.",
+      "evidence_ids": []
+    },
+    {
+      "id": "grief_002",
+      "title": "🌿 Artificialisation des sols",
+      "text": "Forte critique environnementale portant sur les 195 hectares prévus pour le campus de la ZAC d’Ozans, induisant une imperméabilisation massive.",
+      "evidence_ids": []
+    },
+    {
+      "id": "grief_003",
+      "title": "🌡️ Îlot de chaleur urbain",
+      "text": "Crainte d’un impact thermique direct et continu à proximité immédiate de la forêt de Châteauroux et des terres agricoles arables environnantes.",
+      "evidence_ids": []
+    },
+    {
+      "id": "grief_004",
+      "title": "☣️ PFAS & Refroidissement",
+      "text": "Inquiétude aiguë sur les fluides frigorifiques requis pour les architectures de refroidissement par air et les risques afférents de fuites.",
+      "evidence_ids": []
+    },
+    {
+      "id": "grief_005",
+      "title": "💧 Consommation d’eau",
+      "text": "Point d'achoppement sémantique et stratégique majeur dans un département déjà soumis à des épisodes récurrents de stress hydrique.",
+      "evidence_ids": []
+    },
+    {
+      "id": "grief_006",
+      "title": "⚡ Surcharge électrique",
+      "text": "Besoin structurel d'aménager de nouvelles liaisons électriques 225 kV puis 400 kV ; la capacité locale actuelle est jugée saturée par les experts.",
+      "evidence_ids": []
+    },
+    {
+      "id": "grief_007",
+      "title": "💼 Mirage de l’emploi local",
+      "text": "Dénonciation par les économistes et élus du faible ratio d'emplois nets durables créés au regard du foncier et des ressources mobilisés.",
+      "evidence_ids": []
+    },
+    {
+      "id": "grief_008",
+      "title": "🔒 Souveraineté et Cloud Act",
+      "text": "Contestation radicale de l'argument d'indépendance numérique, l'infrastructure étant sous la coupe d'une firme assujettie au droit extraterritorial américain.",
+      "evidence_ids": []
+    },
+    {
+      "id": "grief_009",
+      "title": "📑 Risque de saucissonnage",
+      "text": "Soupçon de morcellement administratif délibéré (via des entités miroirs comme au Pêchereau ou Wissous) visant à contourner l'évaluation globale.",
+      "evidence_ids": []
+    },
+    {
+      "id": "grief_010",
+      "title": "🔥 Risque d'incendie accru",
+      "text": "Inquiétudes modélisées à partir d'autres luttes nationales (projet Cézanne) portant sur les charges thermiques lourdes à proximité d'espaces arborés.",
+      "evidence_ids": []
+    },
+    {
+      "id": "grief_011",
+      "title": "🏛️ Appel à l'arbitrage régional (Saisine)",
+      "text": "Face au blocage et au soutien inébranlable de l'agglomération, les opposants activent le levier de la 'saisine citoyenne' (4000 signatures) pour contraindre le Ceser à instruire le dossier de manière neutre.",
+      "evidence_ids": []
+    },
+    {
+      "id": "grief_012",
+      "title": "🚰 Concurrence industrielle sur l'eau",
+      "text": "Le projet de centrale biomasse de Lénéo ajoute une consommation de 100 000 mètres cubes d'eau par an sur le même périmètre que Google, exacerbant la tension sur la ressource hydrique régionale.",
+      "evidence_ids": []
+    },
+    {
+      "id": "grief_013",
+      "title": "🇺🇸 Souveraineté factice et 'Kill Switch'",
+      "text": "La mission de l'Assemblée nationale pointe la forte dépendance aux États-Unis, soulignant que des modèles peuvent être coupés à distance par Washington, vidant l'argument de souveraineté de sa substance.",
+      "evidence_ids": []
+    },
+    {
+      "id": "grief_014",
+      "title": "🌬️ Effet domino énergétique",
+      "text": "La très forte consommation du data center est désormais officiellement utilisée par les promoteurs d'énergies renouvelables comme argument de nécessité pour imposer de nouveaux parcs éoliens dans le département.",
+      "evidence_ids": []
+    },
+    {
+      "id": "grief_015",
+      "title": "🏛️ Crise institutionnelle à Étrechet",
+      "text": "La démission de la maire, de ses trois adjoints et d’une conseillère municipale transforme la contestation du projet en crise politique locale majeure et révèle l’absence de pouvoir décisionnel ressentie par la commune d’accueil.",
+      "evidence_ids": []
+    },
+    {
+      "id": "grief_016",
+      "title": "📉 Revirement de la Région",
+      "text": "François Bonneau, auparavant favorable, déclare ne plus soutenir le projet en l’état en raison de l’emprise foncière, des besoins électriques et des enjeux de souveraineté liés au contrôle américain des données.",
+      "evidence_ids": []
+    },
+    {
+      "id": "grief_017",
+      "title": "👷 Contradiction majeure sur les emplois",
+      "text": "Les annonces de 1 200 à 1 500 emplois permanents portées par Gil Avérous s’opposent aux estimations de 50 à 200 emplois pérennes citées par les élus démissionnaires, sans chiffre officiel détaillé communiqué par Google.",
+      "evidence_ids": []
+    },
+    {
+      "id": "grief_018",
+      "title": "🗳️ Décision intercommunale contre autonomie communale",
+      "text": "Le transfert de la compétence d’urbanisme à Châteauroux Métropole et le caractère non contraignant de la concertation alimentent le sentiment qu’un référendum local ou un avis négatif d’Étrechet ne pourraient pas infléchir le projet.",
+      "evidence_ids": []
+    },
+    {
+      "id": "grief_019",
+      "title": "🏠 Dévalorisation immobilière et trafic routier",
+      "text": "Les élus démissionnaires ajoutent aux griefs existants la perte potentielle de valeur des habitations riveraines, les nuisances visuelles et l’augmentation du trafic pendant un chantier annoncé sur dix à quinze ans.",
+      "evidence_ids": []
+    }
+  ],
+  "vigilance": [
+    {
+      "id": "vigilance_001",
+      "title": "Culture du Secret et Opacité ",
+      "text": "Les élus des petites communes, les militants et la CNDP soulignent l'extrême discrétion de Google (agissant via Tricolore/Violet Computing), générant un fort sentiment de développement 'en sous-marin' (rétention d'informations d'Enedis/RTE).",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_002",
+      "title": "Incertitudes Écologiques (PFAS, Eau, Chaleur) ",
+      "text": "Le flou technique maintenu sur les systèmes de refroidissement suscite de sérieuses craintes concernant la gestion des fluides frigorifiques, le risque de stress hydrique et la formation d'îlots de chaleur massifs.",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_003",
+      "title": "Saucissonnage et Stratégie Foncière ",
+      "text": "L'apparition d'un 'projet miroir' au Pêchereau et la multiplication de filiales-écrans font craindre un contournement progressif de l'évaluation environnementale globale.",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_004",
+      "title": "Décalage Promesses / Réalité ",
+      "text": "La rhétorique locale évoquant une 'chance historique' (Gil Avérous) se heurte aux doutes des sociologues et experts pointant le mirage de l'emploi et l'incompatibilité de la valorisation de la chaleur pour de si petites communes.",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_005",
+      "title": "Fermeture du CTR local ",
+      "text": "La fin de vie annoncée du Centre de Traitement et de Redondance (CTR) de Châteauroux met en lumière la nouvelle réalité industrielle : les petites structures régionales disparaissent au profit de méga-hubs ultra-denses comme celui projeté par Google à Ozans.",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_006",
+      "title": "Glissement de la contestation environnementale ",
+      "text": "Les collectifs agricoles et écologiques doivent désormais gérer le cumul de deux projets industriels majeurs sur la ZAC d'Ozans (Google et Lénéo), imposant de bien distinguer les griefs liés au refroidissement de ceux liés à la méthanisation.",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_007",
+      "title": "Emprise foncière ",
+      "text": "Distinguer les 195 hectares vendus ou réservés à Tricolore Computing de l’emprise totale de 212 hectares citée par plusieurs sources.",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_008",
+      "title": "Puissance finale ",
+      "text": "Les sources utilisent 500 MW ou plus de 500 MW. Vérifier la puissance de raccordement contractualisée, la puissance informatique utile et le phasage exact.",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_009",
+      "title": "Lignes à 400 kV ",
+      "text": "Les publications évoquent alternativement une ou deux lignes aériennes sur plus de dix kilomètres. Le dossier technique RTE doit faire foi.",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_010",
+      "title": "Emplois ",
+      "text": "Les estimations varient de 50 à 1 500 emplois pérennes. Aucun détail officiel de Google ne permet encore de ventiler construction, exploitation, emplois directs et sous-traitance.",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_011",
+      "title": "Évolution du refroidissement ",
+      "text": "La communication est passée d’un refroidissement par air à un refroidissement par eau en circuit fermé. Les volumes initiaux, appoints, purges et performances en période de canicule restent à documenter.",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_012",
+      "title": "PFAS ",
+      "text": "Les élus démissionnaires demandent des garanties, mais aucune étude indépendante spécifique au site n’est identifiée dans le rapport.",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_013",
+      "title": "Google et Lénéo ",
+      "text": "Le prélèvement de 100 000 m³ d’eau par an concerne le projet Lénéo, juridiquement distinct du data center. Les impacts cumulés peuvent être étudiés sans fusionner les responsabilités.",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_014",
+      "title": "Concertations ",
+      "text": "Distinguer la concertation préalable Google-CNDP annoncée en novembre et décembre 2026 de celle portant sur les infrastructures électriques de RTE.",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_015",
+      "title": "Statut de Florence Laurent ",
+      "text": "La démission est annoncée le 15 septembre 2026, mais sa date de prise d’effet et l’organisation de l’intérim municipal ne sont pas précisées.",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_016",
+      "title": "Fiche Marc Descouraux ",
+      "text": "Son rôle de maire d’Étrechet est devenu obsolète. Son statut actuel n’étant pas documenté, ne pas lui attribuer automatiquement une nouvelle fonction.",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_017",
+      "title": "Élection partielle ",
+      "text": "Une nouvelle élection municipale est présentée comme probable, mais aucune date officielle n’est fournie.",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_018",
+      "title": "Soutien régional ",
+      "text": "La fiche de François Bonneau doit être remplacée et non dupliquée, afin de refléter son opposition explicite en l’état.",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_019",
+      "title": "Pétition ",
+      "text": "Les totaux de 16 000 et 18 000 signatures correspondent à des dates ou comptages différents. Préférer la formulation « plus de 16 000 signatures » tant qu’un décompte daté n’est pas consolidé.",
+      "evidence_ids": []
+    },
+    {
+      "id": "vigilance_020",
+      "title": "Prix du foncier ",
+      "text": "Le montant de 58,5 millions d’euros doit être distingué des investissements industriels, électriques et informatiques du campus.",
+      "evidence_ids": []
+    }
+  ]
+}
