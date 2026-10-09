@@ -1,86 +1,25 @@
 {
-  "id": "project_google_ozans",
-  "title": "Cartographie interactive — Data Center Google Ozans",
-  "subtitle": "Projet de campus Google sur la ZAC d’Ozans, avec contestations relatives à l’opacité, au foncier, à l’eau, à l’énergie et à la gouvernance territoriale.",
-  "last_updated": "2026-10-02",
-  "data_notice": "Corpus fourni ; URL exactes à qualifier.",
+  "id": "project_google_ozans", "title": "Cartographie interactive — Data Center Google Ozans", "subtitle": "Projet de campus Google sur la ZAC d’Ozans, avec contestations relatives à l’opacité, au foncier, à l’eau, à l’énergie et à la gouvernance territoriale.", "last_updated": "2026-10-02", "data_notice": "Corpus fourni ; URL exactes à qualifier.",
   "griefs": [
-    {
-      "title": "🔒 Opacité / secret des affaires",
-      "text": "Grief central : manque criant d’informations techniques, culture de la confidentialité propre à Google et communication jugée parcellaire par les garants de la CNDP."
-    },
-    {
-      "title": "🌿 Artificialisation des sols",
-      "text": "Forte critique environnementale portant sur les 195 hectares prévus pour le campus de la ZAC d’Ozans, induisant une imperméabilisation massive."
-    },
-    {
-      "title": "🌡️ Îlot de chaleur urbain",
-      "text": "Crainte d’un impact thermique direct et continu à proximité immédiate de la forêt de Châteauroux et des terres agricoles arables environnantes."
-    },
-    {
-      "title": "☣️ PFAS & Refroidissement",
-      "text": "Inquiétude aiguë sur les fluides frigorifiques requis pour les architectures de refroidissement par air et les risques afférents de fuites."
-    },
-    {
-      "title": "💧 Consommation d’eau",
-      "text": "Point d'achoppement sémantique et stratégique majeur dans un département déjà soumis à des épisodes récurrents de stress hydrique."
-    },
-    {
-      "title": "⚡ Surcharge électrique",
-      "text": "Besoin structurel d'aménager de nouvelles liaisons électriques 225 kV puis 400 kV ; la capacité locale actuelle est jugée saturée par les experts."
-    },
-    {
-      "title": "💼 Mirage de l’emploi local",
-      "text": "Dénonciation par les économistes et élus du faible ratio d'emplois nets durables créés au regard du foncier et des ressources mobilisés."
-    },
-    {
-      "title": "🔒 Souveraineté et Cloud Act",
-      "text": "Contestation radicale de l'argument d'indépendance numérique, l'infrastructure étant sous la coupe d'une firme assujettie au droit extraterritorial américain."
-    },
-    {
-      "title": "📑 Risque de saucissonnage",
-      "text": "Soupçon de morcellement administratif délibéré (via des entités miroirs comme au Pêchereau ou Wissous) visant à contourner l'évaluation globale."
-    },
-    {
-      "title": "🔥 Risque d'incendie accru",
-      "text": "Inquiétudes modélisées à partir d'autres luttes nationales (projet Cézanne) portant sur les charges thermiques lourdes à proximité d'espaces arborés."
-    },
-    {
-      "title": "🏛️ Appel à l'arbitrage régional (Saisine)",
-      "text": "Face au blocage et au soutien inébranlable de l'agglomération, les opposants activent le levier de la 'saisine citoyenne' (4000 signatures) pour contraindre le Ceser à instruire le dossier de manière neutre."
-    },
-    {
-      "title": "🚰 Concurrence industrielle sur l'eau",
-      "text": "Le projet de centrale biomasse de Lénéo ajoute une consommation de 100 000 mètres cubes d'eau par an sur le même périmètre que Google, exacerbant la tension sur la ressource hydrique régionale."
-    },
-    {
-      "title": "🇺🇸 Souveraineté factice et 'Kill Switch'",
-      "text": "La mission de l'Assemblée nationale pointe la forte dépendance aux États-Unis, soulignant que des modèles peuvent être coupés à distance par Washington, vidant l'argument de souveraineté de sa substance."
-    },
-    {
-      "title": "🌬️ Effet domino énergétique",
-      "text": "La très forte consommation du data center est désormais officiellement utilisée par les promoteurs d'énergies renouvelables comme argument de nécessité pour imposer de nouveaux parcs éoliens dans le département."
-    },
-    {
-      "title": "🏛️ Crise institutionnelle à Étrechet",
-      "text": "La démission de la maire, de ses trois adjoints et d’une conseillère municipale transforme la contestation du projet en crise politique locale majeure et révèle l’absence de pouvoir décisionnel ressentie par la commune d’accueil."
-    },
-    {
-      "title": "📉 Revirement de la Région",
-      "text": "François Bonneau, auparavant favorable, déclare ne plus soutenir le projet en l’état en raison de l’emprise foncière, des besoins électriques et des enjeux de souveraineté liés au contrôle américain des données."
-    },
-    {
-      "title": "👷 Contradiction majeure sur les emplois",
-      "text": "Les annonces de 1 200 à 1 500 emplois permanents portées par Gil Avérous s’opposent aux estimations de 50 à 200 emplois pérennes citées par les élus démissionnaires, sans chiffre officiel détaillé communiqué par Google."
-    },
-    {
-      "title": "🗳️ Décision intercommunale contre autonomie communale",
-      "text": "Le transfert de la compétence d’urbanisme à Châteauroux Métropole et le caractère non contraignant de la concertation alimentent le sentiment qu’un référendum local ou un avis négatif d’Étrechet ne pourraient pas infléchir le projet."
-    },
-    {
-      "title": "🏠 Dévalorisation immobilière et trafic routier",
-      "text": "Les élus démissionnaires ajoutent aux griefs existants la perte potentielle de valeur des habitations riveraines, les nuisances visuelles et l’augmentation du trafic pendant un chantier annoncé sur dix à quinze ans."
-    }
+    {"title": "🔒 Opacité / secret des affaires", "text": "Grief central : manque criant d’informations techniques, culture de la confidentialité propre à Google et communication jugée parcellaire par les garants de la CNDP."},
+    {"title": "🌿 Artificialisation des sols", "text": "Forte critique environnementale portant sur les 195 hectares prévus pour le campus de la ZAC d’Ozans, induisant une imperméabilisation massive."},
+    {"title": "🌡️ Îlot de chaleur urbain", "text": "Crainte d’un impact thermique direct et continu à proximité immédiate de la forêt de Châteauroux et des terres agricoles arables environnantes."},
+    {"title": "☣️ PFAS & Refroidissement", "text": "Inquiétude aiguë sur les fluides frigorifiques requis pour les architectures de refroidissement par air et les risques afférents de fuites."},
+    {"title": "💧 Consommation d’eau", "text": "Point d'achoppement sémantique et stratégique majeur dans un département déjà soumis à des épisodes récurrents de stress hydrique."},
+    {"title": "⚡ Surcharge électrique", "text": "Besoin structurel d'aménager de nouvelles liaisons électriques 225 kV puis 400 kV ; la capacité locale actuelle est jugée saturée par les experts."},
+    {"title": "💼 Mirage de l’emploi local", "text": "Dénonciation par les économistes et élus du faible ratio d'emplois nets durables créés au regard du foncier et des ressources mobilisés."},
+    {"title": "🔒 Souveraineté et Cloud Act", "text": "Contestation radicale de l'argument d'indépendance numérique, l'infrastructure étant sous la coupe d'une firme assujettie au droit extraterritorial américain."},
+    {"title": "📑 Risque de saucissonnage", "text": "Soupçon de morcellement administratif délibéré (via des entités miroirs comme au Pêchereau ou Wissous) visant à contourner l'évaluation globale."},
+    {"title": "🔥 Risque d'incendie accru", "text": "Inquiétudes modélisées à partir d'autres luttes nationales (projet Cézanne) portant sur les charges thermiques lourdes à proximité d'espaces arborés."},
+    {"title": "🏛️ Appel à l'arbitrage régional (Saisine)", "text": "Face au blocage et au soutien inébranlable de l'agglomération, les opposants activent le levier de la 'saisine citoyenne' (4000 signatures) pour contraindre le Ceser à instruire le dossier de manière neutre."},
+    {"title": "🚰 Concurrence industrielle sur l'eau", "text": "Le projet de centrale biomasse de Lénéo ajoute une consommation de 100 000 mètres cubes d'eau par an sur le même périmètre que Google, exacerbant la tension sur la ressource hydrique régionale."},
+    {"title": "🇺🇸 Souveraineté factice et 'Kill Switch'", "text": "La mission de l'Assemblée nationale pointe la forte dépendance aux États-Unis, soulignant que des modèles peuvent être coupés à distance par Washington, vidant l'argument de souveraineté de sa substance."},
+    {"title": "🌬️ Effet domino énergétique", "text": "La très forte consommation du data center est désormais officiellement utilisée par les promoteurs d'énergies renouvelables comme argument de nécessité pour imposer de nouveaux parcs éoliens dans le département."},
+    {"title": "🏛️ Crise institutionnelle à Étrechet", "text": "La démission de la maire, de ses trois adjoints et d’une conseillère municipale transforme la contestation du projet en crise politique locale majeure et révèle l’absence de pouvoir décisionnel ressentie par la commune d’accueil."},
+    {"title": "📉 Revirement de la Région", "text": "François Bonneau, auparavant favorable, déclare ne plus soutenir le projet en l’état en raison de l’emprise foncière, des besoins électriques et des enjeux de souveraineté liés au contrôle américain des données."},
+    {"title": "👷 Contradiction majeure sur les emplois", "text": "Les annonces de 1 200 à 1 500 emplois permanents portées par Gil Avérous s’opposent aux estimations de 50 à 200 emplois pérennes citées par les élus démissionnaires, sans chiffre officiel détaillé communiqué par Google."},
+    {"title": "🗳️ Décision intercommunale contre autonomie communale", "text": "Le transfert de la compétence d’urbanisme à Châteauroux Métropole et le caractère non contraignant de la concertation alimentent le sentiment qu’un référendum local ou un avis négatif d’Étrechet ne pourraient pas infléchir le projet."},
+    {"title": "🏠 Dévalorisation immobilière et trafic routier", "text": "Les élus démissionnaires ajoutent aux griefs existants la perte potentielle de valeur des habitations riveraines, les nuisances visuelles et l’augmentation du trafic pendant un chantier annoncé sur dix à quinze ans."}
   ],
   "vigilance": [
     "Culture du Secret et Opacité : Les élus des petites communes, les militants et la CNDP soulignent l'extrême discrétion de Google (agissant via Tricolore/Violet Computing), générant un fort sentiment de développement 'en sous-marin' (rétention d'informations d'Enedis/RTE).",
@@ -125,119 +64,6 @@
     "La Relève et la Peste : Article du 16 septembre 2026 documentant l’investissement RTE annoncé à 300 millions d’euros et les interrogations sur la chaleur fatale.",
     "La Nouvelle République : Couverture locale de la crise municipale, de la visite de Gil Avérous et de la démission collective des élus d’Étrechet.",
     "La Tribune : Article du 19 septembre 2026 sur la montée de la contestation, les infrastructures électriques et les soutiens économiques locaux.",
-    "all",
-    "all",
-    "",
-    "",
-    "NFD",
-    "",
-    "all",
-    "all",
-    " ",
-    "",
-    "cat-filters-container",
-    "stance-filters-container",
-    "",
-    "",
-    "all",
-    "button",
-    "button",
-    "active",
-    "",
-    "aria-pressed",
-    "count",
-    "click",
-    "all",
-    "button",
-    "button",
-    "active",
-    "",
-    "aria-pressed",
-    "count",
-    "click",
-    "actors-grid",
-    "results-count",
-    "s",
-    "",
-    "s",
-    "",
-    "",
-    "empty-state",
-    "article",
-    "role",
-    "button",
-    "aria-label",
-    "actor-header",
-    "actor-name",
-    "actor-role",
-    "actor-body",
-    "actor-footer",
-    "badge ${actor.stance}",
-    "certitude",
-    "click",
-    "keydown",
-    "Enter",
-    " ",
-    "griefs-grid",
-    "",
-    "empty-state",
-    "article",
-    "grief-card",
-    "vigilance-list",
-    "sources-list",
-    "",
-    "",
-    "color: var(--text-muted); list-style: none;",
-    "li",
-    "color: var(--text-muted); list-style: none;",
-    "li",
-    ".tab-btn",
-    "active",
-    ".tab-content",
-    "active",
-    "active",
-    "active",
-    "modal-name",
-    "modal-role",
-    "modal-position",
-    "modal-verbatim",
-    "Aucun verbatim direct extrait dans le corpus.",
-    "modal-certainty",
-    "modal-stance-badge",
-    "actor-modal",
-    "active",
-    "hidden",
-    "",
-    "close-modal",
-    "DOMContentLoaded",
-    "header-title",
-    "header-subtitle",
-    ".tab-btn",
-    "click",
-    "actor-search",
-    "clear-search",
-    "input",
-    "visible",
-    "",
-    "click",
-    "",
-    "",
-    "visible",
-    "reset-filters",
-    "click",
-    "all",
-    "all",
-    "",
-    "",
-    "visible",
-    "close-modal",
-    "click",
-    "actor-modal",
-    "click",
-    "actor-modal",
-    "keydown",
-    "Escape",
-    "actor-modal",
-    "active"
+    "all", "all", "", "", "NFD", "", "all", "all", " ", "", "cat-filters-container", "stance-filters-container", "", "", "all", "button", "button", "active", "", "aria-pressed", "count", "click", "all", "button", "button", "active", "", "aria-pressed", "count", "click", "actors-grid", "results-count", "s", "", "s", "", "", "empty-state", "article", "role", "button", "aria-label", "actor-header", "actor-name", "actor-role", "actor-body", "actor-footer", "badge ${actor.stance}", "certitude", "click", "keydown", "Enter", " ", "griefs-grid", "", "empty-state", "article", "grief-card", "vigilance-list", "sources-list", "", "", "color: var(--text-muted); list-style: none;", "li", "color: var(--text-muted); list-style: none;", "li", ".tab-btn", "active", ".tab-content", "active", "active", "active", "modal-name", "modal-role", "modal-position", "modal-verbatim", "Aucun verbatim direct extrait dans le corpus.", "modal-certainty", "modal-stance-badge", "actor-modal", "active", "hidden", "", "close-modal", "DOMContentLoaded", "header-title", "header-subtitle", ".tab-btn", "click", "actor-search", "clear-search", "input", "visible", "", "click", "", "", "visible", "reset-filters", "click", "all", "all", "", "", "visible", "close-modal", "click", "actor-modal", "click", "actor-modal", "keydown", "Escape", "actor-modal", "active"
   ]
 }
