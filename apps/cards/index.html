@@ -19,6 +19,8 @@
       <button class="tab-btn active" type="button" data-tab="carto" aria-selected="true">Cartographie des acteurs</button>
       <button class="tab-btn" type="button" data-tab="griefs" aria-selected="false">Synthèse des oppositions</button>
       <button class="tab-btn" type="button" data-tab="vigilance" aria-selected="false">Points de vigilance et sources</button>
+      <button class="tab-btn" type="button" data-tab="evolution" aria-selected="false">Évolution des acteurs
+</button>
     </nav>
     <section id="tab-carto" class="tab-content active">
       <main class="layout">
@@ -45,6 +47,9 @@
       <article class="list-card"><h2>Points de vigilance majeurs</h2><div id="vigilance-list"></div></article>
       <article class="list-card"><h2>Sources répertoriées</h2><div id="sources-list"></div></article>
     </section>
+    <section id="tab-evolution" class="tab-content">
+      <div id="evolution-root"></div>
+</section>
   </div>
   <dialog id="dialog"><button class="close" type="button" aria-label="Fermer">×</button><div id="detail"></div></dialog>
   <script type="module" src="../../assets/js/cards.js"></script>
