@@ -1,8 +1,20 @@
 import{loadRepository,esc,norm,actorClaim,evidenceHtml}from'./data-loader.js';
 import { initEvolution } from './evolution.js';
 const d=await loadRepository();let cat='all',stance='all',q='';
-const $=id=>document.getElementById(id),title=$('title'),subtitle=$('subtitle'),notice=$('notice'),categories=$('categories'),stances=$('stances'),count=$('count'),grid=$('grid'),search=$('search'),clearSearch=$('clear-search'),reset=$('reset'),dialog=$('dialog'),detail=$('detail');
-title.textContent=d.meta.title;subtitle.textContent=d.meta.subtitle;notice.textContent=d.meta.data_notice;
+const $ = id => document.getElementById(id);
+const title = $('title');
+const subtitle = $('subtitle');
+const notice = $('notice');
+const categories = $('categories');
+const stances = $('stances');
+const count = $('count');
+const grid = $('grid');
+const search = $('search');
+const clearSearch = $('clear-search');
+const reset = $('reset');
+const dialog = $('dialog');
+const detail = $('detail');
+const evolutionRoot = $('evolution-root');
 const stanceColor=s=>d.taxonomy.stances[s]?.color||'#64748b';
 function filters(){const actors=d.actors.filter(a=>a.id!==d.meta.id);categories.innerHTML=Object.entries(d.taxonomy.categories).filter(([k])=>k!=='project').map(([k,v])=>`<button class="filter ${cat===k?'active':''}" type="button" data-cat="${esc(k)}" aria-pressed="${cat===k}"><span>${esc(v.label)}</span><b>${k==='all'?actors.length:actors.filter(a=>a.categories.includes(k)).length}</b></button>`).join('');stances.innerHTML=Object.entries(d.taxonomy.stances).map(([k,v])=>`<button class="filter ${stance===k?'active':''}" type="button" data-stance="${esc(k)}" aria-pressed="${stance===k}"><span>${esc(v.label)}</span><b>${k==='all'?d.claims.length:d.claims.filter(c=>c.value===k).length}</b></button>`).join('')}
 function searchable(a,c){return norm([a.name,a.short_name,a.description,...(a.roles||[]).map(r=>r.label),c?.summary,c?.certainty,...(c?.evidence_ids||[]).map(id=>d.evidenceById.get(id)?.text)].join(' '))}
@@ -15,4 +27,12 @@ function switchTab(name,button){document.querySelectorAll('.tab-btn').forEach(b=
 document.addEventListener('click',e=>{const c=e.target.closest('[data-cat]'),s=e.target.closest('[data-stance]'),card=e.target.closest('.card'),op=e.target.closest('[data-open]'),tab=e.target.closest('.tab-btn');if(c){cat=c.dataset.cat;filters();render()}if(s){stance=s.dataset.stance;filters();render()}if(card)openActor(card.dataset.id);if(op)openActor(op.dataset.open);if(tab)switchTab(tab.dataset.tab,tab)});
 document.addEventListener('keydown',e=>{const card=e.target.closest('.card');if(card&&(e.key==='Enter'||e.key===' ')){e.preventDefault();openActor(card.dataset.id)}});
 search.addEventListener('input',e=>{q=norm(e.target.value);clearSearch.classList.toggle('visible',q.length>0);render()});clearSearch.onclick=()=>{q='';search.value='';clearSearch.classList.remove('visible');render();search.focus()};reset.onclick=()=>{cat='all';stance='all';q='';search.value='';clearSearch.classList.remove('visible');filters();render()};document.querySelector('.close').onclick=()=>dialog.close();
-filters();render();renderGriefs();renderVigilance();renderSources();
+filters();
+render();
+renderGriefs();
+renderVigilance();
+renderSources();
+initEvolution({
+  repository: d,
+  root: evolutionRoot
+});
