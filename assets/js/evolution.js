@@ -2,50 +2,43 @@ function prepareTimelineData(repository) {
   return repository.timeline || [];
 }
 
-function buildPeriods(events) {
-  return [];
-}
-
-function resolveDisplayCategory(actor) {
-  return null;
-}
-
-function computeSeries(data) {
-  return [];
-}
-
-function renderMetrics(root, data) {
-  // à compléter
-}
-
-function renderChart(root, data) {
-  // à compléter
-}
-
-function renderLegend(root, data) {
-  // à compléter
-}
-
-function renderRoster(root, data) {
-  // à compléter
-}
-
 export function initEvolution({ repository, root }) {
   if (!root) return;
 
   const timelineData = prepareTimelineData(repository);
 
+  if (!timelineData.length) {
+    root.innerHTML = `
+      <article class="list-card">
+        <h2>Évolution des acteurs</h2>
+
+        <p class="muted">
+          Aucune donnée chronologique n'est disponible pour le moment.
+        </p>
+
+        <p>
+          Le fichier <code>data/timeline.json</code> est actuellement vide.
+        </p>
+
+        <p>
+          Les données d'évolution seront affichées ici dès qu'un premier
+          événement <code>first_documented_position</code> sera ajouté.
+        </p>
+      </article>
+    `;
+
+    return;
+  }
+
   root.innerHTML = `
-    <div class="list-card">
+    <article class="list-card">
       <h2>Évolution des acteurs</h2>
-      <p>
-        Le module d'évolution est initialisé.
-      </p>
+
       <p>
         ${timelineData.length} événement(s) chronologique(s) chargé(s).
       </p>
-    </div>
+    </article>
   `;
 
-  console.log("Evolution initialized", repository);
+  console.log("Evolution initialized", timelineData);
 }
