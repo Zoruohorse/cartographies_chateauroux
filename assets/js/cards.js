@@ -1,4 +1,5 @@
 import{loadRepository,esc,norm,actorClaim,evidenceHtml}from'./data-loader.js';
+import { initEvolution } from './evolution.js';
 const d=await loadRepository();let cat='all',stance='all',q='';
 const $=id=>document.getElementById(id),title=$('title'),subtitle=$('subtitle'),notice=$('notice'),categories=$('categories'),stances=$('stances'),count=$('count'),grid=$('grid'),search=$('search'),clearSearch=$('clear-search'),reset=$('reset'),dialog=$('dialog'),detail=$('detail');
 title.textContent=d.meta.title;subtitle.textContent=d.meta.subtitle;notice.textContent=d.meta.data_notice;
