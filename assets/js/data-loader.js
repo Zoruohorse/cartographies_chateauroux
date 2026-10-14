@@ -1,5 +1,4 @@
-export async function loadRepository(base="../../")
- {
+export async function loadRepository(base = "../../") {
   const paths = {
     meta: "data/meta.json",
     content: "data/content.json",
@@ -14,30 +13,21 @@ export async function loadRepository(base="../../")
 
   const entries = await Promise.all(
     Object.entries(paths).map(async ([key, path]) => {
-      const data = await fetch(base + path).then(response => {
-        if (!response.ok) {
-          throw new Error(path);
-        }
-        return response.json();
-      });
+      const response = await fetch(base + path);
 
-      return [key, data];
+      if (!response.ok) {
+        throw new Error(path);
+      }
+
+      return [key, await response.json()];
     })
   );
 
   const d = Object.fromEntries(entries);
 
-  // -----------------------------
-  // Index acteurs
-  // -----------------------------
-
   d.actorById = new Map(
     d.actors.map(actor => [actor.id, actor])
   );
-
-  // -----------------------------
-  // Index positions
-  // -----------------------------
 
   d.claimsByActor = new Map();
 
@@ -49,25 +39,13 @@ export async function loadRepository(base="../../")
     d.claimsByActor.get(claim.subject_id).push(claim);
   });
 
-  // -----------------------------
-  // Index preuves
-  // -----------------------------
-
   d.evidenceById = new Map(
     d.evidence.map(evidence => [evidence.id, evidence])
   );
 
-  // -----------------------------
-  // Index sources
-  // -----------------------------
-
   d.sourceById = new Map(
     d.sources.map(source => [source.id, source])
   );
-
-  // -----------------------------
-  // Timeline (nouvel onglet)
-  // -----------------------------
 
   d.timelineByActor = new Map();
 
@@ -81,10 +59,6 @@ export async function loadRepository(base="../../")
 
   return d;
 }
-
-// ----------------------------------------------------
-// Utilitaires
-// ----------------------------------------------------
 
 export const esc = value =>
   String(value ?? "").replace(
@@ -106,8 +80,9 @@ export const norm = value =>
     .toLowerCase();
 
 export function actorClaim(d, actorId) {
-  return (d.claimsByActor.get(actorId) || [])
-    .find(claim => claim.claim_type === "position");
+  return (d.claimsByActor.get(actorId) || []).find(
+    claim => claim.claim_type === "position"
+  );
 }
 
 export function evidenceHtml(d, ids = []) {
@@ -133,7 +108,11 @@ export function evidenceHtml(d, ids = []) {
           <small>
             ${
               source && source.url
-                ? `<a target="_blank" rel="noopener" href="${esc(source.url)}">${"Source à qualifier"
+                ? `<a target="_blank" rel="noopener" href="${esc(source.url)}"lifier"
             }
           </small>
-       
+        </article>
+      `;
+    })
+    .join("");
+}
