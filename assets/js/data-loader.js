@@ -1,5 +1,5 @@
 export async function loadRepository(base="../../")
-export async function loadRepository(base = "../../") {
+ {
   const paths = {
     meta: "data/meta.json",
     content: "data/content.json",
