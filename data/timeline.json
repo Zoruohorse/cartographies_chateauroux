@@ -1,1 +1,7 @@
-[]
+[{"id": "test_timeline_001", "actor_id": "actor_0001", "event_type": "first_documented_position", "date": "2026-03-12", "source_ids": [], "confidence": "low", "status": "provisional"},
+{"id": "test_timeline_002", "actor_id": "actor_0008", "event_type": "first_documented_position", "date": "2026-04-15", "source_ids": [], "confidence": "low", "status": "provisional"},
+{"id": "test_timeline_003", "actor_id": "actor_0005", "event_type": "first_documented_position", "date": "2026-06-04", "source_ids": [], "confidence": "low", "status": "provisional"},
+{"id": "test_timeline_004", "actor_id": "actor_0013", "event_type": "first_documented_position", "date": "2026-06-23", "source_ids": [], "confidence": "low", "status": "provisional"},
+{"id": "test_timeline_005", "actor_id": "actor_0018", "event_type": "first_documented_position", "date": "2026-08-07", "source_ids": [], "confidence": "low", "status": "provisional"},
+{"id": "test_timeline_006", "actor_id": "actor_0019", "event_type": "first_documented_position", "date": "2026-10-02", "source_ids": [], "confidence": "low", "status": "provisional"},
+{"id": "test_timeline_007", "actor_id": "actor_0020", "event_type": "first_documented_position", "date": "2026-10-09", "source_ids": [], "confidence": "low", "status": "provisional"}]
