@@ -24,5 +24,21 @@
   },
   "relation_types": {
     "related_to": {"label": "Relation issue du nuage", "directed": true}
+  },
+  "timeline": {
+    "grouping": "month",
+    "default_mode": "new",
+    "event_type": "first_documented_position",
+    "category_priority": ["elus", "associations", "entreprises", "institutions", "collectivites", "other"],
+    "categories": [
+      {"id": "elus", "label": "Élus", "color": "#d66b9c", "actor_categories": ["elus-fav", "elus-opp"]},
+      {"id": "associations", "label": "Associations et collectifs", "color": "#ef9e3c", "actor_categories": []},
+      {"id": "entreprises", "label": "Entreprises", "color": "#17a38f", "actor_categories": []},
+      {"id": "institutions", "label": "Institutions", "color": "#8b6bc8", "actor_categories": []},
+      {"id": "collectivites", "label": "Collectivités", "color": "#4388da", "actor_categories": []},
+      {"id": "other", "label": "Autres / à qualifier", "color": "#64748b", "actor_categories": []}
+    ],
+    "fallback_category": "other",
+    "excluded_actor_categories": ["project", "context", "griefs", "sources"]
   }
 }
