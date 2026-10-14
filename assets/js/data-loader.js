@@ -16,7 +16,7 @@ export async function loadRepository(base = "../../") {
       const response = await fetch(base + path);
 
       if (!response.ok) {
-        throw new Error(`Impossible de charger ${path}`);
+        throw new Error(`Impossible de charger : ${path}`);
       }
 
       return [key, await response.json()];
@@ -34,7 +34,7 @@ export async function loadRepository(base = "../../") {
   );
 
   // -----------------------------
-  // Claims par acteur
+  // Positions
   // -----------------------------
 
   d.claimsByActor = new Map();
@@ -48,11 +48,11 @@ export async function loadRepository(base = "../../") {
   });
 
   // -----------------------------
-  // Evidence
+  // Preuves
   // -----------------------------
 
   d.evidenceById = new Map(
-    d.evidence.map(item => [item.id, item])
+    d.evidence.map(evidence => [evidence.id, evidence])
   );
 
   // -----------------------------
@@ -60,11 +60,11 @@ export async function loadRepository(base = "../../") {
   // -----------------------------
 
   d.sourceById = new Map(
-    d.sources.map(item => [item.id, item])
+    d.sources.map(source => [source.id, source])
   );
 
   // -----------------------------
-  // Timeline
+  // Timeline (onglet Évolution)
   // -----------------------------
 
   d.timelineByActor = new Map();
@@ -80,9 +80,9 @@ export async function loadRepository(base = "../../") {
   return d;
 }
 
-// --------------------------------------------------
+// ----------------------------------------------------
 // Utilitaires
-// --------------------------------------------------
+// ----------------------------------------------------
 
 export const esc = value =>
   String(value ?? "").replace(
@@ -104,9 +104,8 @@ export const norm = value =>
     .toLowerCase();
 
 export function actorClaim(d, actorId) {
-  return (d.claimsByActor.get(actorId) || []).find(
-    claim => claim.claim_type === "position"
-  );
+  return (d.claimsByActor.get(actorId) || [])
+    .find(claim => claim.claim_type === "position");
 }
 
 export function evidenceHtml(d, ids = []) {
@@ -126,17 +125,15 @@ export function evidenceHtml(d, ids = []) {
         ? d.sourceById.get(evidence.source_id)
         : null;
 
+      const sourceHtml =
+        source && source.url
+          ? `<a target="_blank" rel="noopener" href="${esc(source.url)}">${esc(source.title)}</a>`
+          : "Source à qualifier";
+
       return `
         <article class="proof">
           <div>${esc(evidence.text)}</div>
-          <small>
-            ${
-              source
-                ? source.url
-                  ? `<a target="_blank" rel="noopener" href="${esc(source.         : esc(source.title)
-                : "Source à qualifier"
-            }
-          </small>
+          <small>${sourceHtml}</small>
         </article>
       `;
     })
