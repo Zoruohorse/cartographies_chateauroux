@@ -16,7 +16,7 @@ export async function loadRepository(base = "../../") {
       const response = await fetch(base + path);
 
       if (!response.ok) {
-        throw new Error(path);
+        throw new Error(`Impossible de charger ${path}`);
       }
 
       return [key, await response.json()];
@@ -25,9 +25,17 @@ export async function loadRepository(base = "../../") {
 
   const d = Object.fromEntries(entries);
 
+  // -----------------------------
+  // Acteurs
+  // -----------------------------
+
   d.actorById = new Map(
     d.actors.map(actor => [actor.id, actor])
   );
+
+  // -----------------------------
+  // Claims par acteur
+  // -----------------------------
 
   d.claimsByActor = new Map();
 
@@ -39,13 +47,25 @@ export async function loadRepository(base = "../../") {
     d.claimsByActor.get(claim.subject_id).push(claim);
   });
 
+  // -----------------------------
+  // Evidence
+  // -----------------------------
+
   d.evidenceById = new Map(
-    d.evidence.map(evidence => [evidence.id, evidence])
+    d.evidence.map(item => [item.id, item])
   );
 
+  // -----------------------------
+  // Sources
+  // -----------------------------
+
   d.sourceById = new Map(
-    d.sources.map(source => [source.id, source])
+    d.sources.map(item => [item.id, item])
   );
+
+  // -----------------------------
+  // Timeline
+  // -----------------------------
 
   d.timelineByActor = new Map();
 
@@ -59,6 +79,10 @@ export async function loadRepository(base = "../../") {
 
   return d;
 }
+
+// --------------------------------------------------
+// Utilitaires
+// --------------------------------------------------
 
 export const esc = value =>
   String(value ?? "").replace(
@@ -107,8 +131,10 @@ export function evidenceHtml(d, ids = []) {
           <div>${esc(evidence.text)}</div>
           <small>
             ${
-              source && source.url
-                ? `<a target="_blank" rel="noopener" href="${esc(source.url)}"lifier"
+              source
+                ? source.url
+                  ? `<a target="_blank" rel="noopener" href="${esc(source.         : esc(source.title)
+                : "Source à qualifier"
             }
           </small>
         </article>
