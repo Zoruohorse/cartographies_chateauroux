@@ -5,9 +5,16 @@
  const monthLabel = key => new Intl.DateTimeFormat('fr-FR', {month:'short', year:'numeric', timeZone:'UTC'}).format(new Date(key + '-01T12:00:00Z'));
  const allMonths = (start, end) => {const result=[];let [y,m]=start.split('-').map(Number);const [ey,em]=end.split('-').map(Number);while(y<ey || y===ey && m<=em){result.push(`${y}-${String(m).padStart(2,'0')}`);m++;if(m>12){m=1;y++;}if(result.length>360)break;}return result;};
  const matchingCategory = (actor, config) => {
-   const cats = actor.categories || [];
-   return config.categories.find(c => c.id !== config.fallback_category && (c.actor_categories || []).some(id => cats.includes(id)))?.id || config.fallback_category;
- };
+  const category = actor.timeline_category;
+
+  const validCategories = new Set(
+    config.categories.map(item => item.id)
+  );
+
+  return validCategories.has(category)
+    ? category
+    : config.fallback_category;
+};
 
  export function initEvolution({repository, root}) {
    if (!root) return;
