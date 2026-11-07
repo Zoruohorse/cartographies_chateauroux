@@ -243,9 +243,9 @@
   },
   {
     "id": "source_qual_w43",
-    "title": "Lou Welgryn interroge les besoins en puissance de calcul",
+    "title": "« Pour répondre à quel besoin ? » : contestation des data centers de plus en plus gourmands en énergie",
     "publisher": "ICI Radio France",
-    "url": "https://www.ici.fr/centre-val-de-loire/indre-36/chateauroux/pour-repondre-a-quel-besoin-la-contestation-grandit-contre-des-data-centers-de-plus-en-plus-gros-8143037",
+    "url": "https://www.ici.fr/infos/environnement/pour-repondre-a-quel-besoin-la-contestation-grandit-contre-des-data-centers-de-plus-en-plus-gourmands-en-energie-2573912",
     "source_type": "journalism_or_supplied_corpus",
     "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
     "provenance": "Châteauroux.xlsx",
@@ -357,8 +357,8 @@
     "publisher": "La Nouvelle République",
     "url": "https://www.lanouvellerepublique.fr/chateauroux/ce-qui-nous-mobilise-c-est-que-la-question-ne-nous-est-pas-posee-un-collectif-se-leve-contre-le-projet-de-data-center-google-dans-l-indre-1778685333",
     "source_type": "journalism_or_supplied_corpus",
-    "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
-    "provenance": "Châteauroux.xlsx",
+    "verification": "texte_article_fourni_dans_Chateauroux_xlsx_et_url_editeur_recoupee_avec_source_0075",
+    "provenance": "Châteauroux.xlsx, ligne 100 (article relayé) ; URL de l'éditeur identifiée dans l'ancien référentiel",
     "status": "qualified",
     "updated_at": "2026-11-07"
   },
