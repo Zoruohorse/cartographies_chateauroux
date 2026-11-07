@@ -21,7 +21,7 @@ for (const [key, color] of Object.entries(foujuColors)) {
 let w=innerWidth,h=innerHeight,zoom=1,px=0,py=0,panning=false,startX=0,startY=0,selected=null;
 svg.setAttribute('viewBox',`0 0 ${w} ${h}`);
 const g=document.createElementNS(ns,'g'),lg=document.createElementNS(ns,'g'),ng=document.createElementNS(ns,'g');g.append(lg,ng);svg.append(g);
-const active=new Set(Object.keys(d.taxonomy.categories).filter(x=>x!=='all'));
+const active=new Set([...new Set(d.actors.flatMap(a=>a.categories||[]))].filter(x=>x!=='all'&&d.taxonomy.categories[x]));
 const degree=id=>d.relations.filter(r=>r.source_id===id||r.target_id===id).length;
 const nodes=d.actors.map(a=>({...a,size:a.id===d.meta.id?48:Math.min(28,18+degree(a.id)*1.15)}));
 const byId=new Map(nodes.map(n=>[n.id,n]));
