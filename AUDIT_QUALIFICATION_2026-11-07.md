@@ -1,7 +1,7 @@
 # Châteauroux / Ozans — audit de qualification, 2026-11-07
 ## Sources et méthode
 Classeur fourni : 99 ressources documentaires. Ancien référentiel : 112 nœuds, 86 fiches, 144 relations sans preuves directes, 86 preuves, 92 références.
-Révision : 51 nœuds, 49 fiches dont 14 positions non établies, 56 liens documentés, 66 preuves rattachées à 34 sources URL, 35 jalons d'évolution qualifiés.
+Révision : 51 nœuds, 49 fiches dont 14 positions non établies, 56 liens documentés, 66 preuves rattachées à 37 sources URL, 34 jalons d'évolution qualifiés.
 Le nuage statique antérieur a été remplacé par un nuage piloté par le référentiel JSON, sans altérer les styles graphiques ou gestes d'interaction.
 Les données sont attribuées; une citation de rôle n'est pas preuve de soutien. Les contenus payants du tableur ne sont pas tous indépendamment revérifiés sur leur URL.
 ## Corrections majeures
@@ -16,7 +16,6 @@ Les données sont attribuées; une citation de rôle n'est pas preuve de soutien
 - Dominique Boué
 - Stéphanie Grelet
 - Jean Delavergne
-- Emmanuel de Saint Pol
 - Militant écologiste anonyme
 - Marc Descouraux
 - Vincent Millan
@@ -83,3 +82,10 @@ Les données sont attribuées; une citation de rôle n'est pas preuve de soutien
 - Alterric
 ## Limitations
 Absence de décision finale Google, de permis de construire définitif ou de raccordement opérationnel établi. Les prévisions d'emploi sont directes/indirectes/induites, pas toutes des embauches directes du site.
+
+## Relecture nominative des sources (complément du 7 novembre)
+- Les sources du premier commit ne mentionnaient pas directement certains acteurs. Les références ont été remplacées pour Les Écologistes (Le Monde du 30 mai), Jérémie Godet, Cyrielle Chatelain et la Chambre d'agriculture (France 3, ressource 96 du classeur), et LFI de l'Indre (pétition locale reproduite dans la ressource 88).
+- La liste « Union de la gauche citoyenne » a été remplacée par la dénomination exacte « Châteauroux humaniste, écologique et sociale », attestée pour Éric Domenge-Abeau en 2026.
+- La fiche CGT Indre et son lien sont retirés faute d'une preuve attestant une intervention propre au dossier Google Ozans.
+- Emmanuel de Saint-Pol (agriculteur) est réintégré sur la base de son témoignage au Monde du 30 mai, classé « réserve / position nuancée » et non opposant déclaré.
+- Faute de date certaine de première publication de la pétition LFI, sa fiche ne génère plus de premier événement chronologique.

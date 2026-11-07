@@ -34,7 +34,7 @@
     "source_id": "actor_0003",
     "target_id": "project_google_ozans",
     "type": "opposes",
-    "summary": "Les Écologistes participent à la mobilisation contre le projet Google d'Étrechet et demandent un débat sur ses impacts.",
+    "summary": "Les Écologistes ont impulsé la réunion publique du 29 mai 2026 à Châteauroux contre l'implantation du centre Google, réunion qui a contribué à fédérer Ozans dire non.",
     "certainty": "high",
     "status": "documented",
     "evidence_ids": [
@@ -79,7 +79,7 @@
     "source_id": "actor_0006",
     "target_id": "project_google_ozans",
     "type": "opposes",
-    "summary": "L'Union de la gauche citoyenne est représentée dans la contestation par Éric Domenge-Abeau, qui critique le dimensionnement et l'électricité du projet.",
+    "summary": "Éric Domenge-Abeau, élu de la liste « Châteauroux humaniste, écologique et sociale », exprime en juin 2026 des critiques sur les besoins électriques et le dimensionnement du campus Google.",
     "certainty": "high",
     "status": "documented",
     "evidence_ids": [
@@ -94,7 +94,7 @@
     "source_id": "actor_0007",
     "target_id": "project_google_ozans",
     "type": "opposes",
-    "summary": "La France insoumise de l'Indre figure parmi les formations ayant contesté publiquement le projet et ses conditions d'implantation.",
+    "summary": "La France insoumise de l'Indre demande explicitement l'abandon du projet Google Ozans et un moratoire dans sa propre pétition en ligne, reproduite dans le corpus.",
     "certainty": "high",
     "status": "documented",
     "evidence_ids": [
@@ -109,7 +109,7 @@
     "source_id": "actor_0008",
     "target_id": "project_google_ozans",
     "type": "opposes",
-    "summary": "Jérémie Godet, vice-président régional, critique l'artificialisation, les risques environnementaux et le dimensionnement de Google Ozans.",
+    "summary": "Jérémie Godet, vice-président de la Région Centre-Val de Loire, est cité par France 3 comme l'un des animateurs de l'opposition, notamment sur la chaleur et les effets environnementaux du campus.",
     "certainty": "high",
     "status": "documented",
     "evidence_ids": [
@@ -154,7 +154,7 @@
     "source_id": "actor_0013",
     "target_id": "project_google_ozans",
     "type": "position_on",
-    "summary": "Cyrielle Chatelain s'inquiète de la faible densité d'emplois annoncée comparée à l'emprise foncière; critique documentée, sans recours personnel identifié.",
+    "summary": "Cyrielle Chatelain critique le contraste entre les superficies mobilisées et les créations d'emplois annoncées; France 3 lui attribue des réserves sur le caractère illusoire de certaines promesses d'emploi.",
     "certainty": "high",
     "status": "documented",
     "evidence_ids": [
@@ -309,21 +309,6 @@
     "status": "documented",
     "evidence_ids": [
       "evidence_chateauroux_20261107_031"
-    ],
-    "valid_from": null,
-    "valid_to": null,
-    "updated_at": "2026-11-07"
-  },
-  {
-    "id": "relation_qual_022",
-    "source_id": "actor_0066",
-    "target_id": "project_google_ozans",
-    "type": "opposes",
-    "summary": "La CGT de l'Indre figure dans la mobilisation territoriale contre le centre de données Google, aux côtés du collectif Ozans dire non.",
-    "certainty": "high",
-    "status": "documented",
-    "evidence_ids": [
-      "evidence_chateauroux_20261107_032"
     ],
     "valid_from": null,
     "valid_to": null,
@@ -739,7 +724,7 @@
     "source_id": "actor_0015",
     "target_id": "actor_0006",
     "type": "member_of",
-    "summary": "Lien d'appartenance, de représentation ou de fonction rapporté dans la documentation de l'acteur.",
+    "summary": "Éric Domenge-Abeau est élu de « Châteauroux humaniste, écologique et sociale », comme l'indique la presse locale.",
     "certainty": "high",
     "status": "documented",
     "evidence_ids": [
@@ -834,6 +819,21 @@
     "status": "documented",
     "evidence_ids": [
       "evidence_chateauroux_20261107_035"
+    ],
+    "valid_from": null,
+    "valid_to": null,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "relation_qual_057",
+    "source_id": "actor_0016",
+    "target_id": "project_google_ozans",
+    "type": "position_on",
+    "summary": "Emmanuel de Saint-Pol, agriculteur cité par Le Monde le 30 mai 2026, regrette la perspective d'un projet industriel sur des terres propices à la culture. Il exprime une réserve sur le choix foncier, sans déclarer explicitement une opposition militante à toute implantation.",
+    "certainty": "high",
+    "status": "documented",
+    "evidence_ids": [
+      "evidence_chateauroux_20261107_067"
     ],
     "valid_from": null,
     "valid_to": null,

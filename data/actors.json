@@ -108,9 +108,9 @@
   {
     "id": "actor_0006",
     "type": "entity",
-    "name": "Union de la gauche citoyenne",
-    "short_name": "Union de la gauche citoyenne",
-    "description": "Formation locale critique",
+    "name": "Châteauroux humaniste, écologique et sociale",
+    "short_name": "Châteauroux humaniste",
+    "description": "Liste de gauche locale représentée notamment par Éric Domenge-Abeau, élu à Châteauroux en 2026; position débattue en conseil communautaire.",
     "roles": [
       {
         "label": "Formation locale critique"
@@ -574,24 +574,6 @@
     "display_in_cards": true
   },
   {
-    "id": "actor_0066",
-    "type": "entity",
-    "name": "CGT Indre",
-    "short_name": "CGT Indre",
-    "description": "Syndicat",
-    "roles": [
-      {
-        "label": "Syndicat"
-      }
-    ],
-    "categories": [
-      "orgs"
-    ],
-    "updated_at": "2026-11-07",
-    "timeline_category": "associations",
-    "display_in_cards": true
-  },
-  {
     "id": "actor_0067",
     "type": "entity",
     "name": "Delphine Chambonneau",
@@ -913,5 +895,23 @@
     ],
     "updated_at": "2026-11-07",
     "display_in_cards": false
+  },
+  {
+    "id": "actor_0016",
+    "type": "actor",
+    "name": "Emmanuel de Saint-Pol",
+    "short_name": "Emmanuel de Saint-Pol",
+    "description": "Agriculteur à Étrechet, exploitant 67 hectares de blé sur des terres réservées au projet de Google.",
+    "roles": [
+      {
+        "label": "Agriculteur local témoignant de la perte de terres cultivées"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "timeline_category": "other",
+    "display_in_cards": true,
+    "updated_at": "2026-11-07"
   }
 ]

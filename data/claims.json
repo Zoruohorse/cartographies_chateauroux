@@ -40,13 +40,13 @@
     "claim_type": "position",
     "topic": "position_globale",
     "value": "opposed",
-    "summary": "Les Écologistes participent à la mobilisation contre le projet Google d'Étrechet et demandent un débat sur ses impacts.",
+    "summary": "Les Écologistes ont impulsé la réunion publique du 29 mai 2026 à Châteauroux contre l'implantation du centre Google, réunion qui a contribué à fédérer Ozans dire non.",
     "certainty": "high",
     "status": "attributed_or_documented",
     "evidence_ids": [
       "evidence_chateauroux_20261107_003"
     ],
-    "valid_from": "2026-10-17",
+    "valid_from": "2026-05-30",
     "valid_to": null,
     "updated_at": "2026-11-07"
   },
@@ -91,7 +91,7 @@
     "claim_type": "position",
     "topic": "position_globale",
     "value": "opposed",
-    "summary": "L'Union de la gauche citoyenne est représentée dans la contestation par Éric Domenge-Abeau, qui critique le dimensionnement et l'électricité du projet.",
+    "summary": "Éric Domenge-Abeau, élu de la liste « Châteauroux humaniste, écologique et sociale », exprime en juin 2026 des critiques sur les besoins électriques et le dimensionnement du campus Google.",
     "certainty": "high",
     "status": "attributed_or_documented",
     "evidence_ids": [
@@ -108,13 +108,13 @@
     "claim_type": "position",
     "topic": "position_globale",
     "value": "opposed",
-    "summary": "La France insoumise de l'Indre figure parmi les formations ayant contesté publiquement le projet et ses conditions d'implantation.",
+    "summary": "La France insoumise de l'Indre demande explicitement l'abandon du projet Google Ozans et un moratoire dans sa propre pétition en ligne, reproduite dans le corpus.",
     "certainty": "high",
     "status": "attributed_or_documented",
     "evidence_ids": [
       "evidence_chateauroux_20261107_007"
     ],
-    "valid_from": "2026-06-22",
+    "valid_from": null,
     "valid_to": null,
     "updated_at": "2026-11-07"
   },
@@ -125,13 +125,13 @@
     "claim_type": "position",
     "topic": "position_globale",
     "value": "opposed",
-    "summary": "Jérémie Godet, vice-président régional, critique l'artificialisation, les risques environnementaux et le dimensionnement de Google Ozans.",
+    "summary": "Jérémie Godet, vice-président de la Région Centre-Val de Loire, est cité par France 3 comme l'un des animateurs de l'opposition, notamment sur la chaleur et les effets environnementaux du campus.",
     "certainty": "high",
     "status": "attributed_or_documented",
     "evidence_ids": [
       "evidence_chateauroux_20261107_008"
     ],
-    "valid_from": "2026-09-21",
+    "valid_from": "2026-05-29",
     "valid_to": null,
     "updated_at": "2026-11-07"
   },
@@ -176,13 +176,13 @@
     "claim_type": "position",
     "topic": "position_globale",
     "value": "neutral",
-    "summary": "Cyrielle Chatelain s'inquiète de la faible densité d'emplois annoncée comparée à l'emprise foncière; critique documentée, sans recours personnel identifié.",
+    "summary": "Cyrielle Chatelain critique le contraste entre les superficies mobilisées et les créations d'emplois annoncées; France 3 lui attribue des réserves sur le caractère illusoire de certaines promesses d'emploi.",
     "certainty": "high",
     "status": "attributed_or_documented",
     "evidence_ids": [
       "evidence_chateauroux_20261107_011"
     ],
-    "valid_from": "2026-10-12",
+    "valid_from": "2026-05-29",
     "valid_to": null,
     "updated_at": "2026-11-07"
   },
@@ -244,13 +244,13 @@
     "claim_type": "position",
     "topic": "position_globale",
     "value": "unknown",
-    "summary": "La chambre d'agriculture est mentionnée par Gil Avérous dans ses réflexions sur une valorisation thermique agricole; aucun soutien institutionnel autonome n'est identifié.",
+    "summary": "Gil Avérous cite la Chambre d'agriculture dans les réflexions sur la valorisation de chaleur en serres; cette évocation ne démontre aucun soutien officiel autonome au data center.",
     "certainty": "low",
     "status": "role_documented_no_position",
     "evidence_ids": [
       "evidence_chateauroux_20261107_015"
     ],
-    "valid_from": "2026-10-12",
+    "valid_from": null,
     "valid_to": null,
     "updated_at": "2026-11-07"
   },
@@ -523,23 +523,6 @@
       "evidence_chateauroux_20261107_031"
     ],
     "valid_from": "2026-06-22",
-    "valid_to": null,
-    "updated_at": "2026-11-07"
-  },
-  {
-    "id": "claim_qual_actor_0066",
-    "subject_id": "actor_0066",
-    "project_id": "project_google_ozans",
-    "claim_type": "position",
-    "topic": "position_globale",
-    "value": "opposed",
-    "summary": "La CGT de l'Indre figure dans la mobilisation territoriale contre le centre de données Google, aux côtés du collectif Ozans dire non.",
-    "certainty": "high",
-    "status": "attributed_or_documented",
-    "evidence_ids": [
-      "evidence_chateauroux_20261107_032"
-    ],
-    "valid_from": "2026-06-30",
     "valid_to": null,
     "updated_at": "2026-11-07"
   },
@@ -829,6 +812,23 @@
       "evidence_chateauroux_20261107_049"
     ],
     "valid_from": "2026-10-12",
+    "valid_to": null,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "claim_qual_actor_0016",
+    "subject_id": "actor_0016",
+    "project_id": "project_google_ozans",
+    "claim_type": "position",
+    "topic": "position_globale",
+    "value": "neutral",
+    "summary": "Emmanuel de Saint-Pol, agriculteur cité par Le Monde le 30 mai 2026, regrette la perspective d'un projet industriel sur des terres propices à la culture. Il exprime une réserve sur le choix foncier, sans déclarer explicitement une opposition militante à toute implantation.",
+    "certainty": "high",
+    "status": "attributed_or_documented",
+    "evidence_ids": [
+      "evidence_chateauroux_20261107_067"
+    ],
+    "valid_from": "2026-05-30",
     "valid_to": null,
     "updated_at": "2026-11-07"
   }

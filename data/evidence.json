@@ -26,13 +26,13 @@
   {
     "id": "evidence_chateauroux_20261107_003",
     "type": "attributed_summary",
-    "text": "Les Écologistes participent à la mobilisation contre le projet Google d'Étrechet et demandent un débat sur ses impacts.",
-    "source_id": "source_qual_marianne",
+    "text": "Les Écologistes ont impulsé la réunion publique du 29 mai 2026 à Châteauroux contre l'implantation du centre Google, réunion qui a contribué à fédérer Ozans dire non.",
+    "source_id": "source_qual_lemonde_may",
     "source_ids": [
-      "source_qual_marianne"
+      "source_qual_lemonde_may"
     ],
     "source_status": "qualified",
-    "verification": "public_primary_reviewed",
+    "verification": "directly_reviewed_2026-11-07",
     "recorded_at": "2026-11-07"
   },
   {
@@ -62,7 +62,7 @@
   {
     "id": "evidence_chateauroux_20261107_006",
     "type": "attributed_summary",
-    "text": "L'Union de la gauche citoyenne est représentée dans la contestation par Éric Domenge-Abeau, qui critique le dimensionnement et l'électricité du projet.",
+    "text": "Éric Domenge-Abeau, élu de la liste « Châteauroux humaniste, écologique et sociale », exprime en juin 2026 des critiques sur les besoins électriques et le dimensionnement du campus Google.",
     "source_id": "source_qual_w80",
     "source_ids": [
       "source_qual_w80"
@@ -74,25 +74,25 @@
   {
     "id": "evidence_chateauroux_20261107_007",
     "type": "attributed_summary",
-    "text": "La France insoumise de l'Indre figure parmi les formations ayant contesté publiquement le projet et ses conditions d'implantation.",
-    "source_id": "source_qual_w87",
+    "text": "La France insoumise de l'Indre demande explicitement l'abandon du projet Google Ozans et un moratoire dans sa propre pétition en ligne, reproduite dans le corpus.",
+    "source_id": "source_qual_lfi",
     "source_ids": [
-      "source_qual_w87"
+      "source_qual_lfi"
     ],
     "source_status": "qualified",
-    "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
+    "verification": "primary_position_full_text_supplied_in_Chateauroux_xlsx",
     "recorded_at": "2026-11-07"
   },
   {
     "id": "evidence_chateauroux_20261107_008",
     "type": "attributed_summary",
-    "text": "Jérémie Godet, vice-président régional, critique l'artificialisation, les risques environnementaux et le dimensionnement de Google Ozans.",
-    "source_id": "source_qual_w46",
+    "text": "Jérémie Godet, vice-président de la Région Centre-Val de Loire, est cité par France 3 comme l'un des animateurs de l'opposition, notamment sur la chaleur et les effets environnementaux du campus.",
+    "source_id": "source_qual_w96",
     "source_ids": [
-      "source_qual_w46"
+      "source_qual_w96"
     ],
     "source_status": "qualified",
-    "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
+    "verification": "full_text_supplied_in_Chateauroux_xlsx",
     "recorded_at": "2026-11-07"
   },
   {
@@ -122,13 +122,13 @@
   {
     "id": "evidence_chateauroux_20261107_011",
     "type": "attributed_summary",
-    "text": "Cyrielle Chatelain s'inquiète de la faible densité d'emplois annoncée comparée à l'emprise foncière; critique documentée, sans recours personnel identifié.",
-    "source_id": "source_qual_w20",
+    "text": "Cyrielle Chatelain critique le contraste entre les superficies mobilisées et les créations d'emplois annoncées; France 3 lui attribue des réserves sur le caractère illusoire de certaines promesses d'emploi.",
+    "source_id": "source_qual_w96",
     "source_ids": [
-      "source_qual_w20"
+      "source_qual_w96"
     ],
     "source_status": "qualified",
-    "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
+    "verification": "full_text_supplied_in_Chateauroux_xlsx",
     "recorded_at": "2026-11-07"
   },
   {
@@ -170,13 +170,13 @@
   {
     "id": "evidence_chateauroux_20261107_015",
     "type": "attributed_summary",
-    "text": "La chambre d'agriculture est mentionnée par Gil Avérous dans ses réflexions sur une valorisation thermique agricole; aucun soutien institutionnel autonome n'est identifié.",
-    "source_id": "source_qual_w20",
+    "text": "Gil Avérous cite la Chambre d'agriculture dans les réflexions sur la valorisation de chaleur en serres; cette évocation ne démontre aucun soutien officiel autonome au data center.",
+    "source_id": "source_qual_w96",
     "source_ids": [
-      "source_qual_w20"
+      "source_qual_w96"
     ],
     "source_status": "qualified",
-    "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
+    "verification": "full_text_supplied_in_Chateauroux_xlsx",
     "recorded_at": "2026-11-07"
   },
   {
@@ -366,18 +366,6 @@
     "source_id": "source_qual_w87",
     "source_ids": [
       "source_qual_w87"
-    ],
-    "source_status": "qualified",
-    "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
-    "recorded_at": "2026-11-07"
-  },
-  {
-    "id": "evidence_chateauroux_20261107_032",
-    "type": "attributed_summary",
-    "text": "La CGT de l'Indre figure dans la mobilisation territoriale contre le centre de données Google, aux côtés du collectif Ozans dire non.",
-    "source_id": "source_qual_w84",
-    "source_ids": [
-      "source_qual_w84"
     ],
     "source_status": "qualified",
     "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
@@ -789,6 +777,18 @@
     ],
     "source_status": "qualified",
     "verification": "public_primary_reviewed",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_chateauroux_20261107_067",
+    "type": "attributed_summary",
+    "text": "Emmanuel de Saint-Pol, agriculteur cité par Le Monde le 30 mai 2026, regrette la perspective d'un projet industriel sur des terres propices à la culture. Il exprime une réserve sur le choix foncier, sans déclarer explicitement une opposition militante à toute implantation.",
+    "source_id": "source_qual_lemonde_may",
+    "source_ids": [
+      "source_qual_lemonde_may"
+    ],
+    "source_status": "qualified",
+    "verification": "directly_reviewed_2026-11-07",
     "recorded_at": "2026-11-07"
   }
 ]

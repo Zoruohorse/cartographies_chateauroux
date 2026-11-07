@@ -1,213 +1,17 @@
 [
   {
-    "id": "timeline_qual_actor_0001",
-    "actor_id": "actor_0001",
+    "id": "timeline_qual_actor_0085",
+    "actor_id": "actor_0085",
     "event_type": "first_documented_position",
-    "date": "2026-05-13",
+    "date": "2025-06-01",
     "date_precision": "day",
     "source_ids": [
-      "source_qual_w100"
+      "source_qual_metro"
     ],
     "confidence": "medium",
     "status": "confirmed",
     "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "Le collectif Ozans dire non demande l'abandon du projet Google et la transparence sur le foncier, l'eau et l'électricité."
-  },
-  {
-    "id": "timeline_qual_actor_0002",
-    "actor_id": "actor_0002",
-    "event_type": "first_documented_position",
-    "date": "2026-06-01",
-    "date_precision": "day",
-    "source_ids": [
-      "source_qual_w87"
-    ],
-    "confidence": "medium",
-    "status": "confirmed",
-    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "La fédération PCF de l'Indre s'est prononcée contre le projet d'Ozans, selon le compte rendu des prises de position locales."
-  },
-  {
-    "id": "timeline_qual_actor_0003",
-    "actor_id": "actor_0003",
-    "event_type": "first_documented_position",
-    "date": "2026-10-17",
-    "date_precision": "day",
-    "source_ids": [
-      "source_qual_marianne"
-    ],
-    "confidence": "medium",
-    "status": "confirmed",
-    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "Les Écologistes participent à la mobilisation contre le projet Google d'Étrechet et demandent un débat sur ses impacts."
-  },
-  {
-    "id": "timeline_qual_actor_0004",
-    "actor_id": "actor_0004",
-    "event_type": "first_documented_position",
-    "date": "2026-10-07",
-    "date_precision": "day",
-    "source_ids": [
-      "source_qual_conf"
-    ],
-    "confidence": "medium",
-    "status": "confirmed",
-    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "La Confédération paysanne de l'Indre appelle explicitement à s'opposer au data center Google le 17 octobre 2026 pour préserver terres, eau et électricité."
-  },
-  {
-    "id": "timeline_qual_actor_0005",
-    "actor_id": "actor_0005",
-    "event_type": "first_documented_position",
-    "date": "2026-10-17",
-    "date_precision": "day",
-    "source_ids": [
-      "source_qual_fne"
-    ],
-    "confidence": "medium",
-    "status": "confirmed",
-    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "Indre Nature a soutenu la mobilisation locale du 17 octobre et animé une discussion portant sur les raisons de s'opposer au campus Google."
-  },
-  {
-    "id": "timeline_qual_actor_0006",
-    "actor_id": "actor_0006",
-    "event_type": "first_documented_position",
-    "date": "2026-06-30",
-    "date_precision": "day",
-    "source_ids": [
-      "source_qual_w80"
-    ],
-    "confidence": "medium",
-    "status": "confirmed",
-    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "L'Union de la gauche citoyenne est représentée dans la contestation par Éric Domenge-Abeau, qui critique le dimensionnement et l'électricité du projet."
-  },
-  {
-    "id": "timeline_qual_actor_0007",
-    "actor_id": "actor_0007",
-    "event_type": "first_documented_position",
-    "date": "2026-06-22",
-    "date_precision": "day",
-    "source_ids": [
-      "source_qual_w87"
-    ],
-    "confidence": "medium",
-    "status": "confirmed",
-    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "La France insoumise de l'Indre figure parmi les formations ayant contesté publiquement le projet et ses conditions d'implantation."
-  },
-  {
-    "id": "timeline_qual_actor_0008",
-    "actor_id": "actor_0008",
-    "event_type": "first_documented_position",
-    "date": "2026-09-21",
-    "date_precision": "day",
-    "source_ids": [
-      "source_qual_w46"
-    ],
-    "confidence": "medium",
-    "status": "confirmed",
-    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "Jérémie Godet, vice-président régional, critique l'artificialisation, les risques environnementaux et le dimensionnement de Google Ozans."
-  },
-  {
-    "id": "timeline_qual_actor_0010",
-    "actor_id": "actor_0010",
-    "event_type": "first_documented_position",
-    "date": "2026-10-16",
-    "date_precision": "day",
-    "source_ids": [
-      "source_qual_w14"
-    ],
-    "confidence": "medium",
-    "status": "confirmed",
-    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "Francis Martinet, membre d'Ozans dire non, qualifie le projet de destructeur et dénonce l'absence de réponses suffisantes aux habitants."
-  },
-  {
-    "id": "timeline_qual_actor_0012",
-    "actor_id": "actor_0012",
-    "event_type": "first_documented_position",
-    "date": "2026-05-13",
-    "date_precision": "day",
-    "source_ids": [
-      "source_qual_w100"
-    ],
-    "confidence": "medium",
-    "status": "confirmed",
-    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "Raphaël Tillie, porte-parole du collectif, conteste la perte de terres agricoles, la chaleur possible et la justification de souveraineté du projet Google."
-  },
-  {
-    "id": "timeline_qual_actor_0013",
-    "actor_id": "actor_0013",
-    "event_type": "first_documented_position",
-    "date": "2026-10-12",
-    "date_precision": "day",
-    "source_ids": [
-      "source_qual_w20"
-    ],
-    "confidence": "medium",
-    "status": "confirmed",
-    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "Cyrielle Chatelain s'inquiète de la faible densité d'emplois annoncée comparée à l'emprise foncière; critique documentée, sans recours personnel identifié."
-  },
-  {
-    "id": "timeline_qual_actor_0015",
-    "actor_id": "actor_0015",
-    "event_type": "first_documented_position",
-    "date": "2026-06-30",
-    "date_precision": "day",
-    "source_ids": [
-      "source_qual_w80"
-    ],
-    "confidence": "medium",
-    "status": "confirmed",
-    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "Éric Domenge-Abeau dénonce le secret autour de Google Ozans, le risque de conflit d'usage électrique et l'impact des liaisons HT, tout en reconnaissant l'utilité possible d'autres data centers."
-  },
-  {
-    "id": "timeline_qual_actor_0018",
-    "actor_id": "actor_0018",
-    "event_type": "first_documented_position",
-    "date": "2026-10-28",
-    "date_precision": "day",
-    "source_ids": [
-      "source_qual_w9"
-    ],
-    "confidence": "medium",
-    "status": "confirmed",
-    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "Gil Avérous, maire de Châteauroux et président de la Métropole, défend le projet pour ses retombées économiques et annonce des garanties qui restent à documenter."
-  },
-  {
-    "id": "timeline_qual_actor_0019",
-    "actor_id": "actor_0019",
-    "event_type": "first_documented_position",
-    "date": "2026-09-21",
-    "date_precision": "day",
-    "source_ids": [
-      "source_qual_w46"
-    ],
-    "confidence": "medium",
-    "status": "confirmed",
-    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "François Bonneau, président de la Région, se déclare défavorable au projet en l'état et alerte sur le foncier, l'énergie et la souveraineté; il ne rejette pas toutes les infrastructures numériques."
-  },
-  {
-    "id": "timeline_qual_actor_0026",
-    "actor_id": "actor_0026",
-    "event_type": "first_documented_position",
-    "date": "2026-10-12",
-    "date_precision": "day",
-    "source_ids": [
-      "source_qual_project"
-    ],
-    "confidence": "medium",
-    "status": "confirmed",
-    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "Google porte le projet de centre de données sur la ZAC d'Ozans, annoncé en 6 à 8 bâtiments au maximum sur 10 à 20 ans; les autorisations et investissements finaux restent conditionnels."
+    "summary": "Châteauroux Métropole porte la commercialisation du foncier d'Ozans, défend son développement économique et publie la procédure de concertation."
   },
   {
     "id": "timeline_qual_actor_0027",
@@ -252,18 +56,102 @@
     "summary": "Violet Computing figure parmi les filiales de Google co-maîtres d'ouvrage du projet, selon la décision du 1er avril 2026."
   },
   {
-    "id": "timeline_qual_actor_0049",
-    "actor_id": "actor_0049",
+    "id": "timeline_qual_actor_0001",
+    "actor_id": "actor_0001",
     "event_type": "first_documented_position",
-    "date": "2026-09-25",
+    "date": "2026-05-13",
     "date_precision": "day",
     "source_ids": [
-      "source_qual_w43"
+      "source_qual_w100"
     ],
     "confidence": "medium",
     "status": "confirmed",
     "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "Lou Welgryn (Data for Good) interroge la nécessité sociale de la croissance des besoins en calcul IA dans un sujet qui évoque Ozans; aucune action contentieuse personnelle n'est établie."
+    "summary": "Le collectif Ozans dire non demande l'abandon du projet Google et la transparence sur le foncier, l'eau et l'électricité."
+  },
+  {
+    "id": "timeline_qual_actor_0012",
+    "actor_id": "actor_0012",
+    "event_type": "first_documented_position",
+    "date": "2026-05-13",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w100"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Raphaël Tillie, porte-parole du collectif, conteste la perte de terres agricoles, la chaleur possible et la justification de souveraineté du projet Google."
+  },
+  {
+    "id": "timeline_qual_actor_0008",
+    "actor_id": "actor_0008",
+    "event_type": "first_documented_position",
+    "date": "2026-05-29",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w96"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "Date de l'article citant cet acteur ou de la prise de parole.",
+    "summary": "Première prise de position sourcée : Jérémie Godet, vice-président de la Région Centre-Val de Loire, est cité par France 3 comme l'un des animateurs de l'opposition, notamment sur la chaleur et les effets environnementaux du campus."
+  },
+  {
+    "id": "timeline_qual_actor_0013",
+    "actor_id": "actor_0013",
+    "event_type": "first_documented_position",
+    "date": "2026-05-29",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w96"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "Date de l'article citant cet acteur ou de la prise de parole.",
+    "summary": "Première prise de position sourcée : Cyrielle Chatelain critique le contraste entre les superficies mobilisées et les créations d'emplois annoncées; France 3 lui attribue des réserves sur le caractère illusoire de certaines promesses d'emploi."
+  },
+  {
+    "id": "timeline_qual_actor_0003",
+    "actor_id": "actor_0003",
+    "event_type": "first_documented_position",
+    "date": "2026-05-30",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_lemonde_may"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "Date de l'article citant cet acteur ou de la prise de parole.",
+    "summary": "Première prise de position sourcée : Les Écologistes ont impulsé la réunion publique du 29 mai 2026 à Châteauroux contre l'implantation du centre Google, réunion qui a contribué à fédérer Ozans dire non."
+  },
+  {
+    "id": "timeline_qual_actor_0016",
+    "actor_id": "actor_0016",
+    "event_type": "first_documented_position",
+    "date": "2026-05-30",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_lemonde_may"
+    ],
+    "confidence": "high",
+    "status": "confirmed",
+    "date_basis": "Article Le Monde publié le 30 mai 2026",
+    "summary": "Emmanuel de Saint-Pol, agriculteur cité par Le Monde le 30 mai 2026, regrette la perspective d'un projet industriel sur des terres propices à la culture. Il exprime une réserve sur le choix foncier, sans déclarer explicitement une opposition militante à toute implantation."
+  },
+  {
+    "id": "timeline_qual_actor_0002",
+    "actor_id": "actor_0002",
+    "event_type": "first_documented_position",
+    "date": "2026-06-01",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w87"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "La fédération PCF de l'Indre s'est prononcée contre le projet d'Ozans, selon le compte rendu des prises de position locales."
   },
   {
     "id": "timeline_qual_actor_0054",
@@ -294,18 +182,32 @@
     "summary": "Sébastien Missoffe, dirigeant de Google France, confirme l'étude du projet tout en indiquant qu'aucune décision finale d'investissement n'est alors prise."
   },
   {
-    "id": "timeline_qual_actor_0066",
-    "actor_id": "actor_0066",
+    "id": "timeline_qual_actor_0006",
+    "actor_id": "actor_0006",
     "event_type": "first_documented_position",
     "date": "2026-06-30",
     "date_precision": "day",
     "source_ids": [
-      "source_qual_w84"
+      "source_qual_w80"
     ],
     "confidence": "medium",
     "status": "confirmed",
     "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "La CGT de l'Indre figure dans la mobilisation territoriale contre le centre de données Google, aux côtés du collectif Ozans dire non."
+    "summary": "L'Union de la gauche citoyenne est représentée dans la contestation par Éric Domenge-Abeau, qui critique le dimensionnement et l'électricité du projet."
+  },
+  {
+    "id": "timeline_qual_actor_0015",
+    "actor_id": "actor_0015",
+    "event_type": "first_documented_position",
+    "date": "2026-06-30",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w80"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Éric Domenge-Abeau dénonce le secret autour de Google Ozans, le risque de conflit d'usage électrique et l'impact des liaisons HT, tout en reconnaissant l'utilité possible d'autres data centers."
   },
   {
     "id": "timeline_qual_actor_0067",
@@ -334,20 +236,6 @@
     "status": "confirmed",
     "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
     "summary": "Bruno Mascle, élu à Déols, fait partie des trois conseillers communautaires ayant voté contre la délibération de juin 2026 concernant Google Ozans."
-  },
-  {
-    "id": "timeline_qual_actor_0080",
-    "actor_id": "actor_0080",
-    "event_type": "first_documented_position",
-    "date": "2026-09-15",
-    "date_precision": "day",
-    "source_ids": [
-      "source_qual_resign"
-    ],
-    "confidence": "medium",
-    "status": "confirmed",
-    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "Florence Laurent, ancienne maire d'Étrechet, a démissionné le 15 septembre 2026 en contestant l'insuffisance de pouvoir communal et les conditions de gouvernance du projet."
   },
   {
     "id": "timeline_qual_actor_0081",
@@ -406,18 +294,88 @@
     "summary": "Sylvie Gessier, conseillère municipale, participe à la démission collective visant à dénoncer le manque de prise sur les décisions relatives au projet."
   },
   {
-    "id": "timeline_qual_actor_0085",
-    "actor_id": "actor_0085",
+    "id": "timeline_qual_actor_0080",
+    "actor_id": "actor_0080",
     "event_type": "first_documented_position",
-    "date": "2025-06-01",
+    "date": "2026-09-15",
     "date_precision": "day",
     "source_ids": [
-      "source_qual_metro"
+      "source_qual_resign"
     ],
     "confidence": "medium",
     "status": "confirmed",
     "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "Châteauroux Métropole porte la commercialisation du foncier d'Ozans, défend son développement économique et publie la procédure de concertation."
+    "summary": "Florence Laurent, ancienne maire d'Étrechet, a démissionné le 15 septembre 2026 en contestant l'insuffisance de pouvoir communal et les conditions de gouvernance du projet."
+  },
+  {
+    "id": "timeline_qual_actor_0019",
+    "actor_id": "actor_0019",
+    "event_type": "first_documented_position",
+    "date": "2026-09-21",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w46"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "François Bonneau, président de la Région, se déclare défavorable au projet en l'état et alerte sur le foncier, l'énergie et la souveraineté; il ne rejette pas toutes les infrastructures numériques."
+  },
+  {
+    "id": "timeline_qual_actor_0049",
+    "actor_id": "actor_0049",
+    "event_type": "first_documented_position",
+    "date": "2026-09-25",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w43"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Lou Welgryn (Data for Good) interroge la nécessité sociale de la croissance des besoins en calcul IA dans un sujet qui évoque Ozans; aucune action contentieuse personnelle n'est établie."
+  },
+  {
+    "id": "timeline_qual_actor_0004",
+    "actor_id": "actor_0004",
+    "event_type": "first_documented_position",
+    "date": "2026-10-07",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_conf"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "La Confédération paysanne de l'Indre appelle explicitement à s'opposer au data center Google le 17 octobre 2026 pour préserver terres, eau et électricité."
+  },
+  {
+    "id": "timeline_qual_actor_0117",
+    "actor_id": "actor_0117",
+    "event_type": "first_documented_position",
+    "date": "2026-10-08",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_libe"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Marc Lyster, agriculteur riverain, redoute les conséquences du futur campus pour le cadre de vie et l'activité sur ses terres, dans un reportage d'octobre."
+  },
+  {
+    "id": "timeline_qual_actor_0026",
+    "actor_id": "actor_0026",
+    "event_type": "first_documented_position",
+    "date": "2026-10-12",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_project"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Google porte le projet de centre de données sur la ZAC d'Ozans, annoncé en 6 à 8 bâtiments au maximum sur 10 à 20 ans; les autorisations et investissements finaux restent conditionnels."
   },
   {
     "id": "timeline_qual_actor_0113",
@@ -448,6 +406,34 @@
     "summary": "François Ruffin, après avoir rencontré les opposants d'Ozans, promeut un moratoire sur les centres de données non souverains et critique la dépendance aux GAFAM."
   },
   {
+    "id": "timeline_qual_actor_0010",
+    "actor_id": "actor_0010",
+    "event_type": "first_documented_position",
+    "date": "2026-10-16",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w14"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Francis Martinet, membre d'Ozans dire non, qualifie le projet de destructeur et dénonce l'absence de réponses suffisantes aux habitants."
+  },
+  {
+    "id": "timeline_qual_actor_0005",
+    "actor_id": "actor_0005",
+    "event_type": "first_documented_position",
+    "date": "2026-10-17",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_fne"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Indre Nature a soutenu la mobilisation locale du 17 octobre et animé une discussion portant sur les raisons de s'opposer au campus Google."
+  },
+  {
     "id": "timeline_qual_actor_0115",
     "actor_id": "actor_0115",
     "event_type": "first_documented_position",
@@ -476,17 +462,17 @@
     "summary": "Thierry Chareyre, administrateur d'Indre Nature, anime lors du rassemblement du 17 octobre une table ronde explicitement consacrée à l'opposition au méga data center."
   },
   {
-    "id": "timeline_qual_actor_0117",
-    "actor_id": "actor_0117",
+    "id": "timeline_qual_actor_0018",
+    "actor_id": "actor_0018",
     "event_type": "first_documented_position",
-    "date": "2026-10-08",
+    "date": "2026-10-28",
     "date_precision": "day",
     "source_ids": [
-      "source_qual_libe"
+      "source_qual_w9"
     ],
     "confidence": "medium",
     "status": "confirmed",
     "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
-    "summary": "Marc Lyster, agriculteur riverain, redoute les conséquences du futur campus pour le cadre de vie et l'activité sur ses terres, dans un reportage d'octobre."
+    "summary": "Gil Avérous, maire de Châteauroux et président de la Métropole, défend le projet pour ses retombées économiques et annonce des garanties qui restent à documenter."
   }
 ]

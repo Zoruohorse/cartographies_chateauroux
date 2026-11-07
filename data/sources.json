@@ -372,5 +372,38 @@
     "provenance": "Châteauroux.xlsx",
     "status": "qualified",
     "updated_at": "2026-11-07"
+  },
+  {
+    "id": "source_qual_w96",
+    "publisher": "France 3 Centre-Val de Loire",
+    "title": "Pourquoi le premier data center de Google en France divise",
+    "url": "https://france3-regions.franceinfo.fr/centre-val-de-loire/indre/pourquoi-le-premier-data-center-de-google-en-france-divise-3359485.html",
+    "source_type": "direct_actor_source",
+    "verification": "full_text_supplied_in_Chateauroux_xlsx",
+    "provenance": "Châteauroux.xlsx, ressource 96 : passages sur Godet, Chatelain, Chambre d'agriculture",
+    "status": "qualified",
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "source_qual_lfi",
+    "publisher": "La France insoumise de l'Indre / MyPetition",
+    "title": "Non au projet de data center de Google à Châteauroux !",
+    "url": "https://www.mypetition.org/petition/politique/projet-data-center-google-a-chateauroux/244352",
+    "source_type": "direct_actor_source",
+    "verification": "primary_position_full_text_supplied_in_Chateauroux_xlsx",
+    "provenance": "Châteauroux.xlsx, ressource 88; texte signé par les militants LFI de l'Indre",
+    "status": "qualified",
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "source_qual_lemonde_may",
+    "publisher": "Le Monde",
+    "title": "À Châteauroux, la contestation contre le projet de data center de Google s’organise",
+    "url": "https://www.lemonde.fr/economie/article/2026/05/30/a-chateauroux-la-contestation-contre-le-projet-de-data-center-de-google-s-organise_6695249_3234.html",
+    "source_type": "direct_actor_source",
+    "verification": "directly_reviewed_2026-11-07",
+    "provenance": "Article Le Monde du 30 mai 2026 : mobilisation initiée par Les Écologistes, témoignage d'Emmanuel de Saint-Pol",
+    "status": "qualified",
+    "updated_at": "2026-11-07"
   }
 ]
