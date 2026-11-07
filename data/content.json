@@ -1,13 +1,412 @@
 {
+  "project_status": "Projet soumis à la concertation préalable CNDP (2 novembre 2026–10 janvier 2027), sans permis final ni mise en service constatés au 7 novembre 2026.",
+  "project_summary": "Campus Google à Ozans–Étrechet et raccordement RTE; 120 MW initiaux à 225 kV, puis montée en puissance sur 400 kV; 6 à 8 bâtiments envisagés sur 10 à 20 ans.",
   "griefs": [
-    {"id": "grief_001", "icon": "⚡", "title": "Énergie et raccordement", "text": "Les positions recensées font apparaître des interrogations sur la consommation électrique, le raccordement et les effets sur le réseau.", "evidence_ids": ["evidence_0030", "evidence_0073"]},
-    {"id": "grief_002", "icon": "🌿", "title": "Environnement et foncier", "text": "Plusieurs contributions abordent l’emprise foncière, l’artificialisation, la biodiversité et les effets environnementaux du projet.", "evidence_ids": ["evidence_0005", "evidence_0008", "evidence_0075"]},
-    {"id": "grief_003", "icon": "🏘️", "title": "Territoire et cadre de vie", "text": "Les données rassemblent des préoccupations relatives au territoire, aux riverains, aux nuisances et à l’intégration locale du projet.", "evidence_ids": ["evidence_0077"]},
-    {"id": "grief_004", "icon": "📑", "title": "Concertation et gouvernance", "text": "Le niveau d’information, la concertation, la gouvernance et la documentation du projet constituent des sujets récurrents dans le référentiel.", "evidence_ids": ["evidence_0003", "evidence_0017", "evidence_0020", "evidence_0045"]}
+    {
+      "id": "grief_qual_1",
+      "title": "🗣️ Gouvernance et démissions municipales",
+      "text": "Florence Laurent et quatre autres élus d'Étrechet ont démissionné en septembre 2026 en reprochant à la commune de ne pas pouvoir influer sur le dossier. Il s'agit de positions d'élus et non d'une conclusion de la CNDP.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_058",
+        "evidence_chateauroux_20261107_038"
+      ]
+    },
+    {
+      "id": "grief_qual_2",
+      "title": "🌾 Emprise agricole et artificialisation",
+      "text": "Ozans dire non et la Confédération paysanne contestent le changement d'usage des terres et demandent l'abandon du projet. La superficie de 195–200 ha désigne le périmètre étudié, pas nécessairement la surface définitivement imperméabilisée.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_001",
+        "evidence_chateauroux_20261107_004",
+        "evidence_chateauroux_20261107_051"
+      ]
+    },
+    {
+      "id": "grief_qual_3",
+      "title": "⚡ Demande électrique et projets de réseau",
+      "text": "Éric Domenge-Abeau et d'autres critiques interrogent l'allocation de puissance. Les phases RTE sont 120 MW à 225 kV, 300 MW à 400 kV, puis jusqu'à 1 200 MW sur le raccordement 400 kV : ce sont des puissances prévues, pas une énergie annuelle consommée.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_012",
+        "evidence_chateauroux_20261107_051"
+      ]
+    },
+    {
+      "id": "grief_qual_4",
+      "title": "💧 Eau, chaleur et biodiversité",
+      "text": "Des habitants et élus évoquent de possibles besoins d'eau, émissions de chaleur ou perturbations agricoles. Les procédés précis et leur efficacité restent à instruire; aucune pollution par PFAS ni dôme de chaleur réel imputable à ce site inexistant ne sont établis.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_014",
+        "evidence_chateauroux_20261107_061"
+      ]
+    },
+    {
+      "id": "grief_qual_5",
+      "title": "🔒 Souveraineté et opérateur américain",
+      "text": "Le PS de l'Indre et François Ruffin questionnent le contrôle des données, la propriété du capital et la dépendance à un groupe américain. Ce grief est une analyse politique; il ne prouve pas une infraction à la protection des données.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_064",
+        "evidence_chateauroux_20261107_044"
+      ]
+    },
+    {
+      "id": "grief_qual_6",
+      "title": "🏘️ Emploi local et retombées fiscales",
+      "text": "Gil Avérous souligne emplois et fiscalité, mais les chiffres du dossier (construction et exploitation) cumulent des effets directs, indirects et induits. Ils ne doivent pas être présentés comme des emplois permanents créés à Étrechet.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_013",
+        "evidence_chateauroux_20261107_053"
+      ]
+    },
+    {
+      "id": "grief_qual_7",
+      "title": "📋 Concertation et accès à l'information",
+      "text": "La CNDP garantit un débat du 2 novembre 2026 au 10 janvier 2027, mais les opposants critiquent la chronologie des annonces et demandent des études indépendantes. Le déroulement de la concertation ne vaut pas autorisation de construire.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_055",
+        "evidence_chateauroux_20261107_052",
+        "evidence_chateauroux_20261107_036"
+      ]
+    },
+    {
+      "id": "grief_qual_8",
+      "title": "🌿 Projet Lénéo voisin, mais distinct",
+      "text": "Les élus démissionnaires évoquent des effets cumulés avec le projet de méthanisation de paille Lénéo. Les données de prélèvement d'eau de Lénéo ne doivent pas être transférées à Google ni à son raccordement.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_057"
+      ]
+    }
   ],
   "vigilance": [
-    {"id": "vigilance_001", "title": "Qualification des sources", "text": "Les affirmations sans URL ou source primaire doivent rester signalées comme éléments à qualifier.", "evidence_ids": []},
-    {"id": "vigilance_002", "title": "Périmètres et chiffres", "text": "Les surfaces, puissances, calendriers et montants doivent être rapprochés de leur périmètre documentaire exact.", "evidence_ids": ["evidence_0070", "evidence_0085"]},
-    {"id": "vigilance_003", "title": "Positions évolutives", "text": "Les positions présentées sont contextualisées et peuvent évoluer avec les annonces, décisions et nouvelles sources.", "evidence_ids": []}
+    {
+      "id": "vigilance_qual_1",
+      "title": "Concertation en cours",
+      "text": "Du 2 novembre 2026 au 10 janvier 2027. Le 7 novembre, la première réunion du 9 novembre n'a pas encore eu lieu; ne pas présenter un bilan ou un avis final.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_052"
+      ]
+    },
+    {
+      "id": "vigilance_qual_2",
+      "title": "2026 : consultation sans permis final",
+      "text": "La présentation de Google du 12 octobre précise qu'aucune demande de permis de construire n'était alors déposée; le projet demeure soumis à décisions et instructions.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_043",
+        "evidence_chateauroux_20261107_052"
+      ]
+    },
+    {
+      "id": "vigilance_qual_3",
+      "title": "Raccordement 120 MW, puis 300 et 1 200 MW",
+      "text": "Distinguer la première alimentation 225 kV 120 MW du raccordement 400 kV ultérieur et de son extension dépendant notamment d'Éguzon–Marmagne.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_051"
+      ]
+    },
+    {
+      "id": "vigilance_qual_4",
+      "title": "Projet Éguzon–Marmagne distinct",
+      "text": "La ligne nationale 400 kV est présentée comme un projet planifié indépendamment; elle conditionnerait une extension et n'est pas une composante immobilière de Google.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_059"
+      ]
+    },
+    {
+      "id": "vigilance_qual_5",
+      "title": "Surface foncière vs artificialisation",
+      "text": "195 ha cités dans la promesse de vente et environ 200 ha dans la présentation de concertation; l'emprise réglementaire et la surface bâtie ne sont pas synonymes.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_054",
+        "evidence_chateauroux_20261107_051"
+      ]
+    },
+    {
+      "id": "vigilance_qual_6",
+      "title": "6 à 8 bâtiments vs 8 à 10",
+      "text": "La fiche CNDP initiale évoquait 8–10 bâtiments; la présentation du 12 octobre 2026 décrit 6–8 bâtiments étalés sur 10–20 ans.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_051",
+        "evidence_chateauroux_20261107_055"
+      ]
+    },
+    {
+      "id": "vigilance_qual_7",
+      "title": "Investissements annoncés",
+      "text": "Le prix foncier de 58,5 M€ ne représente pas les investissements annoncés de plusieurs milliards; ces derniers demeurent des annonces conditionnelles.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_060",
+        "evidence_chateauroux_20261107_054"
+      ]
+    },
+    {
+      "id": "vigilance_qual_8",
+      "title": "Promesses d'emploi",
+      "text": "Les projections RTE comprennent directs, indirects et induits en moyenne annuelle; il ne s'agit pas d'un effectif permanent déjà recruté.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_053"
+      ]
+    },
+    {
+      "id": "vigilance_qual_9",
+      "title": "Municipales partielles d'Étrechet",
+      "text": "Le scrutin partiel du 8 novembre 2026 n'a pas encore eu lieu à la date de cette mise à jour; les démissionnaires doivent être présentés comme anciens élus.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_062",
+        "evidence_chateauroux_20261107_058"
+      ]
+    },
+    {
+      "id": "vigilance_qual_10",
+      "title": "Éviter les extrapolations hydriques",
+      "text": "Les 100 000 m³ annuels cités dans certaines publications concernent le projet distinct Lénéo et non une consommation observée du centre Google.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_057",
+        "evidence_chateauroux_20261107_061"
+      ]
+    },
+    {
+      "id": "vigilance_qual_11",
+      "title": "Concertation indépendante des autorisations",
+      "text": "La CNDP nomme des garants et garantit l'information; aucune position politique pro-Google ne doit leur être attribuée pour ce seul rôle.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_055",
+        "evidence_chateauroux_20261107_052"
+      ]
+    },
+    {
+      "id": "vigilance_qual_12",
+      "title": "Oppositions personnelles vs institutions",
+      "text": "Les propos de chercheurs ou les missions de CNDP, RTE et des collectivités n'impliquent pas automatiquement un soutien ou une opposition institutionnelle au projet.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_020",
+        "evidence_chateauroux_20261107_021",
+        "evidence_chateauroux_20261107_027"
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "date": "2025-06",
+      "period_precision": "month",
+      "status": "reported",
+      "title": "Réservation foncière envisagée à Ozans",
+      "details": "Châteauroux Métropole se prononce sur la vente d'une emprise de 195 ha à Tricolore Computing.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_054"
+      ]
+    },
+    {
+      "date": "2025-07-05",
+      "period_precision": "day",
+      "status": "reported",
+      "title": "Promesse de vente signée",
+      "details": "La presse rapporte la signature d'une promesse de vente entre Métropole et Tricolore Computing, qui ne vaut pas acte de vente définitif.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_054"
+      ]
+    },
+    {
+      "date": "2026-04-01",
+      "period_precision": "day",
+      "status": "documented",
+      "title": "Décision CNDP et nomination des garants",
+      "details": "Concertation décidée pour le centre Google et son raccordement RTE; trois garants indépendants désignés.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_055"
+      ]
+    },
+    {
+      "date": "2026-06-08",
+      "period_precision": "day",
+      "status": "documented",
+      "title": "Communiqué critique du PS de l'Indre",
+      "details": "Le PS départemental évoque foncier, emploi et contrôle numérique.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_064"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "period_precision": "day",
+      "status": "documented",
+      "title": "Manifestation et débat communautaire",
+      "details": "Environ 250 manifestants selon ICI; trois élus communautaires votent contre une délibération relative au projet électrique.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_033",
+        "evidence_chateauroux_20261107_034",
+        "evidence_chateauroux_20261107_012"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "period_precision": "day",
+      "status": "documented",
+      "title": "Démissions de quatre élus à Étrechet",
+      "details": "Les adjoints Bruno Deterne, Marie-Pierre Chabenat-Canals, Christian Jubard et Sylvie Gessier démissionnent.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_037",
+        "evidence_chateauroux_20261107_038",
+        "evidence_chateauroux_20261107_039",
+        "evidence_chateauroux_20261107_040"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "period_precision": "day",
+      "status": "documented",
+      "title": "Démission de Florence Laurent",
+      "details": "La maire quitte son mandat dans la contestation de la gouvernance.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_058"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "period_precision": "day",
+      "status": "documented",
+      "title": "Décision CNDP sur les modalités",
+      "details": "La CNDP valide le dossier et les modalités, y compris une réunion supplémentaire à Étrechet après les élections.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_052"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "period_precision": "day",
+      "status": "documented",
+      "title": "Google et RTE détaillent le préprojet",
+      "details": "Présentation du phasage 6–8 bâtiments, des 120 MW initiaux et du dialogue à conduire.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_051",
+        "evidence_chateauroux_20261107_043"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "period_precision": "day",
+      "status": "documented",
+      "title": "Manifestation d'opposition à Ozans",
+      "details": "Près d'un millier de participants selon Marianne, estimation attribuée à cette rédaction.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_056"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "period_precision": "day",
+      "status": "documented",
+      "title": "Ouverture de la concertation préalable",
+      "details": "La plateforme ouvre aux observations et questions.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_052"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "period_precision": "day",
+      "status": "forecast",
+      "title": "Élections partielles à Étrechet",
+      "details": "Premier tour annoncé ; événement futur au 7 novembre 2026, résultat non encore connu.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_062"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "period_precision": "day",
+      "status": "forecast",
+      "title": "Première réunion publique à Châteauroux",
+      "details": "Réunion annoncée à 18 h 30 par Châteauroux Métropole.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_066"
+      ]
+    },
+    {
+      "date": "2027-01-10",
+      "period_precision": "day",
+      "status": "forecast",
+      "title": "Clôture programmée de la concertation",
+      "details": "Date fixée par la décision CNDP; ne préjuge pas de la décision des maîtres d'ouvrage.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_052"
+      ]
+    },
+    {
+      "date": "2030",
+      "period_precision": "year",
+      "status": "forecast",
+      "title": "Première mise en service envisagée",
+      "details": "Premier bâtiment de 30 000 m² et alimentation initiale à 225 kV de 120 MW; calendrier à confirmer.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_051"
+      ]
+    }
+  ],
+  "fact_sheet": [
+    {
+      "label": "Porteurs",
+      "value": "Google France, Tricolore Computing, Violet Computing",
+      "qualifier": "RTE est maître d'ouvrage du raccordement, distinct de l'exploitation du centre.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_055",
+        "evidence_chateauroux_20261107_051"
+      ]
+    },
+    {
+      "label": "Site",
+      "value": "ZAC d'Ozans — Étrechet (Indre)",
+      "qualifier": "Environ 195–200 ha évoqués; superficies bâties et viabilisées à distinguer.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_051",
+        "evidence_chateauroux_20261107_054"
+      ]
+    },
+    {
+      "label": "Premier bâtiment",
+      "value": "Environ 30 000 m², vers 2030",
+      "qualifier": "Projet annoncé, pas bâtiment déjà édifié.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_051"
+      ]
+    },
+    {
+      "label": "Premier raccordement",
+      "value": "120 MW, 225 kV",
+      "qualifier": "RTE; raccordement initial au premier bâtiment.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_051"
+      ]
+    },
+    {
+      "label": "Raccordement ultérieur",
+      "value": "300 MW à 400 kV puis 1 200 MW possibles",
+      "qualifier": "Capacités de raccordement projetées et conditionnelles; ne pas en déduire l'énergie annuelle.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_051"
+      ]
+    },
+    {
+      "label": "Déploiement",
+      "value": "6 à 8 bâtiments en 10–20 ans",
+      "qualifier": "Version de la présentation d'octobre, à distinguer des premières estimations 8–10.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_051"
+      ]
+    },
+    {
+      "label": "Investissement indicatif",
+      "value": "≈ 8,6–10 Md€ annoncés",
+      "qualifier": "Fourchette de presse/projet; non dépenses déjà engagées ni prix du foncier.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_060"
+      ]
+    },
+    {
+      "label": "Concertation CNDP",
+      "value": "2 novembre 2026 – 10 janvier 2027",
+      "qualifier": "Bilan non encore publié au 7 novembre 2026.",
+      "evidence_ids": [
+        "evidence_chateauroux_20261107_052"
+      ]
+    }
   ]
 }

@@ -1,80 +1,492 @@
 [
-{"id": "timeline_0048", "actor_id": "actor_0033", "event_type": "first_documented_position", "date": "2025-01-14", "date_precision": "day", "source_ids": ["source_0091"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Soprema Steel dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0077", "actor_id": "actor_0077", "event_type": "first_documented_position", "date": "2025-01-14", "date_precision": "day", "source_ids": ["source_0091"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Anti dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0037", "actor_id": "actor_0004", "event_type": "first_documented_position", "date": "2025-05-19", "date_precision": "day", "source_ids": ["source_0008"], "confidence": "medium", "status": "confirmed", "date_basis": "date de publication de la première occurrence de l’acteur dans le corpus", "summary": "Première prise de position documentée de Confédération paysanne dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0038", "actor_id": "actor_0005", "event_type": "first_documented_position", "date": "2025-05-19", "date_precision": "day", "source_ids": ["source_0008"], "confidence": "medium", "status": "confirmed", "date_basis": "date de publication de la première occurrence de l’acteur dans le corpus", "summary": "Première prise de position documentée de Indre Nature / FNE locale dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0051", "actor_id": "actor_0039", "event_type": "first_documented_position", "date": "2025-05-19", "date_precision": "day", "source_ids": ["source_0008"], "confidence": "medium", "status": "confirmed", "date_basis": "date de publication de la première occurrence de l’acteur dans le corpus", "summary": "Première prise de position documentée de État dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0061", "actor_id": "actor_0055", "event_type": "first_documented_position", "date": "2025-05-19", "date_precision": "day", "source_ids": ["source_0008"], "confidence": "medium", "status": "confirmed", "date_basis": "date de publication de la première occurrence de l’acteur dans le corpus", "summary": "Première prise de position documentée de Gouvernement français dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0063", "actor_id": "actor_0057", "event_type": "first_documented_position", "date": "2025-05-19", "date_precision": "day", "source_ids": ["source_0008"], "confidence": "medium", "status": "confirmed", "date_basis": "date de publication de la première occurrence de l’acteur dans le corpus", "summary": "Première prise de position documentée de France Datacenter dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0064", "actor_id": "actor_0058", "event_type": "first_documented_position", "date": "2025-05-19", "date_precision": "day", "source_ids": ["source_0008"], "confidence": "medium", "status": "confirmed", "date_basis": "date de publication de la première occurrence de l’acteur dans le corpus", "summary": "Première prise de position documentée de Michaël Reffay dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0065", "actor_id": "actor_0059", "event_type": "first_documented_position", "date": "2025-05-19", "date_precision": "day", "source_ids": ["source_0008"], "confidence": "medium", "status": "confirmed", "date_basis": "date de publication de la première occurrence de l’acteur dans le corpus", "summary": "Première prise de position documentée de EDF dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0078", "actor_id": "actor_0078", "event_type": "first_documented_position", "date": "2025-05-19", "date_precision": "day", "source_ids": ["source_0008"], "confidence": "medium", "status": "confirmed", "date_basis": "date de publication de la première occurrence de l’acteur dans le corpus", "summary": "Première prise de position documentée de Mehdi Nezzar dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0046", "actor_id": "actor_0031", "event_type": "first_documented_position", "date": "2025-06-04", "date_precision": "day", "source_ids": ["source_0087"], "confidence": "medium", "status": "confirmed", "date_basis": "date de publication de la première occurrence de l’acteur dans le corpus", "summary": "Première prise de position documentée de Enedis dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0001", "actor_id": "actor_0007", "event_type": "first_documented_position", "date": "2025-06-23", "date_precision": "day", "source_ids": ["source_0088"], "confidence": "high", "status": "confirmed", "date_basis": "date du communiqué cité", "summary": "Communiqué critique de La France insoumise de l’Indre daté du 23 juin : environnement, eau et électricité."},
-{"id": "timeline_0002", "actor_id": "actor_0018", "event_type": "first_documented_position", "date": "2025-06-23", "date_precision": "day", "source_ids": ["source_0088"], "confidence": "high", "status": "confirmed", "date_basis": "déclaration datée dans l’article", "summary": "Gil Avérous défend publiquement le choix du site et le raccordement du projet Google."},
-{"id": "timeline_0003", "actor_id": "actor_0026", "event_type": "first_documented_position", "date": "2025-06-23", "date_precision": "day", "source_ids": ["source_0089"], "confidence": "high", "status": "confirmed", "date_basis": "déclaration AFP datée dans l’article", "summary": "Un porte-parole de Google confirme le 23 juin l’étude de l’acquisition du terrain à Ozans."},
-{"id": "timeline_0004", "actor_id": "actor_0040", "event_type": "first_documented_position", "date": "2025-06-23", "date_precision": "day", "source_ids": ["source_0088"], "confidence": "medium", "status": "confirmed", "date_basis": "prise de position datée dans l’article", "summary": "Le préfet et la représentation préfectorale se félicitent de la perspective d’implantation le 23 juin."},
-{"id": "timeline_0005", "actor_id": "actor_0086", "event_type": "first_documented_position", "date": "2025-06-23", "date_precision": "day", "source_ids": ["source_0088"], "confidence": "medium", "status": "confirmed", "date_basis": "prise de position datée dans l’article", "summary": "Le président du Conseil départemental se félicite de la perspective d’implantation le 23 juin."},
-{"id": "timeline_0006", "actor_id": "actor_0028", "event_type": "first_documented_position", "date": "2025-06-24", "date_precision": "day", "source_ids": ["source_0087"], "confidence": "high", "status": "confirmed", "date_basis": "délibération datée rapportée dans l’article", "summary": "Tricolore Computing est explicitement désignée bénéficiaire de la délibération de cession du 24 juin."},
-{"id": "timeline_0007", "actor_id": "actor_0085", "event_type": "first_documented_position", "date": "2025-06-24", "date_precision": "day", "source_ids": ["source_0087"], "confidence": "high", "status": "confirmed", "date_basis": "vote du 24 juin recoupé par source_0067", "summary": "Le conseil communautaire de Châteauroux Métropole vote la vente des 195 hectares à Tricolore Computing."},
-{"id": "timeline_0008", "actor_id": "actor_0008", "event_type": "first_documented_position", "date": "2026-03-10", "date_precision": "day", "source_ids": ["source_0080"], "confidence": "high", "status": "confirmed", "date_basis": "publication originale vérifiée le 10 mars 2026", "summary": "Jérémie Godet met en cause le choix d’un territoire où la contestation serait faible."},
-{"id": "timeline_0009", "actor_id": "actor_0014", "event_type": "first_documented_position", "date": "2026-03-10", "date_precision": "day", "source_ids": ["source_0080"], "confidence": "high", "status": "confirmed", "date_basis": "publication originale vérifiée le 10 mars 2026", "summary": "Jean Delavergne critique explicitement la gouvernance locale et le développement du projet."},
-{"id": "timeline_0010", "actor_id": "actor_0015", "event_type": "first_documented_position", "date": "2026-03-10", "date_precision": "day", "source_ids": ["source_0080"], "confidence": "high", "status": "confirmed", "date_basis": "publication originale vérifiée le 10 mars 2026", "summary": "Éric Domenge-Abeau ironise sur les précédents projets d’Ozans et l’annonce Google."},
-{"id": "timeline_0011", "actor_id": "actor_0016", "event_type": "first_documented_position", "date": "2026-03-10", "date_precision": "day", "source_ids": ["source_0080"], "confidence": "medium", "status": "confirmed", "date_basis": "publication originale vérifiée le 10 mars 2026", "summary": "Emmanuel de Saint Pol exprime son découragement face aux projets industriels successifs à Ozans."},
-{"id": "timeline_0012", "actor_id": "actor_0020", "event_type": "first_documented_position", "date": "2026-03-10", "date_precision": "day", "source_ids": ["source_0080"], "confidence": "high", "status": "confirmed", "date_basis": "publication originale vérifiée le 10 mars 2026", "summary": "Marc Descouraux, sollicité sur l’avancement du projet, déclare manquer d’informations."},
-{"id": "timeline_0013", "actor_id": "actor_0022", "event_type": "first_documented_position", "date": "2026-03-10", "date_precision": "day", "source_ids": ["source_0080"], "confidence": "medium", "status": "confirmed", "date_basis": "publication originale vérifiée le 10 mars 2026", "summary": "Régis Blanchet réagit à la discrétion entourant le nom de Google."},
-{"id": "timeline_0014", "actor_id": "actor_0043", "event_type": "first_documented_position", "date": "2026-03-10", "date_precision": "day", "source_ids": ["source_0080"], "confidence": "medium", "status": "confirmed", "date_basis": "publication originale vérifiée le 10 mars 2026", "summary": "Maxime Colin critique la stratégie de discrétion des GAFAM dans l’enquête consacrée au projet."},
-{"id": "timeline_0015", "actor_id": "actor_0047", "event_type": "first_documented_position", "date": "2026-03-10", "date_precision": "day", "source_ids": ["source_0080"], "confidence": "high", "status": "confirmed", "date_basis": "publication originale vérifiée le 10 mars 2026", "summary": "Le collectif critique la promesse d’emplois du site Google d’Ozans."},
-{"id": "timeline_0039", "actor_id": "actor_0006", "event_type": "first_documented_position", "date": "2026-03-10", "date_precision": "day", "source_ids": ["source_0081"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Union de la gauche citoyenne dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0043", "actor_id": "actor_0023", "event_type": "first_documented_position", "date": "2026-03-10", "date_precision": "day", "source_ids": ["source_0081"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Thibault Lanxade dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0044", "actor_id": "actor_0024", "event_type": "first_documented_position", "date": "2026-03-10", "date_precision": "day", "source_ids": ["source_0081"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Nicolas Bouzou dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0047", "actor_id": "actor_0032", "event_type": "first_documented_position", "date": "2026-03-10", "date_precision": "day", "source_ids": ["source_0081"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Decknet dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0050", "actor_id": "actor_0038", "event_type": "first_documented_position", "date": "2026-03-10", "date_precision": "day", "source_ids": ["source_0081"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Ademe dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0052", "actor_id": "actor_0041", "event_type": "first_documented_position", "date": "2026-03-10", "date_precision": "day", "source_ids": ["source_0081"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Ophélie Coelho dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0053", "actor_id": "actor_0044", "event_type": "first_documented_position", "date": "2026-03-10", "date_precision": "day", "source_ids": ["source_0081"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Cécile Diguet dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0055", "actor_id": "actor_0046", "event_type": "first_documented_position", "date": "2026-03-10", "date_precision": "day", "source_ids": ["source_0081"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de La Quadrature du Net dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0060", "actor_id": "actor_0053", "event_type": "first_documented_position", "date": "2026-03-10", "date_precision": "day", "source_ids": ["source_0081"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Associations de Wissous dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0069", "actor_id": "actor_0069", "event_type": "first_documented_position", "date": "2026-03-10", "date_precision": "day", "source_ids": ["source_0081"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Anne Le Hénanff dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0016", "actor_id": "actor_0027", "event_type": "first_documented_position", "date": "2026-03-24", "date_precision": "day", "source_ids": ["source_0071"], "confidence": "high", "status": "confirmed", "date_basis": "date précise de la saisine rapportée dans l’enquête du 28 mai", "summary": "Google France cosigne la saisine de la CNDP sur le projet avec ses filiales et RTE."},
-{"id": "timeline_0017", "actor_id": "actor_0029", "event_type": "first_documented_position", "date": "2026-03-24", "date_precision": "day", "source_ids": ["source_0071"], "confidence": "high", "status": "confirmed", "date_basis": "date précise de la saisine rapportée dans l’enquête du 28 mai", "summary": "Violet Computing figure parmi les filiales signataires de la saisine de la CNDP."},
-{"id": "timeline_0018", "actor_id": "actor_0030", "event_type": "first_documented_position", "date": "2026-03-24", "date_precision": "day", "source_ids": ["source_0071"], "confidence": "high", "status": "confirmed", "date_basis": "date précise de la saisine rapportée dans l’enquête du 28 mai", "summary": "RTE cosigne la saisine de la CNDP en qualité de co-maître d’ouvrage du raccordement."},
-{"id": "timeline_0019", "actor_id": "actor_0034", "event_type": "first_documented_position", "date": "2026-04-01", "date_precision": "day", "source_ids": ["source_0070"], "confidence": "high", "status": "confirmed", "date_basis": "date de décision explicitement indiquée", "summary": "La CNDP décide d’organiser une concertation préalable sur Ozans et son raccordement."},
-{"id": "timeline_0020", "actor_id": "actor_0001", "event_type": "first_documented_position", "date": "2026-05-13", "date_precision": "day", "source_ids": ["source_0075"], "confidence": "high", "status": "confirmed", "date_basis": "publication La Nouvelle République datée par URL", "summary": "Le collectif Ozans dire non formule publiquement son opposition et sa demande de transparence."},
-{"id": "timeline_0021", "actor_id": "actor_0010", "event_type": "first_documented_position", "date": "2026-05-13", "date_precision": "day", "source_ids": ["source_0075"], "confidence": "high", "status": "confirmed", "date_basis": "publication La Nouvelle République datée par URL", "summary": "Francis Martinet présente la mission d’information et les critiques du collectif."},
-{"id": "timeline_0022", "actor_id": "actor_0012", "event_type": "first_documented_position", "date": "2026-05-13", "date_precision": "day", "source_ids": ["source_0075"], "confidence": "high", "status": "confirmed", "date_basis": "publication La Nouvelle République ; texte complet de la ressource RSS", "summary": "Raphaël Tillie critique le rapport emplois / surface et l’argument de souveraineté."},
-{"id": "timeline_0056", "actor_id": "actor_0049", "event_type": "first_documented_position", "date": "2026-05-22", "date_precision": "day", "source_ids": ["source_0016"], "confidence": "medium", "status": "confirmed", "date_basis": "date de publication de la première occurrence de l’acteur dans le corpus", "summary": "Première prise de position documentée de Lou Welgryn dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0057", "actor_id": "actor_0050", "event_type": "first_documented_position", "date": "2026-05-22", "date_precision": "day", "source_ids": ["source_0016"], "confidence": "medium", "status": "confirmed", "date_basis": "date de publication de la première occurrence de l’acteur dans le corpus", "summary": "Première prise de position documentée de Data for Good dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0075", "actor_id": "actor_0075", "event_type": "first_documented_position", "date": "2026-05-27", "date_precision": "day", "source_ids": ["source_0072"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Arcep dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0023", "actor_id": "actor_0035", "event_type": "first_documented_position", "date": "2026-05-28", "date_precision": "day", "source_ids": ["source_0071"], "confidence": "high", "status": "confirmed", "date_basis": "publication originale vérifiée le 28 mai 2026", "summary": "Marc Papinutti explique la compétence de la CNDP en raison de la présence de RTE."},
-{"id": "timeline_0024", "actor_id": "actor_0036", "event_type": "first_documented_position", "date": "2026-05-28", "date_precision": "day", "source_ids": ["source_0071"], "confidence": "high", "status": "confirmed", "date_basis": "publication originale vérifiée le 28 mai 2026", "summary": "Jean-Louis Laure présente la préparation et les exigences de la concertation sur le projet."},
-{"id": "timeline_0025", "actor_id": "actor_0042", "event_type": "first_documented_position", "date": "2026-05-28", "date_precision": "day", "source_ids": ["source_0071"], "confidence": "high", "status": "confirmed", "date_basis": "publication originale vérifiée le 28 mai 2026", "summary": "Loup Cellard analyse les limites de valorisation de chaleur dans la commune de Diors."},
-{"id": "timeline_0049", "actor_id": "actor_0037", "event_type": "first_documented_position", "date": "2026-05-28", "date_precision": "day", "source_ids": ["source_0071"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Dreal dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0054", "actor_id": "actor_0045", "event_type": "first_documented_position", "date": "2026-05-28", "date_precision": "day", "source_ids": ["source_0071"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Guillaume Gourgues dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0079", "actor_id": "actor_0079", "event_type": "first_documented_position", "date": "2026-05-28", "date_precision": "day", "source_ids": ["source_0071"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Nicolas Celnik dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0036", "actor_id": "actor_0003", "event_type": "first_documented_position", "date": "2026-05-29", "date_precision": "day", "source_ids": ["source_0058"], "confidence": "medium", "status": "confirmed", "date_basis": "date de publication de la première occurrence de l’acteur dans le corpus", "summary": "Première prise de position documentée de Les Écologistes dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0040", "actor_id": "actor_0013", "event_type": "first_documented_position", "date": "2026-05-29", "date_precision": "day", "source_ids": ["source_0069"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Cyrielle Chatelain dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0042", "actor_id": "actor_0019", "event_type": "first_documented_position", "date": "2026-05-29", "date_precision": "day", "source_ids": ["source_0069"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de François Bonneau dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0045", "actor_id": "actor_0025", "event_type": "first_documented_position", "date": "2026-05-29", "date_precision": "day", "source_ids": ["source_0069"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Chambre d’agriculture dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0067", "actor_id": "actor_0061", "event_type": "first_documented_position", "date": "2026-06-03", "date_precision": "day", "source_ids": ["source_0067"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Marie-Claire Eustache dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0068", "actor_id": "actor_0062", "event_type": "first_documented_position", "date": "2026-06-03", "date_precision": "day", "source_ids": ["source_0067"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Romane Harmel-Samarcq dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0026", "actor_id": "actor_0054", "event_type": "first_documented_position", "date": "2026-06-08", "date_precision": "day", "source_ids": ["source_0065"], "confidence": "high", "status": "confirmed", "date_basis": "communiqué daté du 8 juin", "summary": "Le Parti socialiste de l’Indre diffuse un communiqué exprimant ses inquiétudes sur le projet."},
-{"id": "timeline_0058", "actor_id": "actor_0051", "event_type": "first_documented_position", "date": "2026-06-12", "date_precision": "day", "source_ids": ["source_0064"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Philippe Chabeaudy dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0059", "actor_id": "actor_0052", "event_type": "first_documented_position", "date": "2026-06-12", "date_precision": "day", "source_ids": ["source_0064"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Maxime Efoui-Hess dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0066", "actor_id": "actor_0060", "event_type": "first_documented_position", "date": "2026-06-12", "date_precision": "day", "source_ids": ["source_0064"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Telehouse dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0027", "actor_id": "actor_0063", "event_type": "first_documented_position", "date": "2026-06-22", "date_precision": "day", "source_ids": ["source_0060"], "confidence": "medium", "status": "confirmed", "date_basis": "article La Nouvelle République daté par URL", "summary": "Sébastien Missoffe confirme la réalité du projet, sans décision définitive à cette date."},
-{"id": "timeline_0035", "actor_id": "actor_0002", "event_type": "first_documented_position", "date": "2026-06-22", "date_precision": "day", "source_ids": ["source_0060"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de PCF de l’Indre dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0062", "actor_id": "actor_0056", "event_type": "first_documented_position", "date": "2026-06-22", "date_precision": "day", "source_ids": ["source_0060"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Maryvonne Le Brignonen dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0028", "actor_id": "actor_0067", "event_type": "first_documented_position", "date": "2026-06-30", "date_precision": "day", "source_ids": ["source_0053"], "confidence": "high", "status": "confirmed", "date_basis": "vote du conseil communautaire du 30 juin, rapporté le 1er juillet", "summary": "Delphine Chambonneau vote contre la délibération de raccordement électrique du projet."},
-{"id": "timeline_0029", "actor_id": "actor_0068", "event_type": "first_documented_position", "date": "2026-06-30", "date_precision": "day", "source_ids": ["source_0053"], "confidence": "high", "status": "confirmed", "date_basis": "vote du conseil communautaire du 30 juin, rapporté le 1er juillet", "summary": "Bruno Mascle vote contre la délibération de raccordement électrique du projet."},
-{"id": "timeline_0073", "actor_id": "actor_0073", "event_type": "first_documented_position", "date": "2026-07-15", "date_precision": "day", "source_ids": ["source_0049"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Alterric (Samuel Moisson) dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0074", "actor_id": "actor_0074", "event_type": "first_documented_position", "date": "2026-07-16", "date_precision": "day", "source_ids": ["source_0048"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Philippe Latombe dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0070", "actor_id": "actor_0070", "event_type": "first_documented_position", "date": "2026-07-22", "date_precision": "day", "source_ids": ["source_0045"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Lénéo dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0071", "actor_id": "actor_0071", "event_type": "first_documented_position", "date": "2026-07-22", "date_precision": "day", "source_ids": ["source_0045"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Fred Gagnot dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0072", "actor_id": "actor_0072", "event_type": "first_documented_position", "date": "2026-07-22", "date_precision": "day", "source_ids": ["source_0045"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Nicolas Pailloux dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0076", "actor_id": "actor_0076", "event_type": "first_documented_position", "date": "2026-07-22", "date_precision": "day", "source_ids": ["source_0045"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Guillaume Allart dans le corpus, à la date de publication de l’article."},
-{"id": "timeline_0030", "actor_id": "actor_0081", "event_type": "first_documented_position", "date": "2026-09-10", "date_precision": "day", "source_ids": ["source_0040"], "confidence": "high", "status": "confirmed", "date_basis": "courrier de démission daté du 10 septembre", "summary": "Bruno Deterne est cosignataire de la lettre de démission motivée par le projet Google."},
-{"id": "timeline_0031", "actor_id": "actor_0082", "event_type": "first_documented_position", "date": "2026-09-10", "date_precision": "day", "source_ids": ["source_0040"], "confidence": "high", "status": "confirmed", "date_basis": "courrier de démission daté du 10 septembre", "summary": "Marie-Pierre Chabenat-Canals est cosignataire de la lettre de démission."},
-{"id": "timeline_0032", "actor_id": "actor_0083", "event_type": "first_documented_position", "date": "2026-09-10", "date_precision": "day", "source_ids": ["source_0040"], "confidence": "high", "status": "confirmed", "date_basis": "courrier de démission daté du 10 septembre", "summary": "Christian Jubard est cosignataire de la lettre de démission."},
-{"id": "timeline_0033", "actor_id": "actor_0084", "event_type": "first_documented_position", "date": "2026-09-10", "date_precision": "day", "source_ids": ["source_0040"], "confidence": "high", "status": "confirmed", "date_basis": "courrier de démission daté du 10 septembre", "summary": "Sylvie Gessier est cosignataire de la lettre de démission."},
-{"id": "timeline_0034", "actor_id": "actor_0080", "event_type": "first_documented_position", "date": "2026-09-15", "date_precision": "day", "source_ids": ["source_0035"], "confidence": "high", "status": "confirmed", "date_basis": "communiqué explicitement daté du 15 septembre", "summary": "Florence Laurent annonce sa démission motivée par le projet Google, dans un communiqué du 15 septembre."},
-{"id": "timeline_0041", "actor_id": "actor_0017", "event_type": "first_documented_position", "date": "2026-09-25", "date_precision": "day", "source_ids": ["source_0015"], "confidence": "low", "status": "to_confirm", "date_basis": "date de collecte, utilisée faute de date de publication explicite dans la ressource", "summary": "Première prise de position documentée de Militant écologiste anonyme dans le corpus, à la date de publication de l’article."}]
+  {
+    "id": "timeline_qual_actor_0001",
+    "actor_id": "actor_0001",
+    "event_type": "first_documented_position",
+    "date": "2026-05-13",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w100"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Le collectif Ozans dire non demande l'abandon du projet Google et la transparence sur le foncier, l'eau et l'électricité."
+  },
+  {
+    "id": "timeline_qual_actor_0002",
+    "actor_id": "actor_0002",
+    "event_type": "first_documented_position",
+    "date": "2026-06-01",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w87"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "La fédération PCF de l'Indre s'est prononcée contre le projet d'Ozans, selon le compte rendu des prises de position locales."
+  },
+  {
+    "id": "timeline_qual_actor_0003",
+    "actor_id": "actor_0003",
+    "event_type": "first_documented_position",
+    "date": "2026-10-17",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_marianne"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Les Écologistes participent à la mobilisation contre le projet Google d'Étrechet et demandent un débat sur ses impacts."
+  },
+  {
+    "id": "timeline_qual_actor_0004",
+    "actor_id": "actor_0004",
+    "event_type": "first_documented_position",
+    "date": "2026-10-07",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_conf"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "La Confédération paysanne de l'Indre appelle explicitement à s'opposer au data center Google le 17 octobre 2026 pour préserver terres, eau et électricité."
+  },
+  {
+    "id": "timeline_qual_actor_0005",
+    "actor_id": "actor_0005",
+    "event_type": "first_documented_position",
+    "date": "2026-10-17",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_fne"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Indre Nature a soutenu la mobilisation locale du 17 octobre et animé une discussion portant sur les raisons de s'opposer au campus Google."
+  },
+  {
+    "id": "timeline_qual_actor_0006",
+    "actor_id": "actor_0006",
+    "event_type": "first_documented_position",
+    "date": "2026-06-30",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w80"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "L'Union de la gauche citoyenne est représentée dans la contestation par Éric Domenge-Abeau, qui critique le dimensionnement et l'électricité du projet."
+  },
+  {
+    "id": "timeline_qual_actor_0007",
+    "actor_id": "actor_0007",
+    "event_type": "first_documented_position",
+    "date": "2026-06-22",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w87"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "La France insoumise de l'Indre figure parmi les formations ayant contesté publiquement le projet et ses conditions d'implantation."
+  },
+  {
+    "id": "timeline_qual_actor_0008",
+    "actor_id": "actor_0008",
+    "event_type": "first_documented_position",
+    "date": "2026-09-21",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w46"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Jérémie Godet, vice-président régional, critique l'artificialisation, les risques environnementaux et le dimensionnement de Google Ozans."
+  },
+  {
+    "id": "timeline_qual_actor_0010",
+    "actor_id": "actor_0010",
+    "event_type": "first_documented_position",
+    "date": "2026-10-16",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w14"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Francis Martinet, membre d'Ozans dire non, qualifie le projet de destructeur et dénonce l'absence de réponses suffisantes aux habitants."
+  },
+  {
+    "id": "timeline_qual_actor_0012",
+    "actor_id": "actor_0012",
+    "event_type": "first_documented_position",
+    "date": "2026-05-13",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w100"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Raphaël Tillie, porte-parole du collectif, conteste la perte de terres agricoles, la chaleur possible et la justification de souveraineté du projet Google."
+  },
+  {
+    "id": "timeline_qual_actor_0013",
+    "actor_id": "actor_0013",
+    "event_type": "first_documented_position",
+    "date": "2026-10-12",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w20"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Cyrielle Chatelain s'inquiète de la faible densité d'emplois annoncée comparée à l'emprise foncière; critique documentée, sans recours personnel identifié."
+  },
+  {
+    "id": "timeline_qual_actor_0015",
+    "actor_id": "actor_0015",
+    "event_type": "first_documented_position",
+    "date": "2026-06-30",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w80"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Éric Domenge-Abeau dénonce le secret autour de Google Ozans, le risque de conflit d'usage électrique et l'impact des liaisons HT, tout en reconnaissant l'utilité possible d'autres data centers."
+  },
+  {
+    "id": "timeline_qual_actor_0018",
+    "actor_id": "actor_0018",
+    "event_type": "first_documented_position",
+    "date": "2026-10-28",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w9"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Gil Avérous, maire de Châteauroux et président de la Métropole, défend le projet pour ses retombées économiques et annonce des garanties qui restent à documenter."
+  },
+  {
+    "id": "timeline_qual_actor_0019",
+    "actor_id": "actor_0019",
+    "event_type": "first_documented_position",
+    "date": "2026-09-21",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w46"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "François Bonneau, président de la Région, se déclare défavorable au projet en l'état et alerte sur le foncier, l'énergie et la souveraineté; il ne rejette pas toutes les infrastructures numériques."
+  },
+  {
+    "id": "timeline_qual_actor_0026",
+    "actor_id": "actor_0026",
+    "event_type": "first_documented_position",
+    "date": "2026-10-12",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_project"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Google porte le projet de centre de données sur la ZAC d'Ozans, annoncé en 6 à 8 bâtiments au maximum sur 10 à 20 ans; les autorisations et investissements finaux restent conditionnels."
+  },
+  {
+    "id": "timeline_qual_actor_0027",
+    "actor_id": "actor_0027",
+    "event_type": "first_documented_position",
+    "date": "2026-04-01",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_legal"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Google France est co-maître d'ouvrage du campus dans la saisine CNDP, avec ses sociétés Tricolore Computing et Violet Computing."
+  },
+  {
+    "id": "timeline_qual_actor_0028",
+    "actor_id": "actor_0028",
+    "event_type": "first_documented_position",
+    "date": "2026-04-01",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_legal"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Tricolore Computing, filiale française de Google, figure comme co-maître d'ouvrage dans la décision CNDP relative au campus Ozans."
+  },
+  {
+    "id": "timeline_qual_actor_0029",
+    "actor_id": "actor_0029",
+    "event_type": "first_documented_position",
+    "date": "2026-04-01",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_legal"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Violet Computing figure parmi les filiales de Google co-maîtres d'ouvrage du projet, selon la décision du 1er avril 2026."
+  },
+  {
+    "id": "timeline_qual_actor_0049",
+    "actor_id": "actor_0049",
+    "event_type": "first_documented_position",
+    "date": "2026-09-25",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w43"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Lou Welgryn (Data for Good) interroge la nécessité sociale de la croissance des besoins en calcul IA dans un sujet qui évoque Ozans; aucune action contentieuse personnelle n'est établie."
+  },
+  {
+    "id": "timeline_qual_actor_0054",
+    "actor_id": "actor_0054",
+    "event_type": "first_documented_position",
+    "date": "2026-06-08",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w92"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Le PS de l'Indre s'inquiète explicitement du campus Google, de ses emplois prévisionnels, de l'eau, de l'électricité et d'une dépendance numérique accrue."
+  },
+  {
+    "id": "timeline_qual_actor_0063",
+    "actor_id": "actor_0063",
+    "event_type": "first_documented_position",
+    "date": "2026-06-22",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w87"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Sébastien Missoffe, dirigeant de Google France, confirme l'étude du projet tout en indiquant qu'aucune décision finale d'investissement n'est alors prise."
+  },
+  {
+    "id": "timeline_qual_actor_0066",
+    "actor_id": "actor_0066",
+    "event_type": "first_documented_position",
+    "date": "2026-06-30",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w84"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "La CGT de l'Indre figure dans la mobilisation territoriale contre le centre de données Google, aux côtés du collectif Ozans dire non."
+  },
+  {
+    "id": "timeline_qual_actor_0067",
+    "actor_id": "actor_0067",
+    "event_type": "first_documented_position",
+    "date": "2026-06-30",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w80"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Delphine Chambonneau, élue d'opposition à Châteauroux, vote contre la délibération de juin 2026 relative à la zone d'étude électrique du campus."
+  },
+  {
+    "id": "timeline_qual_actor_0068",
+    "actor_id": "actor_0068",
+    "event_type": "first_documented_position",
+    "date": "2026-06-30",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w80"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Bruno Mascle, élu à Déols, fait partie des trois conseillers communautaires ayant voté contre la délibération de juin 2026 concernant Google Ozans."
+  },
+  {
+    "id": "timeline_qual_actor_0080",
+    "actor_id": "actor_0080",
+    "event_type": "first_documented_position",
+    "date": "2026-09-15",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_resign"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Florence Laurent, ancienne maire d'Étrechet, a démissionné le 15 septembre 2026 en contestant l'insuffisance de pouvoir communal et les conditions de gouvernance du projet."
+  },
+  {
+    "id": "timeline_qual_actor_0081",
+    "actor_id": "actor_0081",
+    "event_type": "first_documented_position",
+    "date": "2026-09-11",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w67"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Bruno Deterne, ancien premier adjoint d'Étrechet, démissionne en septembre 2026 et juge le programme démesuré, sans être opposé par principe à tous les data centers."
+  },
+  {
+    "id": "timeline_qual_actor_0082",
+    "actor_id": "actor_0082",
+    "event_type": "first_documented_position",
+    "date": "2026-09-11",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w29"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Marie-Pierre Chabenat-Canals, ancienne adjointe, dénonce l'insuffisance des pouvoirs communaux et participe aux mobilisations et démarches à l'Assemblée."
+  },
+  {
+    "id": "timeline_qual_actor_0083",
+    "actor_id": "actor_0083",
+    "event_type": "first_documented_position",
+    "date": "2026-09-11",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w67"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Christian Jubard, adjoint d'Étrechet, fait partie des quatre élus ayant collectivement démissionné pour critiquer la gouvernance du projet."
+  },
+  {
+    "id": "timeline_qual_actor_0084",
+    "actor_id": "actor_0084",
+    "event_type": "first_documented_position",
+    "date": "2026-09-11",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w67"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Sylvie Gessier, conseillère municipale, participe à la démission collective visant à dénoncer le manque de prise sur les décisions relatives au projet."
+  },
+  {
+    "id": "timeline_qual_actor_0085",
+    "actor_id": "actor_0085",
+    "event_type": "first_documented_position",
+    "date": "2025-06-01",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_metro"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Châteauroux Métropole porte la commercialisation du foncier d'Ozans, défend son développement économique et publie la procédure de concertation."
+  },
+  {
+    "id": "timeline_qual_actor_0113",
+    "actor_id": "actor_0113",
+    "event_type": "first_documented_position",
+    "date": "2026-10-12",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w21"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Sarah Raimond présente le programme Google, souligne que la concertation précède toute demande de permis et défend un développement progressif."
+  },
+  {
+    "id": "timeline_qual_actor_0114",
+    "actor_id": "actor_0114",
+    "event_type": "first_documented_position",
+    "date": "2026-10-12",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w26"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "François Ruffin, après avoir rencontré les opposants d'Ozans, promeut un moratoire sur les centres de données non souverains et critique la dépendance aux GAFAM."
+  },
+  {
+    "id": "timeline_qual_actor_0115",
+    "actor_id": "actor_0115",
+    "event_type": "first_documented_position",
+    "date": "2026-10-17",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w15"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Philippe Jourdain, maire de Val-Fouzon, exprime publiquement son enthousiasme pour le projet Google Ozans dans la presse locale."
+  },
+  {
+    "id": "timeline_qual_actor_0116",
+    "actor_id": "actor_0116",
+    "event_type": "first_documented_position",
+    "date": "2026-10-17",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_fne"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Thierry Chareyre, administrateur d'Indre Nature, anime lors du rassemblement du 17 octobre une table ronde explicitement consacrée à l'opposition au méga data center."
+  },
+  {
+    "id": "timeline_qual_actor_0117",
+    "actor_id": "actor_0117",
+    "event_type": "first_documented_position",
+    "date": "2026-10-08",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_libe"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
+    "summary": "Marc Lyster, agriculteur riverain, redoute les conséquences du futur campus pour le cadre de vie et l'activité sur ses terres, dans un reportage d'octobre."
+  }
+]

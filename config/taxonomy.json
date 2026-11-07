@@ -1,44 +1,171 @@
 {
   "categories": {
-    "all": {"label": "Tous les acteurs", "color": "#64748b"},
-    "project": {"label": "Projet central", "color": "#111827"},
-    "opposants": {"label": "Opposants et experts", "color": "#dc2626"},
-    "elus-opp": {"label": "Élus opposés ou critiques", "color": "#8b5cf6"},
-    "elus-fav": {"label": "Élus favorables ou prudents", "color": "#2563eb"},
-    "orgs": {"label": "Organisations et collectifs", "color": "#10b981"},
-    "porteurs": {"label": "Porteurs et économie", "color": "#0f766e"},
-    "context": {"label": "Écosystème et projets associés", "color": "#0ea5e9"},
-    "griefs": {"label": "Griefs et vigilances", "color": "#f97316"},
-    "sources": {"label": "Médias et sources", "color": "#64748b"}
+    "all": {
+      "label": "Tous les acteurs",
+      "color": "#64748b"
+    },
+    "project": {
+      "label": "Projet central",
+      "color": "#111827"
+    },
+    "opposants": {
+      "label": "Riverains et critiques individuels",
+      "color": "#dc2626"
+    },
+    "elus-opp": {
+      "label": "Élus ou personnalités critiques",
+      "color": "#8b5cf6"
+    },
+    "elus-fav": {
+      "label": "Élus et responsables institutionnels",
+      "color": "#2563eb"
+    },
+    "orgs": {
+      "label": "Organisations et collectifs",
+      "color": "#10b981"
+    },
+    "porteurs": {
+      "label": "Porteurs / entreprises / filière",
+      "color": "#0f766e"
+    },
+    "context": {
+      "label": "Projets voisins (distincts)",
+      "color": "#0ea5e9"
+    },
+    "griefs": {
+      "label": "Griefs et vigilances",
+      "color": "#f97316"
+    },
+    "sources": {
+      "label": "Médias et sources",
+      "color": "#64748b"
+    }
   },
   "stances": {
-    "all": {"label": "Toutes les positions", "color": "#64748b"},
-    "opposed": {"label": "Opposé ou critique", "color": "#ef4444"},
-    "favorable": {"label": "Favorable ou soutien", "color": "#22c55e"},
-    "neutral": {"label": "Prudent ou ambigu", "color": "#f59e0b"}
+    "all": {
+      "label": "Toutes les positions",
+      "color": "#64748b"
+    },
+    "opposed": {
+      "label": "Opposé ou critique",
+      "color": "#ef4444"
+    },
+    "favorable": {
+      "label": "Favorable ou soutien",
+      "color": "#22c55e"
+    },
+    "neutral": {
+      "label": "Réserves / position nuancée",
+      "color": "#f59e0b"
+    },
+    "unknown": {
+      "label": "Position non établie",
+      "color": "#94a3b8"
+    }
   },
   "certainty_levels": {
-    "high": {"label": "Haute"},
-    "medium": {"label": "Moyenne"},
-    "low": {"label": "Faible"}
+    "high": {
+      "label": "Haute"
+    },
+    "medium": {
+      "label": "Moyenne"
+    },
+    "low": {
+      "label": "Faible"
+    }
   },
   "relation_types": {
-    "related_to": {"label": "Relation issue du nuage", "directed": true}
+    "opposes": {
+      "label": "Critique / conteste le projet",
+      "directed": true
+    },
+    "supports": {
+      "label": "Soutient / porte le projet",
+      "directed": true
+    },
+    "position_on": {
+      "label": "Émet des réserves sur",
+      "directed": true
+    },
+    "master_of": {
+      "label": "Maîtrise d'ouvrage",
+      "directed": true
+    },
+    "operates_network": {
+      "label": "Raccordement électrique par",
+      "directed": true
+    },
+    "guarantees": {
+      "label": "Garantit la concertation",
+      "directed": true
+    },
+    "documented_role": {
+      "label": "Rôle dans le dossier",
+      "directed": true
+    },
+    "member_of": {
+      "label": "Membre / représentant de",
+      "directed": true
+    },
+    "related_to": {
+      "label": "Périmètre ou contexte",
+      "directed": true
+    },
+    "same_project": {
+      "label": "Interdépendance technique",
+      "directed": false
+    }
   },
   "timeline": {
     "grouping": "month",
     "default_mode": "new",
     "event_type": "first_documented_position",
-    "category_priority": ["elus", "associations", "entreprises", "institutions", "collectivites", "other"],
+    "category_priority": [
+      "elus",
+      "associations",
+      "entreprises",
+      "institutions",
+      "collectivites",
+      "other"
+    ],
     "categories": [
-      {"id": "elus", "label": "Élus", "color": "#d66b9c"},
-      {"id": "associations", "label": "Associations et collectifs", "color": "#ef9e3c"},
-      {"id": "entreprises", "label": "Entreprises", "color": "#17a38f"},
-      {"id": "institutions", "label": "Institutions", "color": "#8b6bc8"},
-      {"id": "collectivites", "label": "Collectivités", "color": "#4388da"},
-      {"id": "other", "label": "Autres / à qualifier", "color": "#64748b"}
+      {
+        "id": "elus",
+        "label": "Élus",
+        "color": "#d66b9c"
+      },
+      {
+        "id": "associations",
+        "label": "Associations et collectifs",
+        "color": "#ef9e3c"
+      },
+      {
+        "id": "entreprises",
+        "label": "Entreprises",
+        "color": "#17a38f"
+      },
+      {
+        "id": "institutions",
+        "label": "Institutions",
+        "color": "#8b6bc8"
+      },
+      {
+        "id": "collectivites",
+        "label": "Collectivités",
+        "color": "#4388da"
+      },
+      {
+        "id": "other",
+        "label": "Autres / à qualifier",
+        "color": "#64748b"
+      }
     ],
     "fallback_category": "other",
-    "excluded_actor_categories": ["project", "context", "griefs", "sources"]
+    "excluded_actor_categories": [
+      "project",
+      "context",
+      "griefs",
+      "sources"
+    ]
   }
 }

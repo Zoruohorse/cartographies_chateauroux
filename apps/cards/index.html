@@ -6,6 +6,7 @@
   <title>Cartographie des acteurs — Châteauroux</title>
   <link rel="stylesheet" href="../../assets/css/cards.css">
   <link rel="stylesheet" href="../../assets/css/evolution.css">
+  <link rel="stylesheet" href="../../assets/css/chronology.css">
 </head>
 <body>
   <div class="page-shell">
@@ -22,6 +23,7 @@
       <button class="tab-btn" type="button" data-tab="vigilance" aria-selected="false">Points de vigilance et sources</button>
       <button class="tab-btn" type="button" data-tab="evolution" aria-selected="false">Évolution des acteurs
 </button>
+      <button class="tab-btn" type="button" data-tab="chronology" aria-selected="false">Chronologie</button>
     </nav>
     <section id="tab-carto" class="tab-content active">
       <main class="layout">
@@ -51,6 +53,7 @@
     <section id="tab-evolution" class="tab-content">
       <div id="evolution-root"></div>
 </section>
+    <section id="tab-chronology" class="tab-content"><div class="chronology-shell"><div id="chronology-list" class="chrono-grid"></div><article class="list-card"><h2>Repères techniques et état d’avancement</h2><div id="fact-sheet" class="chrono-grid"></div></article></div></section>
   </div>
   <dialog id="dialog"><button class="close" type="button" aria-label="Fermer">×</button><div id="detail"></div></dialog>
   <script type="module" src="../../assets/js/cards.js"></script>
