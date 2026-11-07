@@ -175,12 +175,14 @@
     "project_id": "project_google_ozans",
     "claim_type": "position",
     "topic": "position_globale",
-    "value": "neutral",
-    "summary": "Cyrielle Chatelain critique le contraste entre les superficies mobilisées et les créations d'emplois annoncées; France 3 lui attribue des réserves sur le caractère illusoire de certaines promesses d'emploi.",
+    "value": "opposed",
+    "summary": "Cyrielle Chatelain critique le modèle de data centers contrôlés par des acteurs non européens et soutient l'initiative de moratoire discutée au Parlement en octobre, notamment dans le contexte du projet d'Ozans; cette position ne signifie pas qu'elle refuse tout centre de données.",
     "certainty": "high",
-    "status": "attributed_or_documented",
+    "status": "explicit_position_with_scope",
     "evidence_ids": [
-      "evidence_chateauroux_20261107_011"
+      "evidence_chateauroux_20261107_011",
+      "evidence_relecture_20261107_014",
+      "evidence_relecture_20261107_015"
     ],
     "valid_from": "2026-05-29",
     "valid_to": null,
@@ -226,12 +228,13 @@
     "project_id": "project_google_ozans",
     "claim_type": "position",
     "topic": "position_globale",
-    "value": "neutral",
-    "summary": "François Bonneau, président de la Région, se déclare défavorable au projet en l'état et alerte sur le foncier, l'énergie et la souveraineté; il ne rejette pas toutes les infrastructures numériques.",
+    "value": "opposed",
+    "summary": "François Bonneau refuse publiquement de soutenir le campus Google « en l'état » en septembre 2026, tout en respectant le processus CNDP. Il critique les besoins en foncier et énergie ainsi que les risques de dépendance numérique.",
     "certainty": "high",
-    "status": "attributed_or_documented",
+    "status": "explicit_position_with_scope",
     "evidence_ids": [
-      "evidence_chateauroux_20261107_014"
+      "evidence_chateauroux_20261107_014",
+      "evidence_relecture_20261107_016"
     ],
     "valid_from": "2026-09-21",
     "valid_to": null,
@@ -829,6 +832,227 @@
       "evidence_chateauroux_20261107_067"
     ],
     "valid_from": "2026-05-30",
+    "valid_to": null,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "claim_qual_actor_0120",
+    "subject_id": "actor_0120",
+    "project_id": "project_google_ozans",
+    "claim_type": "position",
+    "topic": "position_globale",
+    "value": "opposed",
+    "summary": "Louis Collin, habitant de Châteauroux, a créé le collectif Stop data center 36 et cherche à structurer une alternative municipale à Étrechet dans le contexte de la contestation du projet Google. Son engagement s'oppose à cette implantation, sans preuve de recours juridictionnel personnel.",
+    "certainty": "medium",
+    "status": "attributed_or_documented",
+    "evidence_ids": [
+      "evidence_relecture_20261107_001"
+    ],
+    "valid_from": "2026-10-08",
+    "valid_to": null,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "claim_qual_actor_0121",
+    "subject_id": "actor_0121",
+    "project_id": "project_google_ozans",
+    "claim_type": "position",
+    "topic": "position_globale",
+    "value": "opposed",
+    "summary": "Le collectif Stop data center 36 est cité parmi les initiatives mobilisées contre l'implantation du campus Google à Ozans. Le reportage attribue sa création à Louis Collin.",
+    "certainty": "medium",
+    "status": "attributed_or_documented",
+    "evidence_ids": [
+      "evidence_relecture_20261107_002"
+    ],
+    "valid_from": "2026-10-08",
+    "valid_to": null,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "claim_qual_actor_0122",
+    "subject_id": "actor_0122",
+    "project_id": "project_google_ozans",
+    "claim_type": "position",
+    "topic": "position_globale",
+    "value": "opposed",
+    "summary": "Stéphanie Mercier, ancienne conseillère municipale d'Étrechet et fondatrice des Citoyens du Berry, conteste le traitement des riverains et l'implantation projetée à proximité des Godiers, selon ses propos recueillis par Le Nouvel Obs.",
+    "certainty": "medium",
+    "status": "attributed_or_documented",
+    "evidence_ids": [
+      "evidence_relecture_20261107_003"
+    ],
+    "valid_from": "2026-10-08",
+    "valid_to": null,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "claim_qual_actor_0123",
+    "subject_id": "actor_0123",
+    "project_id": "project_google_ozans",
+    "claim_type": "position",
+    "topic": "position_globale",
+    "value": "opposed",
+    "summary": "Michaël Bruneau, cofondateur des Citoyens du Berry avec Stéphanie Mercier, souhaite préserver les terres agricoles en envisageant d'autres projets locaux plutôt que le campus de données annoncé.",
+    "certainty": "medium",
+    "status": "attributed_or_documented",
+    "evidence_ids": [
+      "evidence_relecture_20261107_004"
+    ],
+    "valid_from": "2026-10-08",
+    "valid_to": null,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "claim_qual_actor_0124",
+    "subject_id": "actor_0124",
+    "project_id": "project_google_ozans",
+    "claim_type": "position",
+    "topic": "position_globale",
+    "value": "unknown",
+    "summary": "Le reportage du 8 octobre documente la création des Citoyens du Berry par Stéphanie Mercier et Michaël Bruneau dans le contexte de la contestation d'Ozans. Une déclaration officielle autonome du collectif et sa participation au rassemblement du 17 octobre ne sont pas établies.",
+    "certainty": "low",
+    "status": "documented_role_without_site_position",
+    "evidence_ids": [
+      "evidence_relecture_20261107_005"
+    ],
+    "valid_from": null,
+    "valid_to": null,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "claim_qual_actor_0125",
+    "subject_id": "actor_0125",
+    "project_id": "project_google_ozans",
+    "claim_type": "position",
+    "topic": "position_globale",
+    "value": "opposed",
+    "summary": "Daniel Michaud, habitant d'Étrechet interrogé par Le Nouvel Obs, dénonce la vente de terres agricoles et met en cause les retombées en souveraineté de l'implantation américaine, qu'il associe à une forme de colonisation économique.",
+    "certainty": "medium",
+    "status": "attributed_or_documented",
+    "evidence_ids": [
+      "evidence_relecture_20261107_006"
+    ],
+    "valid_from": "2026-10-08",
+    "valid_to": null,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "claim_qual_actor_0126",
+    "subject_id": "actor_0126",
+    "project_id": "project_google_ozans",
+    "claim_type": "position",
+    "topic": "position_globale",
+    "value": "favorable",
+    "summary": "Gilbert Blanc, maire de Mâron, défend l'utilité nationale de l'intelligence artificielle et se montre rassurant sur l'insertion et les nuisances possibles du centre Google situé dans une commune voisine.",
+    "certainty": "medium",
+    "status": "attributed_or_documented",
+    "evidence_ids": [
+      "evidence_relecture_20261107_007"
+    ],
+    "valid_from": "2026-10-08",
+    "valid_to": null,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "claim_qual_actor_0127",
+    "subject_id": "actor_0127",
+    "project_id": "project_google_ozans",
+    "claim_type": "position",
+    "topic": "position_globale",
+    "value": "neutral",
+    "summary": "Laurent Lhardit est cité parmi les quatre députés présentant à l'Assemblée une résolution en faveur d'un moratoire sur les centres de données non souverains, dans un événement lié à Ozans. Cette initiative politique ne suffit pas à démontrer son rejet de toute infrastructure numérique.",
+    "certainty": "medium",
+    "status": "attributed_or_documented",
+    "evidence_ids": [
+      "evidence_relecture_20261107_008"
+    ],
+    "valid_from": "2026-10-08",
+    "valid_to": null,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "claim_qual_actor_0128",
+    "subject_id": "actor_0128",
+    "project_id": "project_google_ozans",
+    "claim_type": "position",
+    "topic": "position_globale",
+    "value": "neutral",
+    "summary": "Philippe Latombe soutient plusieurs critiques sur l'opacité et l'insuffisance du débat autour des data centers, mais déclare ne pas vouloir signer le moratoire strict, craignant un déclassement technologique de la France. Aucune opposition formelle aux autorisations d'Ozans n'est attribuée.",
+    "certainty": "high",
+    "status": "attributed_or_documented",
+    "evidence_ids": [
+      "evidence_relecture_20261107_009"
+    ],
+    "valid_from": "2026-10-13",
+    "valid_to": null,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "claim_qual_actor_0129",
+    "subject_id": "actor_0129",
+    "project_id": "project_google_ozans",
+    "claim_type": "position",
+    "topic": "position_globale",
+    "value": "unknown",
+    "summary": "Guillaume Chaussemy fait partie de la délégation d'élus de l'Indre présente lors de la conférence à l'Assemblée liée à Ozans. L'article n'attribue pas de déclaration personnelle explicite pour ou contre le campus.",
+    "certainty": "low",
+    "status": "documented_role_without_site_position",
+    "evidence_ids": [
+      "evidence_relecture_20261107_010"
+    ],
+    "valid_from": null,
+    "valid_to": null,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "claim_qual_actor_0130",
+    "subject_id": "actor_0130",
+    "project_id": "project_google_ozans",
+    "claim_type": "position",
+    "topic": "position_globale",
+    "value": "unknown",
+    "summary": "Ophélie Coelho critique le manque de transparence des opérateurs et les limites des concertations dans le secteur des data centers. Ses propos, mobilisés dans une enquête sur Ozans, ne constituent pas une prise de position formelle sur l'autorisation du site Google.",
+    "certainty": "low",
+    "status": "documented_role_without_site_position",
+    "evidence_ids": [
+      "evidence_relecture_20261107_011"
+    ],
+    "valid_from": null,
+    "valid_to": null,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "claim_qual_actor_0131",
+    "subject_id": "actor_0131",
+    "project_id": "project_google_ozans",
+    "claim_type": "position",
+    "topic": "position_globale",
+    "value": "neutral",
+    "summary": "Loup Cellard juge que la quantité de chaleur fatale que pourrait produire le campus Google dépasserait largement les besoins de chauffage de Diors; il interroge ainsi la plausibilité de cette valorisation locale, sans demander expressément l'abandon du site.",
+    "certainty": "high",
+    "status": "attributed_or_documented",
+    "evidence_ids": [
+      "evidence_relecture_20261107_012"
+    ],
+    "valid_from": "2026-05-28",
+    "valid_to": null,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "claim_qual_actor_0132",
+    "subject_id": "actor_0132",
+    "project_id": "project_google_ozans",
+    "claim_type": "position",
+    "topic": "position_globale",
+    "value": "unknown",
+    "summary": "Marie-Pierre Chabenat-Canals indique avoir sollicité The Shift Project et reçu une proposition d'appui technique pour analyser les impacts du projet. Cette assistance rapportée par RFI ne prouve ni soutien ni opposition institutionnelle au campus Google.",
+    "certainty": "low",
+    "status": "documented_role_without_site_position",
+    "evidence_ids": [
+      "evidence_relecture_20261107_013"
+    ],
+    "valid_from": null,
     "valid_to": null,
     "updated_at": "2026-11-07"
   }

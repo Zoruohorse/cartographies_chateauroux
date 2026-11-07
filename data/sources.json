@@ -405,5 +405,60 @@
     "provenance": "Article Le Monde du 30 mai 2026 : mobilisation initiée par Les Écologistes, témoignage d'Emmanuel de Saint-Pol",
     "status": "qualified",
     "updated_at": "2026-11-07"
+  },
+  {
+    "id": "source_relecture_localtis18",
+    "title": "La fronde contre les datacenters trouve des relais à l'Assemblée nationale",
+    "publisher": "Banque des Territoires / Localtis",
+    "url": "https://www.banquedesterritoires.fr/la-fronde-contre-les-datacenters-trouve-des-relais-lassemblee-nationale",
+    "source_type": "public_article_or_institutional_page",
+    "status": "qualified_url",
+    "verification": "full_public_page_reviewed_2026_11_07",
+    "provenance": "Classeur ligne 18 ; édition du 13 octobre 2026",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "source_relecture_rfi39",
+    "title": "La contestation contre le projet de centre de données géant de Google près de Châteauroux",
+    "publisher": "RFI",
+    "url": "https://www.rfi.fr/fr/podcasts/reportage-france/20260929-la-contestation-s-organise-contre-le-projet-de-centre-de-donn%C3%A9es-g%C3%A9ant-de-google-pr%C3%A9s-de-ch%C3%A2teauroux",
+    "source_type": "public_article_or_institutional_page",
+    "status": "qualified_url",
+    "verification": "full_text_transmitted_in_spreadsheet_not_independently_reopened",
+    "provenance": "Classeur ligne 39, reportage du 29 septembre",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "source_relecture_parisien36",
+    "title": "Zizanie autour d’un projet de data center Google près de Châteauroux, la maire d'Étrechet démissionne",
+    "publisher": "Le Parisien",
+    "url": "https://www.leparisien.fr/indre-36/zizanie-autour-dun-projet-de-data-center-google-pres-de-chateauroux-la-maire-detrechet-demissionne-29-09-2026-3YC5UQEO7FBCJIFPE7HGLAVW4U.php",
+    "source_type": "public_article_or_institutional_page",
+    "status": "qualified_url",
+    "verification": "public_article_excerpt_reviewed_2026_11_07",
+    "provenance": "Corpus ligne 36 ; article accessible partiellement",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "source_relecture_lefigaro48",
+    "title": "La région Centre-Val de Loire critique le projet de centre de données Google",
+    "publisher": "Le Figaro / AFP",
+    "url": "https://www.lefigaro.fr/flash-eco/la-region-centre-val-de-loire-critique-le-projet-de-centre-de-donnees-google-20260921",
+    "source_type": "public_article_or_institutional_page",
+    "status": "qualified_url",
+    "verification": "full_text_transmitted_in_spreadsheet_not_independently_reopened",
+    "provenance": "Classeur ligne 48, déclaration François Bonneau à l'AFP",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "source_relecture_rte_eguzon",
+    "title": "Création d'une ligne électrique entre Eguzon et Marmagne : concertation du public",
+    "publisher": "RTE",
+    "url": "https://www.rte-france.com/actualites/2026-09-29-cp-eguzon-marmagne-concertation",
+    "source_type": "public_article_or_institutional_page",
+    "status": "qualified_url",
+    "verification": "primary_public_source_reviewed_2026_11_07",
+    "provenance": "RTE, 29 septembre 2026 ; distinct du raccordement dédié Google",
+    "recorded_at": "2026-11-07"
   }
 ]

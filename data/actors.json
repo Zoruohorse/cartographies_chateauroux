@@ -254,7 +254,7 @@
     "type": "entity",
     "name": "François Bonneau",
     "short_name": "François Bonneau",
-    "description": "Président socialiste de la Région Centre-Val de Loire",
+    "description": "Président du conseil régional Centre-Val de Loire, ne soutient pas Ozans en l'état (septembre 2026).",
     "roles": [
       {
         "label": "Président socialiste de la Région Centre-Val de Loire"
@@ -911,6 +911,240 @@
       "opposants"
     ],
     "timeline_category": "other",
+    "display_in_cards": true,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "actor_0120",
+    "type": "actor",
+    "name": "Louis Collin",
+    "short_name": "Louis Collin",
+    "description": "Fondateur du collectif Stop data center 36",
+    "roles": [
+      {
+        "label": "Fondateur du collectif Stop data center 36"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "timeline_category": "other",
+    "display_in_cards": true,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "actor_0121",
+    "type": "actor",
+    "name": "Stop data center 36",
+    "short_name": "Stop data center 36",
+    "description": "Collectif de mobilisation contre le projet Google à Étrechet",
+    "roles": [
+      {
+        "label": "Collectif de mobilisation contre le projet Google à Étrechet"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "timeline_category": "associations",
+    "display_in_cards": true,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "actor_0122",
+    "type": "actor",
+    "name": "Stéphanie Mercier",
+    "short_name": "Stéphanie Mercier",
+    "description": "Ancienne conseillère municipale d'Étrechet, riveraine des Godiers",
+    "roles": [
+      {
+        "label": "Ancienne conseillère municipale d'Étrechet, riveraine des Godiers"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "timeline_category": "other",
+    "display_in_cards": true,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "actor_0123",
+    "type": "actor",
+    "name": "Michaël Bruneau",
+    "short_name": "Michaël Bruneau",
+    "description": "Entrepreneur et riverain, cofondateur des Citoyens du Berry",
+    "roles": [
+      {
+        "label": "Entrepreneur et riverain, cofondateur des Citoyens du Berry"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "timeline_category": "other",
+    "display_in_cards": true,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "actor_0124",
+    "type": "actor",
+    "name": "Citoyens du Berry",
+    "short_name": "Citoyens du Berry",
+    "description": "Collectif fondé par Stéphanie Mercier et Michaël Bruneau",
+    "roles": [
+      {
+        "label": "Collectif fondé par Stéphanie Mercier et Michaël Bruneau"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "timeline_category": "associations",
+    "display_in_cards": true,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "actor_0125",
+    "type": "actor",
+    "name": "Daniel Michaud",
+    "short_name": "Daniel Michaud",
+    "description": "Habitant d'Étrechet critique de l'implantation",
+    "roles": [
+      {
+        "label": "Habitant d'Étrechet critique de l'implantation"
+      }
+    ],
+    "categories": [
+      "opposants"
+    ],
+    "timeline_category": "other",
+    "display_in_cards": true,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "actor_0126",
+    "type": "actor",
+    "name": "Gilbert Blanc",
+    "short_name": "Gilbert Blanc",
+    "description": "Maire de Mâron, élu en mars 2026",
+    "roles": [
+      {
+        "label": "Maire de Mâron, élu en mars 2026"
+      }
+    ],
+    "categories": [
+      "elus-fav"
+    ],
+    "timeline_category": "elus",
+    "display_in_cards": true,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "actor_0127",
+    "type": "actor",
+    "name": "Laurent Lhardit",
+    "short_name": "Laurent Lhardit",
+    "description": "Député socialiste associé à la présentation d'une résolution sur les data centers",
+    "roles": [
+      {
+        "label": "Député socialiste associé à la présentation d'une résolution sur les data centers"
+      }
+    ],
+    "categories": [
+      "elus-opp"
+    ],
+    "timeline_category": "elus",
+    "display_in_cards": true,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "actor_0128",
+    "type": "actor",
+    "name": "Philippe Latombe",
+    "short_name": "Philippe Latombe",
+    "description": "Député MoDem, ancien président de commission sur les dépendances numériques",
+    "roles": [
+      {
+        "label": "Député MoDem, ancien président de commission sur les dépendances numériques"
+      }
+    ],
+    "categories": [
+      "elus-opp"
+    ],
+    "timeline_category": "elus",
+    "display_in_cards": true,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "actor_0129",
+    "type": "actor",
+    "name": "Guillaume Chaussemy",
+    "short_name": "Guillaume Chaussemy",
+    "description": "Maire du Pont-Chrétien-Chabenet, président de l'AMEP 36",
+    "roles": [
+      {
+        "label": "Maire du Pont-Chrétien-Chabenet, président de l'AMEP 36"
+      }
+    ],
+    "categories": [
+      "elus-fav"
+    ],
+    "timeline_category": "elus",
+    "display_in_cards": true,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "actor_0130",
+    "type": "actor",
+    "name": "Ophélie Coelho",
+    "short_name": "Ophélie Coelho",
+    "description": "Chercheuse associée à l'IRIS, spécialiste du numérique",
+    "roles": [
+      {
+        "label": "Chercheuse associée à l'IRIS, spécialiste du numérique"
+      }
+    ],
+    "categories": [
+      "experts"
+    ],
+    "timeline_category": "other",
+    "display_in_cards": true,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "actor_0131",
+    "type": "actor",
+    "name": "Loup Cellard",
+    "short_name": "Loup Cellard",
+    "description": "Sociologue spécialisé dans les impacts environnementaux des data centers",
+    "roles": [
+      {
+        "label": "Sociologue spécialisé dans les impacts environnementaux des data centers"
+      }
+    ],
+    "categories": [
+      "experts"
+    ],
+    "timeline_category": "other",
+    "display_in_cards": true,
+    "updated_at": "2026-11-07"
+  },
+  {
+    "id": "actor_0132",
+    "type": "actor",
+    "name": "The Shift Project",
+    "short_name": "The Shift Project",
+    "description": "Groupe de réflexion ayant apporté des éléments techniques à des élus d'Étrechet",
+    "roles": [
+      {
+        "label": "Groupe de réflexion ayant apporté des éléments techniques à des élus d'Étrechet"
+      }
+    ],
+    "categories": [
+      "orgs"
+    ],
+    "timeline_category": "associations",
     "display_in_cards": true,
     "updated_at": "2026-11-07"
   }

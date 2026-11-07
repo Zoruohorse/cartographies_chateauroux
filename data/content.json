@@ -74,6 +74,36 @@
       "evidence_ids": [
         "evidence_chateauroux_20261107_057"
       ]
+    },
+    {
+      "id": "grief_relecture_9",
+      "title": "👥 Nouveaux collectifs et riverains identifiés",
+      "text": "Le reportage d'octobre documente Stop data center 36 et les Citoyens du Berry, ainsi que les prises de position de Stéphanie Mercier, Michaël Bruneau et Daniel Michaud. La position officielle des Citoyens du Berry reste non établie au-delà des déclarations individuelles de leurs fondateurs.",
+      "evidence_ids": [
+        "evidence_relecture_20261107_002",
+        "evidence_relecture_20261107_003",
+        "evidence_relecture_20261107_004",
+        "evidence_relecture_20261107_005",
+        "evidence_relecture_20261107_006"
+      ]
+    },
+    {
+      "id": "grief_relecture_10",
+      "title": "🏛️ Moratoire national : soutiens et réserves",
+      "text": "Cyrielle Chatelain et Laurent Lhardit participent à la démarche parlementaire de moratoire sur les centres non souverains dans le contexte d'Ozans. Philippe Latombe partage plusieurs critiques mais refuse le moratoire strict. Il ne doit pas être classé comme opposant inconditionnel à Google.",
+      "evidence_ids": [
+        "evidence_relecture_20261107_015",
+        "evidence_relecture_20261107_014",
+        "evidence_relecture_20261107_009"
+      ]
+    },
+    {
+      "id": "grief_relecture_11",
+      "title": "♨️ Chaleur fatale : limites de la valorisation locale",
+      "text": "Loup Cellard estime que le volume possible de chaleur de Google pourrait dépasser largement les besoins de Diors. Cette opinion d'expert souligne la nécessité de justifier un débouché réel, sans prouver une absence future de récupération.",
+      "evidence_ids": [
+        "evidence_relecture_20261107_012"
+      ]
     }
   ],
   "vigilance": [
@@ -181,6 +211,43 @@
         "evidence_chateauroux_20261107_021",
         "evidence_chateauroux_20261107_027"
       ]
+    },
+    {
+      "id": "vigilance_relecture_foncier",
+      "title": "Trois périmètres fonciers non interchangeables",
+      "text": "195 ha dans la promesse de vente, environ 200 ha dans le dossier de concertation Google/RTE, et 212 ha annoncés dans certaines déclarations d'élus et publications de septembre. Il faut distinguer l'emprise étudiée, le foncier négocié et l'artificialisation effectivement autorisée.",
+      "evidence_ids": [
+        "evidence_relecture_20261107_017",
+        "evidence_relecture_20261107_018"
+      ]
+    },
+    {
+      "id": "vigilance_relecture_moratoire",
+      "title": "Moratoire parlementaire : ne pas confondre présence, soutien et signature",
+      "text": "L'article d'octobre cite quatre députés à une présentation parlementaire, mais Philippe Latombe a déclaré qu'il ne signerait pas le moratoire strict. Les positions sur la politique nationale ne sont pas automatiquement des recours individuels contre le dossier d'Ozans.",
+      "evidence_ids": [
+        "evidence_relecture_20261107_014",
+        "evidence_relecture_20261107_015",
+        "evidence_relecture_20261107_009"
+      ]
+    },
+    {
+      "id": "vigilance_relecture_ligne",
+      "title": "Deux procédures RTE distinctes",
+      "text": "Éguzon–Marmagne (ligne nationale 400 kV, concertation 28 septembre–22 novembre 2026) se distingue de la concertation Google Ozans + son raccordement dédié (2 novembre 2026–10 janvier 2027). L'interdépendance technique ne rend pas les deux dossiers équivalents.",
+      "evidence_ids": [
+        "evidence_relecture_20261107_019",
+        "evidence_relecture_20261107_018"
+      ]
+    },
+    {
+      "id": "vigilance_relecture_emploi",
+      "title": "Des estimations d'emplois de périmètres différents",
+      "text": "Gil Avérous annonce 1 500 emplois pérennes à terme, sans validation de Google dans le reportage RFI ; le dossier public Google/RTE diffuse des projections moyennes annuelles directes, indirectes et induites. Ne pas substituer ces chiffres les uns aux autres.",
+      "evidence_ids": [
+        "evidence_relecture_20261107_021",
+        "evidence_relecture_20261107_020"
+      ]
     }
   ],
   "milestones": [
@@ -260,6 +327,16 @@
       ]
     },
     {
+      "date": "2026-09-28",
+      "period_precision": "day",
+      "status": "documented",
+      "title": "Début de la concertation RTE Éguzon–Marmagne",
+      "details": "Ouverture du débat sur la ligne nationale 400 kV, distinct du débat sur le centre Google et son raccordement dédié.",
+      "evidence_ids": [
+        "evidence_relecture_20261107_019"
+      ]
+    },
+    {
       "date": "2026-10-07",
       "period_precision": "day",
       "status": "documented",
@@ -267,6 +344,17 @@
       "details": "La CNDP valide le dossier et les modalités, y compris une réunion supplémentaire à Étrechet après les élections.",
       "evidence_ids": [
         "evidence_chateauroux_20261107_052"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "period_precision": "day",
+      "status": "documented",
+      "title": "La mobilisation Ozans s'invite à l'Assemblée nationale",
+      "details": "Des anciens élus d'Étrechet rencontrent des députés portant ou discutant une proposition de moratoire ciblant les centres de données non souverains.",
+      "evidence_ids": [
+        "evidence_relecture_20261107_015",
+        "evidence_relecture_20261107_014"
       ]
     },
     {
@@ -318,6 +406,16 @@
       "details": "Réunion annoncée à 18 h 30 par Châteauroux Métropole.",
       "evidence_ids": [
         "evidence_chateauroux_20261107_066"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "period_precision": "day",
+      "status": "forecast",
+      "title": "Clôture prévue de la concertation Éguzon–Marmagne",
+      "details": "Fin annoncée de la concertation sur le renforcement du réseau de transport 400 kV de RTE; elle ne clôt pas la concertation Google Ozans, qui court jusqu'en janvier 2027.",
+      "evidence_ids": [
+        "evidence_relecture_20261107_019"
       ]
     },
     {
@@ -406,6 +504,32 @@
       "qualifier": "Bilan non encore publié au 7 novembre 2026.",
       "evidence_ids": [
         "evidence_chateauroux_20261107_052"
+      ]
+    },
+    {
+      "label": "Emprise foncière suivant le document",
+      "value": "195 / env. 200 / 212 ha",
+      "qualifier": "Promesse de vente / dossier Google–RTE / déclarations rapportées en septembre; la surface artificialisée finale n'est pas établie.",
+      "evidence_ids": [
+        "evidence_relecture_20261107_017",
+        "evidence_relecture_20261107_018"
+      ]
+    },
+    {
+      "label": "Ligne nationale Éguzon–Marmagne",
+      "value": "400 kV ; concertation 28/09–22/11/2026",
+      "qualifier": "Projet RTE distinct du raccordement dédié de Google; création programmée à l'horizon de mise en service 2032 au plus tôt.",
+      "evidence_ids": [
+        "evidence_relecture_20261107_019"
+      ]
+    },
+    {
+      "label": "Emplois annoncés localement",
+      "value": "1 500 emplois pérennes selon Gil Avérous",
+      "qualifier": "Estimation non confirmée par Google dans le reportage RFI; à comparer avec les prévisions directes/indirectes/induites des porteurs.",
+      "evidence_ids": [
+        "evidence_relecture_20261107_021",
+        "evidence_relecture_20261107_020"
       ]
     }
   ]

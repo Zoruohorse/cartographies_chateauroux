@@ -39,6 +39,10 @@
     "sources": {
       "label": "Médias et sources",
       "color": "#64748b"
+    },
+    "experts": {
+      "label": "Experts et observateurs",
+      "color": "#607d8b"
     }
   },
   "stances": {
@@ -114,6 +118,22 @@
     "same_project": {
       "label": "Interdépendance technique",
       "directed": false
+    },
+    "founded": {
+      "label": "A fondé",
+      "directed": true
+    },
+    "co_founded": {
+      "label": "A cofondé",
+      "directed": true
+    },
+    "attended_with": {
+      "label": "Présent à la même mobilisation",
+      "directed": false
+    },
+    "expertise_requested": {
+      "label": "A sollicité l'expertise de",
+      "directed": true
     }
   },
   "timeline": {

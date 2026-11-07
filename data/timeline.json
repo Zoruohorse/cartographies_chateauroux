@@ -84,6 +84,20 @@
     "summary": "Raphaël Tillie, porte-parole du collectif, conteste la perte de terres agricoles, la chaleur possible et la justification de souveraineté du projet Google."
   },
   {
+    "id": "timeline_qual_actor_0131",
+    "actor_id": "actor_0131",
+    "event_type": "first_documented_position",
+    "date": "2026-05-28",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w98"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "Première prise de position explicitement retenue dans le corpus consulté",
+    "summary": "Loup Cellard juge que la quantité de chaleur fatale que pourrait produire le campus Google dépasserait largement les besoins de chauffage de Diors; il interroge ainsi la plausibilité de cette valorisation locale, sans demander expressément l'abandon du site."
+  },
+  {
     "id": "timeline_qual_actor_0008",
     "actor_id": "actor_0008",
     "event_type": "first_documented_position",
@@ -364,6 +378,104 @@
     "summary": "Marc Lyster, agriculteur riverain, redoute les conséquences du futur campus pour le cadre de vie et l'activité sur ses terres, dans un reportage d'octobre."
   },
   {
+    "id": "timeline_qual_actor_0120",
+    "actor_id": "actor_0120",
+    "event_type": "first_documented_position",
+    "date": "2026-10-08",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w25"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "Première prise de position explicitement retenue dans le corpus consulté",
+    "summary": "Louis Collin, habitant de Châteauroux, a créé le collectif Stop data center 36 et cherche à structurer une alternative municipale à Étrechet dans le contexte de la contestation du projet Google. Son engagement s'oppose à cette implantation, sans preuve de recours juridictionnel personnel."
+  },
+  {
+    "id": "timeline_qual_actor_0121",
+    "actor_id": "actor_0121",
+    "event_type": "first_documented_position",
+    "date": "2026-10-08",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w25"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "Première prise de position explicitement retenue dans le corpus consulté",
+    "summary": "Le collectif Stop data center 36 est cité parmi les initiatives mobilisées contre l'implantation du campus Google à Ozans. Le reportage attribue sa création à Louis Collin."
+  },
+  {
+    "id": "timeline_qual_actor_0122",
+    "actor_id": "actor_0122",
+    "event_type": "first_documented_position",
+    "date": "2026-10-08",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w25"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "Première prise de position explicitement retenue dans le corpus consulté",
+    "summary": "Stéphanie Mercier, ancienne conseillère municipale d'Étrechet et fondatrice des Citoyens du Berry, conteste le traitement des riverains et l'implantation projetée à proximité des Godiers, selon ses propos recueillis par Le Nouvel Obs."
+  },
+  {
+    "id": "timeline_qual_actor_0123",
+    "actor_id": "actor_0123",
+    "event_type": "first_documented_position",
+    "date": "2026-10-08",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w25"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "Première prise de position explicitement retenue dans le corpus consulté",
+    "summary": "Michaël Bruneau, cofondateur des Citoyens du Berry avec Stéphanie Mercier, souhaite préserver les terres agricoles en envisageant d'autres projets locaux plutôt que le campus de données annoncé."
+  },
+  {
+    "id": "timeline_qual_actor_0125",
+    "actor_id": "actor_0125",
+    "event_type": "first_documented_position",
+    "date": "2026-10-08",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w25"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "Première prise de position explicitement retenue dans le corpus consulté",
+    "summary": "Daniel Michaud, habitant d'Étrechet interrogé par Le Nouvel Obs, dénonce la vente de terres agricoles et met en cause les retombées en souveraineté de l'implantation américaine, qu'il associe à une forme de colonisation économique."
+  },
+  {
+    "id": "timeline_qual_actor_0126",
+    "actor_id": "actor_0126",
+    "event_type": "first_documented_position",
+    "date": "2026-10-08",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w25"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "Première prise de position explicitement retenue dans le corpus consulté",
+    "summary": "Gilbert Blanc, maire de Mâron, défend l'utilité nationale de l'intelligence artificielle et se montre rassurant sur l'insertion et les nuisances possibles du centre Google situé dans une commune voisine."
+  },
+  {
+    "id": "timeline_qual_actor_0127",
+    "actor_id": "actor_0127",
+    "event_type": "first_documented_position",
+    "date": "2026-10-08",
+    "date_precision": "day",
+    "source_ids": [
+      "source_qual_w29"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "Première prise de position explicitement retenue dans le corpus consulté",
+    "summary": "Laurent Lhardit est cité parmi les quatre députés présentant à l'Assemblée une résolution en faveur d'un moratoire sur les centres de données non souverains, dans un événement lié à Ozans. Cette initiative politique ne suffit pas à démontrer son rejet de toute infrastructure numérique."
+  },
+  {
     "id": "timeline_qual_actor_0026",
     "actor_id": "actor_0026",
     "event_type": "first_documented_position",
@@ -404,6 +516,20 @@
     "status": "confirmed",
     "date_basis": "date du document du corpus ou de la prise de parole, premier événement vérifiable retenu",
     "summary": "François Ruffin, après avoir rencontré les opposants d'Ozans, promeut un moratoire sur les centres de données non souverains et critique la dépendance aux GAFAM."
+  },
+  {
+    "id": "timeline_qual_actor_0128",
+    "actor_id": "actor_0128",
+    "event_type": "first_documented_position",
+    "date": "2026-10-13",
+    "date_precision": "day",
+    "source_ids": [
+      "source_relecture_localtis18"
+    ],
+    "confidence": "medium",
+    "status": "confirmed",
+    "date_basis": "Première prise de position explicitement retenue dans le corpus consulté",
+    "summary": "Philippe Latombe soutient plusieurs critiques sur l'opacité et l'insuffisance du débat autour des data centers, mais déclare ne pas vouloir signer le moratoire strict, craignant un déclassement technologique de la France. Aucune opposition formelle aux autorisations d'Ozans n'est attribuée."
   },
   {
     "id": "timeline_qual_actor_0010",

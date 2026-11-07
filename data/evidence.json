@@ -790,5 +790,278 @@
     "source_status": "qualified",
     "verification": "directly_reviewed_2026-11-07",
     "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_001",
+    "type": "attributed_summary",
+    "text": "Louis Collin, habitant de Châteauroux, a créé le collectif Stop data center 36 et cherche à structurer une alternative municipale à Étrechet dans le contexte de la contestation du projet Google. Son engagement s'oppose à cette implantation, sans preuve de recours juridictionnel personnel.",
+    "source_id": "source_qual_w25",
+    "source_ids": [
+      "source_qual_w25"
+    ],
+    "source_status": "qualified_url",
+    "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
+    "content_status": "attributed",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_002",
+    "type": "attributed_summary",
+    "text": "Le collectif Stop data center 36 est cité parmi les initiatives mobilisées contre l'implantation du campus Google à Ozans. Le reportage attribue sa création à Louis Collin.",
+    "source_id": "source_qual_w25",
+    "source_ids": [
+      "source_qual_w25"
+    ],
+    "source_status": "qualified_url",
+    "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
+    "content_status": "attributed",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_003",
+    "type": "attributed_summary",
+    "text": "Stéphanie Mercier, ancienne conseillère municipale d'Étrechet et fondatrice des Citoyens du Berry, conteste le traitement des riverains et l'implantation projetée à proximité des Godiers, selon ses propos recueillis par Le Nouvel Obs.",
+    "source_id": "source_qual_w25",
+    "source_ids": [
+      "source_qual_w25"
+    ],
+    "source_status": "qualified_url",
+    "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
+    "content_status": "attributed",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_004",
+    "type": "attributed_summary",
+    "text": "Michaël Bruneau, cofondateur des Citoyens du Berry avec Stéphanie Mercier, souhaite préserver les terres agricoles en envisageant d'autres projets locaux plutôt que le campus de données annoncé.",
+    "source_id": "source_qual_w25",
+    "source_ids": [
+      "source_qual_w25"
+    ],
+    "source_status": "qualified_url",
+    "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
+    "content_status": "attributed",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_005",
+    "type": "attributed_summary",
+    "text": "Le reportage du 8 octobre documente la création des Citoyens du Berry par Stéphanie Mercier et Michaël Bruneau dans le contexte de la contestation d'Ozans. Une déclaration officielle autonome du collectif et sa participation au rassemblement du 17 octobre ne sont pas établies.",
+    "source_id": "source_qual_w25",
+    "source_ids": [
+      "source_qual_w25"
+    ],
+    "source_status": "qualified_url",
+    "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
+    "content_status": "role_only",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_006",
+    "type": "attributed_summary",
+    "text": "Daniel Michaud, habitant d'Étrechet interrogé par Le Nouvel Obs, dénonce la vente de terres agricoles et met en cause les retombées en souveraineté de l'implantation américaine, qu'il associe à une forme de colonisation économique.",
+    "source_id": "source_qual_w25",
+    "source_ids": [
+      "source_qual_w25"
+    ],
+    "source_status": "qualified_url",
+    "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
+    "content_status": "attributed",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_007",
+    "type": "attributed_summary",
+    "text": "Gilbert Blanc, maire de Mâron, défend l'utilité nationale de l'intelligence artificielle et se montre rassurant sur l'insertion et les nuisances possibles du centre Google situé dans une commune voisine.",
+    "source_id": "source_qual_w25",
+    "source_ids": [
+      "source_qual_w25"
+    ],
+    "source_status": "qualified_url",
+    "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
+    "content_status": "attributed",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_008",
+    "type": "attributed_summary",
+    "text": "Laurent Lhardit est cité parmi les quatre députés présentant à l'Assemblée une résolution en faveur d'un moratoire sur les centres de données non souverains, dans un événement lié à Ozans. Cette initiative politique ne suffit pas à démontrer son rejet de toute infrastructure numérique.",
+    "source_id": "source_qual_w29",
+    "source_ids": [
+      "source_qual_w29"
+    ],
+    "source_status": "qualified_url",
+    "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
+    "content_status": "attributed",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_009",
+    "type": "attributed_summary",
+    "text": "Philippe Latombe soutient plusieurs critiques sur l'opacité et l'insuffisance du débat autour des data centers, mais déclare ne pas vouloir signer le moratoire strict, craignant un déclassement technologique de la France. Aucune opposition formelle aux autorisations d'Ozans n'est attribuée.",
+    "source_id": "source_relecture_localtis18",
+    "source_ids": [
+      "source_relecture_localtis18"
+    ],
+    "source_status": "qualified_url",
+    "verification": "full_public_page_reviewed_2026_11_07",
+    "content_status": "attributed",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_010",
+    "type": "attributed_summary",
+    "text": "Guillaume Chaussemy fait partie de la délégation d'élus de l'Indre présente lors de la conférence à l'Assemblée liée à Ozans. L'article n'attribue pas de déclaration personnelle explicite pour ou contre le campus.",
+    "source_id": "source_qual_w29",
+    "source_ids": [
+      "source_qual_w29"
+    ],
+    "source_status": "qualified_url",
+    "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
+    "content_status": "role_only",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_011",
+    "type": "attributed_summary",
+    "text": "Ophélie Coelho critique le manque de transparence des opérateurs et les limites des concertations dans le secteur des data centers. Ses propos, mobilisés dans une enquête sur Ozans, ne constituent pas une prise de position formelle sur l'autorisation du site Google.",
+    "source_id": "source_qual_w98",
+    "source_ids": [
+      "source_qual_w98"
+    ],
+    "source_status": "qualified_url",
+    "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
+    "content_status": "role_only",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_012",
+    "type": "attributed_summary",
+    "text": "Loup Cellard juge que la quantité de chaleur fatale que pourrait produire le campus Google dépasserait largement les besoins de chauffage de Diors; il interroge ainsi la plausibilité de cette valorisation locale, sans demander expressément l'abandon du site.",
+    "source_id": "source_qual_w98",
+    "source_ids": [
+      "source_qual_w98"
+    ],
+    "source_status": "qualified_url",
+    "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
+    "content_status": "attributed",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_013",
+    "type": "attributed_summary",
+    "text": "Marie-Pierre Chabenat-Canals indique avoir sollicité The Shift Project et reçu une proposition d'appui technique pour analyser les impacts du projet. Cette assistance rapportée par RFI ne prouve ni soutien ni opposition institutionnelle au campus Google.",
+    "source_id": "source_relecture_rfi39",
+    "source_ids": [
+      "source_relecture_rfi39"
+    ],
+    "source_status": "qualified_url",
+    "verification": "full_text_transmitted_in_spreadsheet_not_independently_reopened",
+    "content_status": "role_only",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_014",
+    "type": "attributed_summary",
+    "text": "La Banque des Territoires contextualise début octobre le moratoire contre les data centers non souverains, en signalant la présence d'anciens élus d'Étrechet et la diversité des positions au Parlement.",
+    "source_id": "source_relecture_localtis18",
+    "source_ids": [
+      "source_relecture_localtis18"
+    ],
+    "source_status": "qualified_url",
+    "verification": "full_public_page_reviewed_2026_11_07",
+    "content_status": "attributed",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_015",
+    "type": "attributed_summary",
+    "text": "Le 8 octobre, la presse locale cite François Ruffin, Cyrielle Chatelain, Laurent Lhardit et Philippe Latombe parmi les participants à une présentation parlementaire du moratoire, en présence d'élus démissionnaires d'Étrechet. Cette présence ne vaut pas nécessairement signature du texte.",
+    "source_id": "source_qual_w29",
+    "source_ids": [
+      "source_qual_w29"
+    ],
+    "source_status": "qualified_url",
+    "verification": "full_text_supplied_in_Chateauroux_xlsx_or_public_excerpt",
+    "content_status": "attributed",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_016",
+    "type": "attributed_summary",
+    "text": "François Bonneau déclare explicitement ne pas soutenir le projet Google Ozans « en l'état », tout en disant respecter la concertation CNDP. Il exprime des réserves sur le foncier, l'environnement, l'électricité et la souveraineté.",
+    "source_id": "source_relecture_lefigaro48",
+    "source_ids": [
+      "source_relecture_lefigaro48"
+    ],
+    "source_status": "qualified_url",
+    "verification": "full_text_transmitted_in_spreadsheet_not_independently_reopened",
+    "content_status": "attributed",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_017",
+    "type": "attributed_summary",
+    "text": "Le Parisien rapporte en septembre que Gil Avérous présente 212 hectares comme périmètre du site; la promesse de vente antérieure visait environ 195 ha et le dossier CNDP d'octobre mentionne une emprise d'environ 200 ha. Ces périmètres ne démontrent pas une artificialisation intégrale.",
+    "source_id": "source_relecture_parisien36",
+    "source_ids": [
+      "source_relecture_parisien36"
+    ],
+    "source_status": "qualified_url",
+    "verification": "public_article_excerpt_reviewed_2026_11_07",
+    "content_status": "attributed",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_018",
+    "type": "attributed_summary",
+    "text": "Le dossier publié par les porteurs prévoit un site d'environ 200 hectares, un raccordement initial de 120 MW et un raccordement 400 kV à 300 MW pouvant aller jusqu'à 1 200 MW.",
+    "source_id": "source_qual_project",
+    "source_ids": [
+      "source_qual_project"
+    ],
+    "source_status": "qualified_url",
+    "verification": "public_primary_reviewed",
+    "content_status": "attributed",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_019",
+    "type": "attributed_summary",
+    "text": "La ligne RTE Éguzon–Marmagne de 400 kV, d'environ 100 km, est soumise à une concertation distincte du 28 septembre au 22 novembre 2026 et ne doit pas être présentée comme le raccordement dédié de Google.",
+    "source_id": "source_relecture_rte_eguzon",
+    "source_ids": [
+      "source_relecture_rte_eguzon"
+    ],
+    "source_status": "qualified_url",
+    "verification": "primary_public_source_reviewed_2026_11_07",
+    "content_status": "attributed",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_020",
+    "type": "attributed_summary",
+    "text": "Le Parisien rapporte les estimations de Gil Avérous en matière de postes de chantier et d'emplois liés au campus; ce sont des projections politiques à distinguer des emplois directs, indirects et induits figurant dans le dossier officiel.",
+    "source_id": "source_relecture_parisien36",
+    "source_ids": [
+      "source_relecture_parisien36"
+    ],
+    "source_status": "qualified_url",
+    "verification": "public_article_excerpt_reviewed_2026_11_07",
+    "content_status": "attributed",
+    "recorded_at": "2026-11-07"
+  },
+  {
+    "id": "evidence_relecture_20261107_021",
+    "type": "attributed_summary",
+    "text": "Dans le reportage du 29 septembre, Gil Avérous avance 1 500 emplois directs pérennes à terme, chiffre que Google France ne confirme pas dans ce reportage. Ne pas assimiler cette promesse aux projections moyennes annuelles incluant les effets indirects.",
+    "source_id": "source_relecture_rfi39",
+    "source_ids": [
+      "source_relecture_rfi39"
+    ],
+    "source_status": "qualified_url",
+    "verification": "full_text_transmitted_in_spreadsheet_not_independently_reopened",
+    "content_status": "attributed",
+    "recorded_at": "2026-11-07"
   }
 ]
