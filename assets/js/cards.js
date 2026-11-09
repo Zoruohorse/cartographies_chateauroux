@@ -1,5 +1,5 @@
 import{loadRepository,esc,norm,actorClaim,evidenceHtml}from'./data-loader.js';
-import { initEvolution } from './evolution.js';
+import { initEvolution } from './evolution.js?v=20261109-position';
 const d=await loadRepository();let cat='all',stance='all',q='';
 const $ = id => document.getElementById(id);
 const title = $('title');

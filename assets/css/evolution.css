@@ -36,3 +36,8 @@
   .evolution-section-title { align-items: stretch; flex-direction: column; }
   .evolution-section-title input { width: 100%; }
 }
+
+/* Châteauroux — mode « Par position » */
+#tab-evolution .evolution-modes{flex-wrap:wrap}
+#tab-evolution .evolution-modes button{white-space:nowrap}
+@media(max-width:850px){#tab-evolution .evolution-modes{width:100%}}

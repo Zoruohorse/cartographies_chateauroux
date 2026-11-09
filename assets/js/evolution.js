@@ -23,8 +23,17 @@
      root.innerHTML = '<article class="list-card">Configuration de l’évolution manquante dans <code>config/taxonomy.json</code>.</article>';
      return;
    }
-   const colors = new Map(config.categories.map(c=>[c.id,c.color]));
-   const categoryNames = new Map(config.categories.map(c=>[c.id,c.label]));
+   const roleCategories=config.categories;
+   // La répartition utilise les positions déjà qualifiées dans les fiches, sans changer les données.
+   const stanceCategories=[
+     {id:'favorable',label:repository.taxonomy.stances.favorable?.label||'Favorable',color:'#16a34a'},
+     {id:'opposed',label:repository.taxonomy.stances.opposed?.label||'Opposé ou critique',color:'#dc2626'},
+     {id:'neutral',label:repository.taxonomy.stances.neutral?.label||'Prudent ou ambigu',color:'#f59e0b'},
+     {id:'unknown',label:repository.taxonomy.stances.unknown?.label||'Position non établie',color:'#94a3b8'}
+   ];
+   const colors=new Map([...roleCategories,...stanceCategories].map(c=>[c.id,c.color]));
+   const categoryNames=new Map([...roleCategories,...stanceCategories].map(c=>[c.id,c.label]));
+   const claimByActor=new Map(repository.claims.filter(c=>c.claim_type==='position').map(c=>[c.subject_id,c]));
    const allowed = new Set(config.categories.map(c=>c.id));
    const excluded = new Set(config.excluded_actor_categories || []);
    const byActor = new Map();
@@ -36,7 +45,7 @@
      const month = isoMonth(event.date);
      if (!month || ['year','unknown'].includes(event.date_precision)) {incomplete++;continue;}
      const existing = byActor.get(actor.id);
-     if (!existing || event.date < existing.event.date) byActor.set(actor.id, {actor,event,month,category:matchingCategory(actor,config)});
+     if (!existing || event.date < existing.event.date) byActor.set(actor.id, {actor,event,month,category:matchingCategory(actor,config),stance:claimByActor.get(actor.id)?.value||'unknown'});
    }
    const entries = [...byActor.values()].sort((a,b)=>a.event.date.localeCompare(b.event.date) || a.actor.name.localeCompare(b.actor.name,'fr'));
    if (!entries.length) {
@@ -44,22 +53,24 @@
      return;
    }
    const months = allMonths(entries[0].month, entries[entries.length - 1].month);
-   const categories = config.categories.filter(c=>allowed.has(c.id));
+   let categories=roleCategories.filter(c=>allowed.has(c.id));
    const state = {mode:config.default_mode==='cumulative'?'cumulative':'new', month:months[months.length-1], visible:new Set(categories.map(c=>c.id)), search:''};
    root.innerHTML = `<div class="evolution-app">
-     <div class="evolution-top"><div><h2>Évolution des acteurs</h2><p>Premières positions documentées, par mois et typologie.</p></div><div class="evolution-modes" role="group" aria-label="Mode de comptage"><button type="button" data-mode="new">Nouveaux</button><button type="button" data-mode="cumulative">Cumulés</button></div></div>
+     <div class="evolution-top"><div><h2>Évolution des acteurs</h2><p>Premiers repères datés, par mois et typologie ou position.</p></div><div class="evolution-modes" role="group" aria-label="Mode de comptage"><button type="button" data-mode="new">Nouveaux</button><button type="button" data-mode="cumulative">Cumulés</button><button type="button" data-mode="stance">Par position</button></div></div>
+     <p class="evolution-hint">Le mode « Par position » ventile les acteurs déjà datés selon la position enregistrée dans leur fiche (opposé, favorable, prudent ou non établie). Il ne retrace pas des changements historiques de position. Les acteurs sans premier repère daté sont exclus des histogrammes.</p>
      <div class="evolution-metrics" aria-live="polite"><div class="evolution-metric"><span>Acteurs documentés</span><strong data-metric="total"></strong></div><div class="evolution-metric"><span>Acteurs dans la période</span><strong data-metric="period"></strong></div><div class="evolution-metric"><span>Typologies représentées</span><strong data-metric="categories"></strong></div></div>
      <section class="evolution-panel"><div class="evolution-section-title"><h3>Répartition chronologique</h3><label>Période sélectionnée <select data-month aria-label="Période sélectionnée"></select></label></div><div class="evolution-chart" data-chart role="group" aria-label="Histogramme empilé des acteurs par période"></div><div class="evolution-legend" data-legend aria-label="Filtrer les typologies"></div></section>
      <section class="evolution-panel"><div class="evolution-section-title"><h3>Acteurs concernés <span data-roster-count></span></h3><input type="search" data-search placeholder="Rechercher un acteur…" aria-label="Rechercher dans les acteurs de la période"></div><p class="evolution-hint" data-description></p><div class="evolution-roster" data-roster></div></section>
      ${incomplete?`<p class="evolution-warning">${incomplete} événement(s) non affichés : date absente ou insuffisamment précise.</p>`:''}
    </div>`;
    const $ = selector => root.querySelector(selector);
-   const selectedEntries = month => entries.filter(e=>state.visible.has(e.category) && (state.mode==='new'?e.month===month:e.month<=month));
+   const categoryOf=e=>state.mode==='stance'?e.stance:e.category;
+   const selectedEntries=month=>entries.filter(e=>state.visible.has(categoryOf(e)) && (state.mode==='new'?e.month===month:e.month<=month));
    $('[data-month]').innerHTML = months.map(m=>`<option value="${m}">${escapeHtml(monthLabel(m))}</option>`).join('');
    const renderLegend = () => { $('[data-legend]').innerHTML = categories.map(c=>`<button type="button" class="evolution-legend-button ${state.visible.has(c.id)?'is-on':''}" data-category="${escapeHtml(c.id)}" aria-pressed="${state.visible.has(c.id)}"><span class="evolution-swatch" style="background:${escapeHtml(c.color)}"></span>${escapeHtml(c.label)}</button>`).join(''); };
    function renderChart() {
      const width=Math.max(560,months.length*75), height=270, left=42, right=15, top=20, bottom=54, plotWidth=width-left-right, plotHeight=height-top-bottom;
-     const series=months.map(month=>({month,values:categories.map(cat=>entries.filter(e=>e.category===cat.id && state.visible.has(cat.id) && (state.mode==='new'?e.month===month:e.month<=month)).length)}));
+     const series=months.map(month=>({month,values:categories.map(cat=>entries.filter(e=>categoryOf(e)===cat.id && state.visible.has(cat.id) && (state.mode==='new'?e.month===month:e.month<=month)).length)}));
      const max=Math.max(1,...series.map(s=>s.values.reduce((a,b)=>a+b,0)));
      const step=plotWidth/months.length,barWidth=Math.min(48,step*.7);
      let shapes='';
@@ -71,16 +82,16 @@
      root.querySelectorAll('[data-mode]').forEach(b=>{const active=b.dataset.mode===state.mode;b.classList.toggle('is-active',active);b.setAttribute('aria-pressed',String(active));});
      $('[data-month]').value=state.month;
      const current=selectedEntries(state.month), text=state.search.trim().toLocaleLowerCase('fr');
-     const roster=current.filter(e=>[e.actor.name,e.actor.description,categoryNames.get(e.category)].join(' ').toLocaleLowerCase('fr').includes(text));
-     $('[data-metric="total"]').textContent=entries.filter(e=>state.visible.has(e.category)).length;
+     const roster=current.filter(e=>[e.actor.name,e.actor.description,categoryNames.get(categoryOf(e))].join(' ').toLocaleLowerCase('fr').includes(text));
+     $('[data-metric="total"]').textContent=entries.filter(e=>state.visible.has(categoryOf(e))).length;
      $('[data-metric="period"]').textContent=current.length;
-     $('[data-metric="categories"]').textContent=new Set(current.map(e=>e.category)).size;
+     $('[data-metric="categories"]').textContent=new Set(current.map(e=>categoryOf(e))).size;
      $('[data-roster-count]').textContent=`(${roster.length})`;
-     $('[data-description]').textContent=`${state.mode==='new'?'Entrées durant':'Acteurs présents jusqu’à'} ${monthLabel(state.month)}. Les chiffres sont recalculés selon les typologies sélectionnées.`;
-     $('[data-roster]').innerHTML=roster.length?roster.map(e=>`<article class="evolution-person"><span class="evolution-swatch" style="background:${escapeHtml(colors.get(e.category)||'#64748b')}"></span><div><strong>${escapeHtml(e.actor.name)}</strong><small>${escapeHtml(categoryNames.get(e.category)||'Autres')} · Première position : ${escapeHtml(e.event.date)} · ${escapeHtml(e.actor.description||'')}</small></div></article>`).join(''):'<p class="muted">Aucun acteur ne correspond à cette sélection.</p>';
+     $('[data-description]').textContent=`${state.mode==='new'?'Entrées durant':'Acteurs présents jusqu’à'} ${monthLabel(state.month)}. Les chiffres sont recalculés selon les catégories sélectionnées ; « Par position » correspond à l'état des fiches et non à une chronologie de changements d'avis.`;
+     $('[data-roster]').innerHTML=roster.length?roster.map(e=>`<article class="evolution-person"><span class="evolution-swatch" style="background:${escapeHtml(colors.get(categoryOf(e))||'#64748b')}"></span><div><strong>${escapeHtml(e.actor.name)}</strong><small>${escapeHtml(categoryNames.get(categoryOf(e))||'Autres')} · Première position : ${escapeHtml(e.event.date)} · ${escapeHtml(e.actor.description||'')} · Position de la fiche : ${escapeHtml(categoryNames.get(e.stance)||'Non établie')}</small></div></article>`).join(''):'<p class="muted">Aucun acteur ne correspond à cette sélection.</p>';
      renderLegend();renderChart();
    }
-   root.addEventListener('click',e=>{const mode=e.target.closest('[data-mode]'),category=e.target.closest('[data-category]'),month=e.target.closest('[data-chart-month]');if(mode){state.mode=mode.dataset.mode;render();}if(category){const id=category.dataset.category;state.visible.has(id)?state.visible.delete(id):state.visible.add(id);render();}if(month){state.month=month.dataset.chartMonth;render();}});
+   root.addEventListener('click',e=>{const mode=e.target.closest('[data-mode]'),category=e.target.closest('[data-category]'),month=e.target.closest('[data-chart-month]');if(mode){state.mode=mode.dataset.mode;categories=state.mode==='stance'?stanceCategories:roleCategories;state.visible=new Set(categories.map(c=>c.id));render();}if(category){const id=category.dataset.category;state.visible.has(id)?state.visible.delete(id):state.visible.add(id);render();}if(month){state.month=month.dataset.chartMonth;render();}});
    root.addEventListener('change',e=>{if(e.target.matches('[data-month]')){state.month=e.target.value;render();}});
    root.addEventListener('input',e=>{if(e.target.matches('[data-search]')){state.search=e.target.value;render();}});
    root.addEventListener('keydown',e=>{const month=e.target.closest('[data-chart-month]');if(month&&(e.key==='Enter'||e.key===' ')){e.preventDefault();state.month=month.dataset.chartMonth;render();root.querySelector(`[data-chart-month="${state.month}"]`)?.focus();}});
